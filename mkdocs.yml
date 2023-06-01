@@ -1,0 +1,79 @@
+site_name: ALPHAREN Integrarator
+
+nav:
+    - Home: index.md
+    - Design documentation:
+        - Overview: 01-Overview.md
+        - Installation: 02-installation.md
+        - Landscape: 05-Landscape.md
+    - Development how to(s):
+        - Development overview: 06-Development.md
+        - DEV a service anatomy: 06.DEV-service-anathomy.md
+        - DEV chanel build: 06.DEV-channel.md
+        - DEV output channel build: 06.DEV-out-channel.md
+        - DEV security: 06.DEV-security.md
+
+
+
+
+markdown_extensions:
+    - admonition
+    - tables
+    - pymdownx.details
+    - pymdownx.superfences
+    - pymdownx.superfences:
+        custom_fences:
+            - name: mermaid
+              class: mermaid
+              format: !!python/name:pymdownx.superfences.fence_code_format
+
+
+plugins:
+    - search
+    - include-markdown
+    # - pdf-export # this version does not render mermaid in PDF docs
+    - pdf-with-js:
+        enable: true
+
+
+
+# provide material theme
+theme:
+    name: material
+    features:
+        # - navigation.tabs # left navigation side bar, all level 1 will be shown as top navigation bar
+        - navigation.tracking
+        - navigation.tabs.sticky
+        - navigation.path
+    palette:
+        primary: blue # see https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/ for other color options
+    icon:
+        admonition:
+            note: fontawesome/solid/note-sticky
+            abstract: fontawesome/solid/book
+            info: fontawesome/solid/circle-info
+            tip: fontawesome/solid/bullhorn
+            success: fontawesome/solid/check
+            question: fontawesome/solid/circle-question
+            warning: fontawesome/solid/triangle-exclamation
+            failure: fontawesome/solid/bomb
+            danger: fontawesome/solid/skull
+            bug: fontawesome/solid/robot
+            example: fontawesome/solid/flask
+            quote: fontawesome/solid/quote-left
+
+
+# or can use readthedocstheme
+# theme: readthedocs
+
+
+# directory where start to search or markdown sources
+docs_dir: './810-DSGN'
+
+# root directory where to be generated portal
+site_dir: './documentation_site'
+
+# other useful configurations
+use_directory_urls: false # allow link between pages to work properly as static site an "callable" as `file:///...`
+
+

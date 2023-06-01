@@ -1,1 +1,2 @@
-# arint
+# ALPHAREN Integrator
+
