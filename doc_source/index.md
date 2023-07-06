@@ -4,13 +4,13 @@
 
 # Product information
 
-* p/n code: 0000-6151
-* product short name: arint
-* initial start: 2022
+* p/n code: **0000-6151**
+* product short name: **arint**
+* initial start: 2021
 
 
 
-# Design Documentation
+# Documentation type
 
 This is product design documentation (directory `810-DSGN`) and contains the following topics:
 
