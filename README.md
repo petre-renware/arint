@@ -2,7 +2,18 @@
 
 
 -#TODO de adaugat ce mai trebuie
+
+
+
+
 ## Documentation directories
+
+### Released & published documentation
+
+* access URL: `https://petre-renware.github.io/arint/` or [go directly here](https://petre-renware.github.io/arint/)
+
+
+### Documentation directories
 
 * **`doc_source/`** - raw source of all product documentation
 * **`doc/`** - this is released documentation which is published through GitHub (chk but @ 230706 petre-dev branch)
