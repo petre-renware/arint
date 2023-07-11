@@ -9,7 +9,7 @@
 ## 0.0.3-alpha (wip...)
 
 * tbd... update doc `system_landscape.md` to ...see TODO - from here continue review...
-* 230706piu_b updated released URL (by GitHub - branch `petre-dev` directory `docs/`)
+* 230711piu_a upload REN logo and set `mkdocs.yaml` to point it - needs rebuild
 
 
 
