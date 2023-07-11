@@ -40,6 +40,7 @@ plugins:
 
 # provide material theme
 theme:
+    logo: pictures/REN_stamp_logo_transparent
     name: material
     features:
         # - navigation.tabs # left navigation side bar, all level 1 will be shown as top navigation bar
