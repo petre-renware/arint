@@ -9,6 +9,9 @@
 ## 0.0.3-alpha (wip...)
 
 * tbd... update doc `system_landscape.md` to ...see TODO - from here continue review...
+
+* tbd la nex deployment in development, faci din dev si un branch de pblishing in care faci merge doar cind publici site `arint.sdeven.ro`
+
 * 230711piu_a upload REN logo and set `mkdocs.yaml` to point it - needs rebuild
 
 
