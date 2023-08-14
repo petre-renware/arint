@@ -12,6 +12,10 @@
 
 * tbd la nex deployment in development, faci din dev si un branch de pblishing in care faci merge doar cind publici site `arint.sdeven.ro`
 
+
+* wip...
+
+* 230814piu_a created workflow to run mkdocs on ubuntu. should test if PDFs are correctly generated and install chromium package, preferably if found one as `pip` installable by `requirements.txt`
 * 230711piu_a upload REN logo and set `mkdocs.yaml` to point it - needs rebuild
 
 
