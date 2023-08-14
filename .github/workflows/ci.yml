@@ -1,6 +1,7 @@
 name: ci 
 on:
-  #FIXME here event to manually run
+  workflow_dispatch:
+  
 permissions:
   contents: write
 jobs:
