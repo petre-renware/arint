@@ -71,10 +71,10 @@ theme:
 
 
 # directory where start to search or markdown sources
-docs_dir: './doc_source'
+docs_dir: './doc_src'
 
 # root directory where to be generated portal
-site_dir: './documentation_site' #NOTE: [piu] this is the working directory; final is in `docs/`` which is published through GitHub (chk but @ 230706 petre-dev branch)
+site_dir: './static_portal' #NOTE: [piu] this is the working directory; final is in `docs/`` which is published through GitHub (chk but @ 230706 petre-dev branch)
 
 # other useful configurations
 use_directory_urls: false # allow link between pages to work properly as static site an "callable" as `file:///...`
