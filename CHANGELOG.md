@@ -15,6 +15,7 @@
 
 * wip...
 
+* 230814piu_b update `mkdocs run` workflow to install al requirements and to generate in `docs/` dir
 * 230814piu_a created workflow to run mkdocs on ubuntu. should test if PDFs are correctly generated and install chromium package, preferably if found one as `pip` installable by `requirements.txt`
 * 230711piu_a upload REN logo and set `mkdocs.yaml` to point it - needs rebuild
 
