@@ -10,7 +10,28 @@
 
 * tbd... update doc `system_landscape.md` to ...see TODO - from here continue review...
 
+* tbd la nex deployment in development, faci din dev si un branch de pblishing in care faci merge doar cind publici site `arint.sdeven.ro`
 
+
+* wip...
+
+* 230814piu_a created workflow to run mkdocs on ubuntu. should test if PDFs are correctly generated and install chromium package, preferably if found one as `pip` installable by `requirements.txt`
+* 230711piu_a upload REN logo and set `mkdocs.yaml` to point it - needs rebuild
+
+
+
+
+
+
+
+
+
+
+
+
+
+CHANGELOG HISTORY
+================================
 
 ## 0.0.2-beta (230706 09:00)
 
@@ -20,12 +41,6 @@
 * 230606piu_a rename and first clean of doc `system_landscape.md` (old name `05-Landscape.md`)
 
 
-
-
-
-
-CHANGELOG HISTORY
-================================
 
 ## 0.0.2-004.alpha (230605 15:30)
 
