@@ -132,7 +132,7 @@ tmp/*
 
 
 # static generated portal should not be in git, but just build locally
-documentation_site/
+static_portal/
 
 
 
