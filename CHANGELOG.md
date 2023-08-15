@@ -10,6 +10,7 @@
 * tbd... update doc `system_landscape.md` to ...see TODO - from here continue review...
 
 * wip...
+* 230815piu_a updated `requirements.txt` & `mkdocs.yml` with all things from `SDEVEN` as good documentation project
 
 
 

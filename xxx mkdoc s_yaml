@@ -1,27 +1,3 @@
-site_name: ALPHAREN Integrarator
-site_author: 'Petre Iordanescu, RENware Software Systems, petre.iordanescu@gmail.com'
-copyright: 'Copyright (c) RENware Software Systems'
-
-
-
-nav:
-    - Home: index.md
-    - Design documentation:
-        - Overview: ./810-DSGN/01-Overview.md
-        - Landscape: ./810-DSGN/system_landscape.md
-    - System administration:
-        - Installation: ./880-RLSE/adma/system_installation.md
-    - Development how to(s):
-        - Development overview: ./810-DSGN/06-Development.md
-        - DEV a service anatomy: ./810-DSGN/06.DEV-service-anathomy.md
-        - DEV chanel build: ./810-DSGN/06.DEV-channel.md
-        - DEV output channel build: ./810-DSGN/06.DEV-out-channel.md
-        - DEV security: ./810-DSGN/06.DEV-security.md
-    - ARIntegrator Manual (PDF): 'pdfs/print_page.html/print_page.pdf'
-
-
-
-
 markdown_extensions:
     - admonition
     - tables
@@ -66,8 +42,6 @@ extra_javascript:
 
 
 
-
-
 plugins:
     - search
     - include-markdown
@@ -76,7 +50,7 @@ plugins:
     # - pdf-export #NOTE DO NOT USE this as does not render mermaid in PDF docs
     - print-site: #NOTE_IMPORTANT_#NOTE put `print-site` plug in BEFORE `pdf-with-js` in order to works the workaround wit a fake `print_page.md` that will determine generation of 'print_page.pdf' as any other page generated pdf by `pdf-with-js`; ingnore warning ` [mkdocs-print-site] 'print-site' should be defined as the *last* plugin,to ensure...`
         add_to_navigation: true
-        print_page_title: 'Complete ARIntegrator Manual'
+        print_page_title: 'Complete SDEVEN Manual'
         add_full_urls: true
         add_table_of_contents: true
     - pdf-with-js:
@@ -120,6 +94,7 @@ plugins:
 
 
 
+
 #NOTE provide material theme
 theme:
     # language: en #NOTE FUTURE FEATURE - should first have a translation...
@@ -130,10 +105,9 @@ theme:
         - navigation.tracking
         - navigation.tabs.sticky
         - navigation.path
-        - navigation.tabs #NOTE-[piu] to put first level on top bar
         #- toc.integrate #NOTE integrates all navigation only in left nav bar
     palette:
-        primary: blue # see https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/ for other color options
+        primary: teal # see https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/ for other color options
         accent: blue
     icon:
         admonition:
@@ -149,25 +123,5 @@ theme:
             bug: fontawesome/solid/robot
             example: fontawesome/solid/flask
             quote: fontawesome/solid/quote-left
-
-
-
-
-
-
-
-
-# or can use readthedocstheme
-# theme: readthedocs
-
-
-# directory where start to search or markdown sources
-docs_dir: './doc_src'
-
-# root directory where to be generated portal
-site_dir: './static_portal' #NOTE: [piu] this is the working directory; final is in `docs/`` which is published through GitHub (chk but @ 230706 petre-dev branch)
-
-# other useful configurations
-use_directory_urls: false # allow link between pages to work properly as static site an "callable" as `file:///...`
 
 
