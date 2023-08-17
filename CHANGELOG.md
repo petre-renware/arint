@@ -8,8 +8,10 @@
 ## 0.0.4-alpha (#NOTE wip...)
 
 * tbd... update doc `system_landscape.md` to ...see TODO - from here continue review...
+* tbd... finish `06.DEV-service-anathomy.md` diagram ref service process as a whole
 
 * wip...
+* 230817piu_a clean `06.DEV-service-anathomy.md` document and make a diagram ref service process as a whole (just commented, to be finished...)
 * 230815piu_a updated `requirements.txt` & `mkdocs.yml` with all things from `SDEVEN` as good documentation project
 
 
