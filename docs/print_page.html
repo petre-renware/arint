@@ -1226,34 +1226,56 @@ zato update password . admin
 <p>The producer reserve a name space for its services (as built in AR Integrator or as future updates) starting with characters <strong>AR</strong>.</p>
 <p>The users are free to name how they wants their own developed services, but not start with AR characters. Respecting this rule will allow producer future updates to overwrite <em>client own developed services</em>.</p>
 <p>This rule should apply as general validity for any components names, for example channel names. </p>
-<p><em>Anyway the customer must be aware that names starting with <code>AR</code> characters are reserved and are subject of future changes without any notice or change log.</em></p></section><section class="print-page" id="810-dsgn-06.dev-service-anathomy"><p><small></p>
+<p><em>Anyway the customer must be aware that names starting with <code>AR</code> characters are reserved and are subject of future changes without any notice or change log.</em></p></section><section class="print-page" id="810-dsgn-06.dev-service-anathomy"><p><small markdown></p>
 <p><strong>RENware ALPHA-REN System</strong></p>
 <p><em>(c) 2021 REN CONSULTING SOFT ACTIVITY SRL. RESTRICTED only for project internal use</em></p>
 <p></small></p>
-<h1 id="810-dsgn-06.dev-service-anathomy-service-anatomy">Service anatomy</h1>
-<p><small></p>
-<p>Product 0000-0156 0.0 to current version </p>
+<div class="toc">
 <ul>
-<li>210728 me new doc </li>
-<li>210731 me last update 
-</small> </li>
+<li><a href="#810-dsgn-06.dev-service-anathomy-service-anatomy">Service anatomy</a><ul>
+<li><a href="#810-dsgn-06.dev-service-anathomy-service-skeleton">Service skeleton</a><ul>
+<li><a href="#810-dsgn-06.dev-service-anathomy-detailed-operations">Detailed operations</a></li>
 </ul>
+</li>
+<li><a href="#810-dsgn-06.dev-service-anathomy-deployment">Deployment</a></li>
+<li><a href="#810-dsgn-06.dev-service-anathomy-using-in-real-cases">Using in real cases</a></li>
+</ul>
+</li>
+</ul>
+</div>
 <hr />
-<h2 id="810-dsgn-06.dev-service-anathomy-preliminaries">Preliminaries</h2>
-<p>A service must be written in Python then deployed to <strong>ARSRV</strong> in order to be used.</p>
-<p>A service has the following high level flow: </p>
+<p><small markdown></p>
+<p>Product 0000-0156 0.0 document control:</p>
 <ul>
-<li>defines a handler in order to be accessed by ARSRV </li>
-<li>it is invoked through a channel </li>
-<li>obtain any required parameters in order to properly do its job </li>
-<li>connects to another channel to read required input, or directly read it, or obtain it from other service, etc (here we are in Python) </li>
+<li>210728 me new doc</li>
+<li>230817 me last update
+</small></li>
+</ul>
+<h1 id="810-dsgn-06.dev-service-anathomy-service-anatomy">Service anatomy</h1>
+<p>A service must be written in Python then deployed to <strong>ARSRV</strong> in order to be used.</p>
+<h2 id="810-dsgn-06.dev-service-anathomy-service-skeleton">Service skeleton</h2>
+<p>A service has the following high level flow:</p>
+<ul>
+<li>defines a handler in order to be accessed by ARSRV</li>
+<li>it is invoked through a channel</li>
+<li>obtain any required parameters in order to properly do its job</li>
+<li>connects to another channel to read required input, or directly read it, or obtain it from other service, etc (here we are in Python)</li>
 <li>make the necessary transformation over obtained data</li>
 <li>connects to an outgoing channel to write computed output</li>
 <li>log any process details for future references and errors debugging</li>
 </ul>
-<hr />
-<h2 id="810-dsgn-06.dev-service-anathomy-service-skeleton">Service skeleton</h2>
-<p>A service consists of a class which gives <strong>its name</strong>. This class must contain a method named <strong><code>handler</code></strong> ehich is called by ARSRV to exrcute the service. </p>
+<!-- #FIXME make first a sketch on a paper... #NOTE the end brackets was intentionatelly escaped - yths should be dropped after dropping this comment
+
+<pre class="mermaid"><code>graph LR
+    SRV[[Service]]
+    EXT{{External system}}
+    INCH{{Service endpoint \n invoking channel}}
+    EXT ---\&gt; |request \n service| INCH
+    INCH --\&gt; |call service handler| SRV</code></pre>
+-->
+
+<h3 id="810-dsgn-06.dev-service-anathomy-detailed-operations">Detailed operations</h3>
+<p>A service consists of a class which gives <strong>its name</strong>. This class must contain a method named <strong><code>handler</code></strong> each is called by ARSRV to execute the service. </p>
 <div class="highlight"><pre><span></span><code># -*- coding: utf-8 -*-
 # zato: ide-deploy=True
 
@@ -1274,28 +1296,26 @@ class GetUserDetails(Service):
 </code></pre></div>
 <p>The above example contains:</p>
 <ul>
-<li>first line is a comment for Python but will give important information to ARSRV ref service code serialization, useful to duplicate / copy the service on all servers (for load balancing and fail safe purposes). </li>
-<li>second line is a comment too but for Visual Code IDE  add on to know that service should be automatically deployed at save. </li>
-<li>next is a Zato (part of ARSRV) library for right using services </li>
+<li>first line is a comment for Python but will give important information to ARSRV ref service code serialization, useful to duplicate / copy the service on all servers (for load balancing and fail safe purposes).</li>
+<li>second line is a comment too but for Visual Code IDE  add on to know that service should be automatically deployed at save.</li>
+<li>next is a Zato (part of ARSRV) library for right using services</li>
 <li><code>self.response.payload</code> is the property where response must be returned from service processing; this property will be used by ARSRV as response of the service </li>
-<li><code>name</code> will be the name of this service ad used by ARSRV </li>
-<li>the long comment (standard Pyyhon style for a multi line long string) will be used by ARSRV as service description </li>
+<li><code>name</code> will be the name of this service ad used by ARSRV</li>
+<li>the long comment (standard Pyyhon style for a multi line long string) will be used by ARSRV as service description</li>
 </ul>
-<p><em>NOTE. The response format could be anything you want, but for a better serial, ization and conversion to output channel format, IT IS RECOMMENDED TO USE A DICTIONARY for response payload.</em> </p>
-<hr />
+<p><em>NOTE. The response format could be anything you want, but for a better serial, serialization and conversion to output channel format, IT IS RECOMMENDED TO USE A DICTIONARY for response payload.</em></p>
 <h2 id="810-dsgn-06.dev-service-anathomy-deployment">Deployment</h2>
-<p>In order to deploy this service the following methods could be used: </p>
+<p>In order to deploy this service the following methods could be used:</p>
 <ul>
 <li>directly from IDE if the corresponding extension was installed - this depends by IDE platform - VS Code has an already written extension </li>
 <li>putting it in directory <code>~/env/qs-1/server1/pickup/incoming/services</code> and will be loaded automatically by an ARSRV, server1 shown in path (recommend for automate deployment)</li>
-<li>upload from ARSRV administration console (Services &gt; List &gt; Upload...) </li>
+<li>upload from ARSRV administration console (Services &gt; List &gt; Upload...)</li>
 </ul>
-<p>In all cases tbe deployment ARSRV will distribute the service on all cluster's servers. </p>
-<hr />
+<p>In all cases the deployment ARSRV will distribute the service on all cluster's servers.</p>
 <h2 id="810-dsgn-06.dev-service-anathomy-using-in-real-cases">Using in real cases</h2>
-<p>In most cases will want to access this service by a request from other system. Therefore will be needed a channel (as endpoint) where to invoke the service and sending it data (pls remember that <strong><em>anything that is outside ARSRV is 'linked' to ARSRV thru  channel</em></strong>). </p>
-<p>There could be cases when want that the service to run automatically driven by a scheduler. As long as ARSRV has its own scheduler, there is not need a channel to invike the service. </p>
-<p>And finally, the service can be invoked by other external event, like a new file in a directory, an updated file, a change in a database, a new message in a queue, a mail, etc. These aspects are <strong><em>subject to channels</em></strong> and will be treated there. </p>
+<p>In most cases will want to access this service by a request from other system. Therefore will be needed a channel (as endpoint) where to invoke the service and sending it data (pls remember that <strong><em>anything that is outside ARSRV is 'linked' to ARSRV thru  channel</em></strong>).</p>
+<p>There could be cases when want that the service to run automatically driven by a scheduler. As long as ARSRV has its own scheduler, there is not need a channel to invoke the service.</p>
+<p>And finally, the service can be invoked by other external event, like a new file in a directory, an updated file, a change in a database, a new message in a queue, a mail, etc. These aspects are <strong><em>subject to channels</em></strong> and will be treated there.</p>
 <p>To produce an usable result, of course, the service must be linked to a channel which will receive response.</p></section><section class="print-page" id="810-dsgn-06.dev-channel"><p><small></p>
 <p><strong>RENware ALPHA-REN System</strong></p>
 <p><em>(c) 2021 REN CONSULTING SOFT ACTIVITY SRL. RESTRICTED only for project internal use</em>
