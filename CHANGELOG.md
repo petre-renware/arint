@@ -12,6 +12,7 @@
 * tbd... finish `06.DEV-service-anathomy.md` diagram ref service process as a whole
 
 * wip...
+* 230817piu_d updated `requirements.txt` with new versions
 * 230817piu_c more:
     * created file `pip_versions_chk_upgrade.md` with useful `pip` commansa ref pakages version
     * updated all local Python environment (`.wenv`) and that was perfect !!! (need to replicate in SDEVEN at least)
