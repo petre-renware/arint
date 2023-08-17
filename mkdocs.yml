@@ -6,12 +6,12 @@ copyright: 'Copyright (c) RENware Software Systems'
 
 nav:
     - Home: index.md
-    - Design documentation:
+    - User documentation:
         - Overview: ./810-DSGN/01-Overview.md
         - Landscape: ./810-DSGN/system_landscape.md
     - System administration:
         - Installation: ./880-RLSE/adma/system_installation.md
-    - Development how to(s):
+    - Development documentation:
         - Development overview: ./810-DSGN/06-Development.md
         - DEV a service anatomy: ./810-DSGN/06.DEV-service-anathomy.md
         - DEV chanel build: ./810-DSGN/06.DEV-channel.md
