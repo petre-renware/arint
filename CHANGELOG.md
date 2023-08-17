@@ -8,10 +8,10 @@
 ## 0.0.4-alpha (#NOTE wip...)
 
 * tbd... update doc `system_landscape.md` to ...see TODO - from here continue review...
-* tbd... da o eroare la generarea PDF legata de Chrome dupa update Windows (preview pack...)
-* tbd... finish `06.DEV-service-anathomy.md` diagram ref service process as a whole
 
 * wip...
+* ... 230817piu_e renamed nav entry "Design documentation" tto "User documentation"
+
 * 230817piu_d updated `requirements.txt` with new versions
 * 230817piu_c more:
     * created file `pip_versions_chk_upgrade.md` with useful `pip` commansa ref pakages version
