@@ -8,6 +8,7 @@
 ## 0.0.4-alpha (#NOTE wip...)
 
 * tbd... update doc `system_landscape.md` to ...see TODO - from here continue review...
+* tbd... da o eroare la generarea PDF legata de Chrome dupa update Windows (preview pack...)
 * tbd... finish `06.DEV-service-anathomy.md` diagram ref service process as a whole
 
 * wip...
