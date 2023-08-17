@@ -10,8 +10,8 @@
 * tbd... update doc `system_landscape.md` to ...see TODO - from here continue review...
 
 * wip...
-* ... 230817piu_e renamed nav entry "Design documentation" tto "User documentation"
 
+* 230817piu_e renamed nav entry "Design documentation" to "User documentation" and "Development how..." to "Development documentation"
 * 230817piu_d updated `requirements.txt` with new versions
 * 230817piu_c more:
     * created file `pip_versions_chk_upgrade.md` with useful `pip` commansa ref pakages version
