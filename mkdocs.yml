@@ -5,11 +5,14 @@ copyright: 'Copyright (c) RENware Software Systems'
 
 
 nav:
-    - About: index.md
+    - System overview:
+        - About: index.md
+        - Overview: ./810-DSGN/01-Overview.md
+        - Landscape: ./810-DSGN/system_landscape.md
     - Documentation:
-        - User documentation:
-            - Overview: ./810-DSGN/01-Overview.md
-            - Landscape: ./810-DSGN/system_landscape.md
+        - User help:
+            - Procedure A: wip.md
+            - Procedure B: wip.md
         - System administration:
             - Installation: ./880-RLSE/adma/system_installation.md
         - Development documentation:
@@ -20,7 +23,10 @@ nav:
             - DEV security: ./810-DSGN/06.DEV-security.md
         - ARIntegrator Manual (PDF): pdfs/print_page.html/print_page.pdf
     - Demo system: wip.md
-    - RENware company: http://www.renware.eu
+    - RENware support:
+        - Support: https://www.renware.eu/support.html
+        - Contact: https://www.renware.eu/contact.html
+        - How to buy: https://www.renware.eu/resources.html#how-to-buy-from-renware
 
 
 

@@ -9,8 +9,9 @@
 
 * tbd... update doc `system_landscape.md` to ...see TODO - from here continue review...
 
-* wip... (last entry used: 230818piu_c)
+* wip...
 
+* 230819piu_a restructured navigation, introduced a new entry for "System overview" and refined RENware entry with: contact, how to buy, support
 
 
 
