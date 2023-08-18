@@ -7,12 +7,13 @@ copyright: 'Copyright (c) RENware Software Systems'
 nav:
     - System overview:
         - About: index.md
-        - Overview: ./810-DSGN/01-Overview.md
+        - Overview: ./810-DSGN/130.02-Overview.md
         - Landscape: ./810-DSGN/system_landscape.md
     - Documentation:
-        - User help: ./880-RLSE/euma/euma_catalog.md
-        - System administration: ./880-RLSE/adma/adma_catalog.md
-        - Development documentation:
+        - User manuals:
+            - User help: ./880-RLSE/euma/euma_catalog.md
+            - System administration: ./880-RLSE/adma/adma_catalog.md
+        - Developer manuals:
             - Development overview: ./810-DSGN/06-Development.md
             - DEV a service anatomy: ./810-DSGN/06.DEV-service-anatomy.md
             - DEV chanel build: ./810-DSGN/06.DEV-channel.md
@@ -129,10 +130,10 @@ plugins:
 #NOTE provide material theme
 theme:
     # language: en #NOTE FUTURE FEATURE - should first have a translation...
-    logo: pictures/SDEVEN_logo.png #NOTE_REN_picture pictures/REN_stamp_logo_transparent.png
+    logo: pictures/arint_logo.png
     name: material
     features:
-        #- navigation.tabs # left navigation side bar, all level 1 will be shown as top navigation bar
+        - navigation.tabs # left navigation side bar, all level 1 will be shown as top navigation bar
         - navigation.tracking
         - navigation.tabs.sticky
         - navigation.path

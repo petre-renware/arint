@@ -5,13 +5,12 @@
 
 # CHANGELOG
 
--#NOTE: here are the SDEVEN procedure codes for 130-SKIT Sales Kit(s)
-    130.01 Product Datasheet (REQUIRED always)
+-#NOTE: here are the SDEVEN procedure codes:
     130.02 Product Overview (REQUIRED if not present in Datasheet)
-    130.03 SPIN documents (OPTIONAL)
     130.04 Licensing Editions & Pricing (OPTIONAL)
     130.05 Service & Training Programmes (OPTIONAL as RECOMMENDED)
-
+    810.02 System Landscape (REQUIRED)
+    810.46 Product Features - update of 130.01 (REQUIRED)
 
 
 
@@ -23,12 +22,13 @@
 
 * wip...
 
-* 230819piu_f updated all doc layout ref TOC and header
-* 230819piu_e created `.../euma/adma_catalog.md` doc as all *adma documentation* catalog and ref it in navigation instead of all docs
-* 230819piu_d created `.../euma/euma_catalog.md` doc as all *euma documentation* catalog and ref it in navigation instead of all docs
-* 230819piu_c updated `doc_src/index.md` with info from `README.md` and linked `README.md` to this `index.md` file
-* 230819piu_b updated `README.md` section ref to documentation
-* 230819piu_a restructured navigation, introduced a new entry for "System overview" and refined RENware entry with: contact, how to buy, support
+* 230818piu_g apply ARINT logo on site and documents & updated the "facelift" on all docs; refactored `...Overview.md` to `130.02-Overview.md`
+* 230818piu_f updated all doc layout ref TOC and header
+* 230818piu_e created `.../euma/adma_catalog.md` doc as all *adma documentation* catalog and ref it in navigation instead of all docs
+* 230818piu_d created `.../euma/euma_catalog.md` doc as all *euma documentation* catalog and ref it in navigation instead of all docs
+* 230818piu_c updated `doc_src/index.md` with info from `README.md` and linked `README.md` to this `index.md` file
+* 230818piu_b updated `README.md` section ref to documentation
+* 230818piu_a restructured navigation, introduced a new entry for "System overview" and refined RENware entry with: contact, how to buy, support
 
 
 

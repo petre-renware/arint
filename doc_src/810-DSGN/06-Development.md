@@ -1,6 +1,7 @@
+![arint_logo](../pictures/arint_logo.png){ width="55" align=left }
 <small markdown>**ALPHAREN Integrator (ARINT) System**<br>
 *(c) 2021 RENware Software Systems. RESTRICTED only for project internal use*
-</small>
+</small><br><br><br>
 
 
 # Development Overview 
@@ -15,11 +16,11 @@ Product 0000-0156 0.0 to current version
 
 [TOC]
 
+***
 
 
 
 
-------
 ## Preliminaries 
 
 Development process over ARSRV implies basically the following components: 
