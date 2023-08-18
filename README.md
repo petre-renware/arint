@@ -9,7 +9,7 @@
 * product short name: **arint**
 * product page: [http://arint.renware.eu](http://arint.renware.eu)
 
-This product is manufactured and registered by *RENware Software Systems* which is the copyright holder.
+This product is manufactured and registered by *[RENware Software Systems](www.renware.eu)* which is the copyright holder.
 
 
 
