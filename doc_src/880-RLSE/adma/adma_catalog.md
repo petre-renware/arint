@@ -12,7 +12,7 @@
 
 ## Basic work procedures
 
-* [Installation](./880-RLSE/adma/system_installation.md)
+* [Installation](./system_installation.md)
 * [Basic configuration](../../wip.md) <!-- #TODO make me... -->
 * [System backup & restore](../../wip.md) <!-- #TODO make me... -->
 * ...
