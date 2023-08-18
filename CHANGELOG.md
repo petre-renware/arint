@@ -22,6 +22,7 @@
 
 * wip...
 
+* 230818piu_h update `130.00-Overview.md` for outline structure to keep only one heading 1 and small text corrections
 * 230818piu_g apply ARINT logo on site and documents & updated the "facelift" on all docs; refactored `...Overview.md` to `130.02-Overview.md`
 * 230818piu_f updated all doc layout ref TOC and header
 * 230818piu_e created `.../euma/adma_catalog.md` doc as all *adma documentation* catalog and ref it in navigation instead of all docs
