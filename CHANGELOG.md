@@ -11,6 +11,7 @@
 
 * wip...
 
+* 230819piu_b updated `README.md` section ref to documentation
 * 230819piu_a restructured navigation, introduced a new entry for "System overview" and refined RENware entry with: contact, how to buy, support
 
 

@@ -1,23 +1,43 @@
 # ALPHAREN Integrator
 
 
--#TODO de adaugat ce mai trebuie
+
+
+## Product information
+
+* p/n code: **0000-6151**
+* product short name: **arint**
+* product page: [http://arint.renware.eu](http://arint.renware.eu)
+
+This product is manufactured and registered by [*RENware Software Systems*](http://www.renware.eu) which is the copyright holder.
 
 
 
 
-## Documentation directories
+## Documentation
 
-### Released & published documentation
+Product documentation is divided in:
 
-* access URL: `https://petre-renware.github.io/arint/` or [go directly here](https://petre-renware.github.io/arint/)
+* **Overview** contains the information to understand your **ARINT** system and start of using it
+* **User help** which represents a set of procedures for "day by day" operations
+* **System administration** which contains in essence necessary information to install, configure and maintain the system
 
-
-### Documentation directories
-
-* **`doc_source/`** - raw source of all product documentation
-* **`doc/`** - this is released documentation which is published through GitHub (chk but @ 230706 petre-dev branch)
-* **`documentation_site/`** - this the working directory where `mkdocs` publish and is used for current work, when decide for releaseable doc just copy it to `docs/`
+To access documentation just follow the navigation entries.
 
 
+
+
+## Demo system
+
+The system siste contains also a link to a demo system where you can live see the system "at workc and try its capabilities.
+
+Pay attention that this system is just a demo and no saved
+data is guaranteed to be preserved even your information is stored under your "user context". Keep in mind that's just a demonstration system and ***do not store sensitive data***.
+
+
+
+
+## Support and assistance
+
+The product site give you information about how to access support channel and how to buy this product. Support channel is ofered from producer site but depending on your country this will redirect you to most appropriate local dealear.
 
