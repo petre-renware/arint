@@ -9,6 +9,8 @@
 * product short name: **arint**
 * product page: [http://arint.renware.eu](http://arint.renware.eu)
 
+This product is manufactured and registered by *RENware Software Systems* which is the copyright holder.
+
 
 
 
@@ -35,5 +37,7 @@ data is guaranteed to be preserved even your information is stored under your "u
 
 
 
+## Support and assistance
 
+The product site give you information about how to access support channel and how to buy this product. Support channel is ofered from producer site but depending on your country this will redirect you to most appropriate local dealear.
 
