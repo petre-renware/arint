@@ -10,18 +10,32 @@
 # System administration documentation catalog
 
 
-## Basic work procedures
+## Basic procedures
 
 * [Installation](./system_installation.md)
-* [Basic configuration](../../wip.md) <!-- #TODO make me... -->
-* [System backup & restore](../../wip.md) <!-- #TODO make me... -->
-* ...
 
-## Advanced work procedures
+* [Basic configuration](../../wip.md) <!-- #TODO make me... -->
+
+* [Expose static sites](../../wip.md) <!-- #TODO make me... -->
+
+* [System backup & restore](../../wip.md) <!-- #TODO make me... -->
+
+
+
+
+
+
+
+## Advanced procedures
 
 
 * [Advanced configuration](../../wip.md) <!-- #TODO make me... -->
+
 * [Additional database systems installation](../../wip.md) <!-- #TODO make me... -->
+
+* [Configure an ad-hoc data API](../../wip.md) <!-- #TODO make me... -->
+
+* [Configure a callback route](../../wip.md) (for example as return from a 3<sup>rd</sup> party electronic payment system) <!-- #TODO make me... -->
 
 
 
