@@ -8,9 +8,10 @@ nav:
     - About: index.md
     - Documentation:
         - User documentation:
-            - Overview: ./810-DSGN/01-Overview.md
-            - Landscape: ./810-DSGN/system_landscape.md
-        - System administration:
+    - System overview:
+        - Overview: ./810-DSGN/01-Overview.md
+        - Landscape: ./810-DSGN/system_landscape.md
+     - System administration:
             - Installation: ./880-RLSE/adma/system_installation.md
         - Development documentation:
             - Development overview: ./810-DSGN/06-Development.md
