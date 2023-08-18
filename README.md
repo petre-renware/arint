@@ -11,23 +11,12 @@
 
 This product is manufactured and registered by [*RENware Software Systems*](http://www.renware.eu) which is the copyright holder.
 
-
-
-
-## Documentation
-
-Product documentation is divided in:
-
-* **Overview** contains the information to understand your **ARINT** system and start of using it
-* **User help** which represents a set of procedures for "day by day" operations
-* **System administration** which contains in essence necessary information to install, configure and maintain the system
-
-To access documentation just follow the navigation entries.
+For more information please see the product [About page](https://arint.renware.eu/index.html).
 
 
 
 
-## Demo system
+## Demo system DISCLAIMER
 
 The system siste contains also a link to a demo system where you can live see the system "at workc and try its capabilities.
 
