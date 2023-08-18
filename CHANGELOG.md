@@ -11,7 +11,7 @@
 
 * wip...
 
-* ... 230819piu_e created `.../euma/adma_catalog.md` doc as all *adma documentation* catalog and ref it in navigation instead of all docs
+* 230819piu_e created `.../euma/adma_catalog.md` doc as all *adma documentation* catalog and ref it in navigation instead of all docs
 * 230819piu_d created `.../euma/euma_catalog.md` doc as all *euma documentation* catalog and ref it in navigation instead of all docs
 * 230819piu_c updated `doc_src/index.md` with info from `README.md` and linked `README.md` to this `index.md` file
 * 230819piu_b updated `README.md` section ref to documentation
