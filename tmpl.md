@@ -2,11 +2,11 @@
 
 **RENware ALPHA-REN System**
  
-*(c) REN CONSULTING SOFT ACTIVITY SRL. RESTRICTED only for project internal use*
+*(c) 2021 REN CONSULTING SOFT ACTIVITY SRL. RESTRICTED only for project internal use*
 
 </small>
 
-# Integrator System. Xxx
+# Xxx
 <small>
 
 Product 0000-0151 0.0 to current version 
