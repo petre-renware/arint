@@ -10,7 +10,7 @@ nav:
         - Overview: ./810-DSGN/01-Overview.md
         - Landscape: ./810-DSGN/system_landscape.md
     - Documentation:
-        - User documentation:
+        - User help:
             - Procedure A: wip.md
             - Procedure B: wip.md
         - System administration:
@@ -23,7 +23,9 @@ nav:
             - DEV security: ./810-DSGN/06.DEV-security.md
         - ARIntegrator Manual (PDF): pdfs/print_page.html/print_page.pdf
     - Demo system: wip.md
-    - RENware support: https://www.renware.eu/support.html
+    - RENware support:
+        - Support: https://www.renware.eu/support.html
+        - Contact: 
 
 
 
