@@ -5,12 +5,25 @@
 
 # CHANGELOG
 
+-#NOTE: here are the SDEVEN procedure codes for 130-SKIT Sales Kit(s)
+    130.01 Product Datasheet (REQUIRED always)
+    130.02 Product Overview (REQUIRED if not present in Datasheet)
+    130.03 SPIN documents (OPTIONAL)
+    130.04 Licensing Editions & Pricing (OPTIONAL)
+    130.05 Service & Training Programmes (OPTIONAL as RECOMMENDED)
+
+
+
+
+
+
 ## 0.0.5-release (#NOTE wip...)
 
 * tbd... update doc `system_landscape.md` to ...see TODO - from here continue review...
 
 * wip...
 
+* 230819piu_f updated all doc layout ref TOC and header
 * 230819piu_e created `.../euma/adma_catalog.md` doc as all *adma documentation* catalog and ref it in navigation instead of all docs
 * 230819piu_d created `.../euma/euma_catalog.md` doc as all *euma documentation* catalog and ref it in navigation instead of all docs
 * 230819piu_c updated `doc_src/index.md` with info from `README.md` and linked `README.md` to this `index.md` file

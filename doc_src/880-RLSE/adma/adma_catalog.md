@@ -3,11 +3,13 @@
 </small>
 
 
+# System administration documentation catalog
+
+***Table of contents:***
+
 [TOC]
 
-***
 
-# System administration documentation catalog
 
 
 ## Basic procedures

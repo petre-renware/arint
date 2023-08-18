@@ -3,15 +3,20 @@
 </small>
 
 
-[TOC]
-
-***
-
 # End user documentation catalog
 
-* [Navigation in system](../../wip.md) <!-- #TODO make me... -->
+
+***Table of contents:***
+
+[TOC]
+
+
+
+
 
 ## Basic work procedures
+
+* [Navigation in system](../../wip.md) <!-- #TODO make me... -->
 
 * [Procedure A](../../wip.md) <!-- #TODO make me... -->
 

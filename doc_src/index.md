@@ -2,12 +2,10 @@
 *(c) 2021 RENware Software Systems. RESTRICTED only for project internal use*
 </small>
 
-[TOC]
-
-***
 
 # ALPHAREN Integrator
 
+[TOC]
 
 
 ## Product information

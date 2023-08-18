@@ -132,11 +132,10 @@ theme:
     logo: pictures/SDEVEN_logo.png #NOTE_REN_picture pictures/REN_stamp_logo_transparent.png
     name: material
     features:
-        - navigation.tabs # left navigation side bar, all level 1 will be shown as top navigation bar
+        #- navigation.tabs # left navigation side bar, all level 1 will be shown as top navigation bar
         - navigation.tracking
         - navigation.tabs.sticky
         - navigation.path
-        - navigation.tabs #NOTE-[piu] to put first level on top bar
         #- toc.integrate #NOTE integrates all navigation only in left nav bar
     palette:
         primary: blue # see https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/ for other color options

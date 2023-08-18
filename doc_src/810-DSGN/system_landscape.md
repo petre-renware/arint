@@ -3,7 +3,7 @@
 </small>
 
 
-<h1>Landscape</h1>
+# System Landscape
 
 
 <small>***Document control:***<br>
@@ -12,14 +12,15 @@
 </small>
 
 
+***Table of contents:***
+
 [TOC]
 
 
 
 
 
-
-# Basic components
+## Basic components
 
 Basic logical components of this system are:
 
@@ -37,13 +38,13 @@ Basic logical components of this system are:
 * **(#TODO)** Configuration portal #NOTE: not yet assigned code
 
 
-# System Blueprints
+## System Blueprints
 
-## ARint blueprint
+### ARint blueprint
 
 -#TODO a high level blueprint
 
-## ARCLST blueprint
+### ARCLST blueprint
 
 ![ARCSLT blueprint](../pictures/system_landscape.svg)
 
@@ -60,7 +61,7 @@ Basic logical components of this system are:
 
 
 ------
-# ARCLST. Integrator Cluster
+## ARCLST. Integrator Cluster
 
 This component creates a local cluster formed by one or more **ARSRV** machines. Particularly can stand on one single machine with **ARSRV**.  
 
@@ -72,7 +73,7 @@ This component can run **1 per LAN machine**.
 
 
 
-# ARSRV. Integrator Server
+## ARSRV. Integrator Server
 
 This is the core / heart of each machine. It will assure information getting, processing and sending or streing.  
 
@@ -84,7 +85,7 @@ This component can run **n per cluster**.
 
 
 
-# ARLDB. Integrator High Availability assurance subsystem
+## ARLDB. Integrator High Availability assurance subsystem
 
 This component assure:
 
@@ -104,7 +105,7 @@ This component can run **1 per cluster**.
 
 
 
-# ARWADM Web amin console
+## ARWADM Web amin console
 
 This will assure cluster administration, for all its servers and other components.
 
@@ -115,7 +116,7 @@ This component can run **n per cluster**. The reason for more ARWADM is to secur
 
 
 
-# ARDPX. Access and distribution proxy
+## ARDPX. Access and distribution proxy
 
 This module is useful when an **ARCLST** is buit on **ARSRV**s physically implemented as a set of small virtual
  machines on a single server, having their LAN. Sure, ALPHA-REN hardware will assure that, but if you're using other hardware it will be needed. 
@@ -138,7 +139,7 @@ This component can run **1 per machine**.
 
 
 
-# ARMAIL Integrator mail
+## ARMAIL Integrator mail
 
 This module is responsible for sending administrative and notification mails from **ARCLST** cluster. 
 
@@ -148,7 +149,7 @@ This component can run **1 per machine**.
 
 
 
-# ARVPN. Integrator VPN access
+## ARVPN. Integrator VPN access
 
 This module assure VPN access into the **ARCLST** cluster.
 
@@ -160,7 +161,7 @@ This module assure VPN access into the **ARCLST** cluster.
 
 
 
-# Deployment over multiple LAN environments
+## Deployment over multiple LAN environments
 
 In an environment with multiple LANs, in deployment architecture and process should consider the following aspects:
 
