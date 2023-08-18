@@ -10,9 +10,7 @@ nav:
         - Overview: ./810-DSGN/01-Overview.md
         - Landscape: ./810-DSGN/system_landscape.md
     - Documentation:
-        - User help:
-            - Procedure A: wip.md
-            - Procedure B: wip.md
+        - User help: ./880-RLSE/euma/euma_catalog.md
         - System administration:
             - Installation: ./880-RLSE/adma/system_installation.md
         - Development documentation:
