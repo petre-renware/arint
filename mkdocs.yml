@@ -10,7 +10,9 @@ nav:
         - Overview: ./810-DSGN/01-Overview.md
         - Landscape: ./810-DSGN/system_landscape.md
     - Documentation:
-        - User documentation: wip.md
+        - User documentation:
+            - Procedure A: wip.md
+            - Procedure B: wip.md
         - System administration:
             - Installation: ./880-RLSE/adma/system_installation.md
         - Development documentation:
