@@ -14,12 +14,14 @@
 ## Basic work procedures
 
 * [Procedure A](../../wip.md) <!-- #TODO make me... -->
+
 * [Procedure B](../../wip.md) <!-- #TODO make me... -->
+
 * ...
 
 ## Advanced work procedures
 
-* n/a <!-- #TODO make me... -->
+* [Calling a repetitive task](../../wip.md) <!-- #TODO make me... -->
 
 
 
