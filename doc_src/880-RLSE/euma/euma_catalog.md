@@ -1,5 +1,7 @@
+<small markdown>**ALPHAREN Integrator (ARINT) System**<br>
+*(c) 2021 RENware Software Systems. RESTRICTED only for project internal use*
+</small>
 
-...#TODO header herw...
 
 [TOC]
 
