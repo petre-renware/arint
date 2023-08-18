@@ -1,4 +1,4 @@
-<small>**ALPHAREN ARINT System**<br>
+<small markdown>**ALPHAREN Integrator (ARINT) System**<br>
 *(c) 2021 RENware Software Systems. RESTRICTED only for project internal use*
 </small>
 
@@ -45,7 +45,7 @@ Basic logical components of this system are:
 
 ## ARCLST blueprint
 
-![ARCSLT blueprint](system_landscape.svg)
+![ARCSLT blueprint](../pictures/system_landscape.svg)
 
 
 

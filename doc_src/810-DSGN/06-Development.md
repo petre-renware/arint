@@ -1,10 +1,7 @@
-<small>
-
-**RENware ALPHA-REN System**
- 
-*(c) 2021 REN CONSULTING SOFT ACTIVITY SRL. RESTRICTED only for project internal use*
-
+<small markdown>**ALPHAREN Integrator (ARINT) System**<br>
+*(c) 2021 RENware Software Systems. RESTRICTED only for project internal use*
 </small>
+
 
 # Development Overview 
 <small>

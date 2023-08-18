@@ -5,15 +5,32 @@
 
 # CHANGELOG
 
-## 0.0.4-alpha (#NOTE wip...)
+## 0.0.5-alpha (#NOTE wip...)
 
 * tbd... update doc `system_landscape.md` to ...see TODO - from here continue review...
 
-* wip...
+* wip... (last entry used: 230818piu_c)
 
 
 
 
+
+
+
+
+## 0.0.4-alpha (230818 06:10)
+
+* 230818piu_c refactored documentation header for a simpler and better visual aspect
+* 230818piu_b refactored `06.DEV-service-anathomy` to `06.DEV-service-anatomy`
+* 230818piu_a updated navigation to reflect documentation and future product demo system
+* 230817piu_e renamed nav entry "Design documentation" to "User documentation" and "Development how..." to "Development documentation"
+* 230817piu_d updated `requirements.txt` with new versions
+* 230817piu_c more:
+    * created file `pip_versions_chk_upgrade.md` with useful `pip` commands ref packages version
+    * updated all local Python environment (`.wenv`) and that was perfect !!! (need to replicate in SDEVEN at least)
+* 230817piu_b fixed `06.DEV-service-anathomy.md` diagram ref service process as a whole
+* 230817piu_a clean `06.DEV-service-anathomy.md` document and make a diagram ref service process as a whole (just commented, to be finished...)
+* 230815piu_a updated `requirements.txt` & `mkdocs.yml` with all things from `SDEVEN` as good documentation project
 
 
 

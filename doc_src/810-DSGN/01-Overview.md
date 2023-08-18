@@ -1,4 +1,4 @@
-<small>**ALPHAREN ARINT System**<br>
+<small markdown>**ALPHAREN Integrator (ARINT) System**<br>
 *(c) 2021 RENware Software Systems. RESTRICTED only for project internal use*
 </small>
 
