@@ -5,8 +5,8 @@ copyright: 'Copyright (c) RENware Software Systems'
 
 
 nav:
-    - About: index.md
     - System overview:
+        - About: index.md
         - Overview: ./810-DSGN/01-Overview.md
         - Landscape: ./810-DSGN/system_landscape.md
     - Documentation:
