@@ -11,8 +11,7 @@ nav:
         - Landscape: ./810-DSGN/system_landscape.md
     - Documentation:
         - User help: ./880-RLSE/euma/euma_catalog.md
-        - System administration:
-            - Installation: ./880-RLSE/adma/system_installation.md
+        - System administration: ./880-RLSE/adma/adma_catalog.md
         - Development documentation:
             - Development overview: ./810-DSGN/06-Development.md
             - DEV a service anatomy: ./810-DSGN/06.DEV-service-anatomy.md
