@@ -31,6 +31,7 @@ FROM PUBLISHING BRANCH, so wheen publish checkout it or upload from git
 
 ## 0.0.6-release Overview & Features (#NOTE wip...)
 
+* -#FIXME_@IMP after this release is FULLY REQUIRED TO MERGE INTO `master` as it is almost empty from init (useles content)
 * tbd... rename in `06-Development.md` `810.40_Development_overview.md`
 
 * tbd... work to  `810.46-Product_Features.md`
