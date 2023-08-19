@@ -1,6 +1,15 @@
+![arint_logo](pictures/arint_logo.png){ width="55" align=left }
+<small markdown>**ALPHAREN Integrator (ARINT) System**<br>
+*(c) 2021 RENware Software Systems. RESTRICTED only for project internal use*
+</small><br><br><br><br><br><br>
+
+
+
 # ALPHAREN Integrator
 
+[TOC]
 
+***
 
 
 ## Product information
@@ -8,15 +17,27 @@
 * p/n code: **0000-6151**
 * product short name: **arint**
 * product page: [http://arint.renware.eu](http://arint.renware.eu)
+* initial start: 2021
 
 This product is manufactured and registered by [*RENware Software Systems*](http://www.renware.eu) which is the copyright holder.
 
-For more information please see the product [About page](https://arint.renware.eu/index.html).
+
+
+
+## Documentation
+
+Product documentation is divided in:
+
+* **Overview** contains the information to understand your **ARINT** system and start of using it
+* **User help** which represents a set of procedures for "day by day" operations
+* **System administration** which contains in essence necessary information to install, configure and maintain the system
+
+To access documentation just follow the navigation entries.
 
 
 
 
-## Demo system DISCLAIMER
+## Demo system
 
 The system siste contains also a link to a demo system where you can live see the system "at workc and try its capabilities.
 
@@ -29,4 +50,5 @@ data is guaranteed to be preserved even your information is stored under your "u
 ## Support and assistance
 
 The product site give you information about how to access support channel and how to buy this product. Support channel is ofered from producer site but depending on your country this will redirect you to most appropriate local dealear.
+
 
