@@ -36,6 +36,7 @@ FROM PUBLISHING BRANCH, so wheen publish checkout it or upload from git
 
 * wip...
 
+* 230819piu_d updated `06-Development.md` ref channels section cleared to make distinction between IN & OUT channels as endpoint routes and "places where can write"
 * 230819piu_c renamed in 810-DSGN `06-DEV-channel.md` `810.40-in_channels_and_calling_service.md`, upd `mkdocs.yml` for entry name & RMAP.001
 * 230819piu_b updated title for `06-DEV-channel.md` to "Basic concepts - in channels and calling a service" and cleared the Introductory section
 * 230819piu_a created a ROADMAP with _RMAP.001 - sys 1.0 doc manuals_
