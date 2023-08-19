@@ -550,8 +550,8 @@
   
   
     <li class="md-nav__item">
-      <a href="810-DSGN/06.DEV-channel.html" class="md-nav__link">
-        DEV chanel build
+      <a href="810-DSGN/810.40-in_channels_and_calling_service.html" class="md-nav__link">
+        IN channels
       </a>
     </li>
   
@@ -854,54 +854,95 @@ data is guaranteed to be preserved even your information is stored under your "u
 <em>(c) 2021 RENware Software Systems. RESTRICTED only for project internal use</em>
 </small><br><br><br><br><br><br></p>
 <h1 id="810-dsgn-130.02-overview-integrator-system-overview">Integrator System Overview</h1>
-<p><small><strong><em>Document control:</em></strong><br>
-* last update date: 210712<br>
-* last updated by: petre iordanescu
-</small></p>
 <p><strong><em>Table of contents:</em></strong></p>
 <div class="toc">
 <ul>
-<li><a href="#810-dsgn-130.02-overview-integrator-system-overview">Integrator System Overview</a></li>
+<li><a href="#810-dsgn-130.02-overview-integrator-system-overview">Integrator System Overview</a><ul>
 <li><a href="#810-dsgn-130.02-overview-basic-features">Basic features</a></li>
 <li><a href="#810-dsgn-130.02-overview-detailed-features">Detailed features</a></li>
 <li><a href="#810-dsgn-130.02-overview-typical-use-cases">Typical use cases</a></li>
 </ul>
+</li>
+</ul>
 </div>
 <hr />
-<p><strong>Integrator</strong> system is a model of ALPHA-REN <em>appliance</em> which assure integration at services level between different systems.</p>
-<p>It acts as high level <em>"ESB, ESOA"</em> to connect different services and to make them to work <strong><em>as one</em></strong> without the human intervention, ie, is automated.</p>
-<h1 id="810-dsgn-130.02-overview-basic-features">Basic features</h1>
+<p><strong>ALPHAREN Integrator</strong> system is a product (available as <em>software</em> or<em>appliance</em>) aimed to assure integration of different and various informational services between systems.</p>
+<p>It acts as a high level <em>ESB or ESOA</em> to connect different services and to make them to work <strong><em>as one</em></strong> without the human intervention, ie, is automated.</p>
+<h2 id="810-dsgn-130.02-overview-basic-features">Basic features</h2>
 <ul>
-<li><strong>anywhere</strong>, can work even the systems that must be integrated are in different non routable LANs</li>
-<li><strong>anyhow</strong>, is agnostic to form and look of information required / provided by systems that must be integrated</li>
-<li><strong>anytime</strong>, can work as a distributed high scalable cluster of "<strong>ALPHA-REN Integrator Machines</strong>"</li>
-<li><strong>secured</strong>, can work with any standard (ie, defined as <em>RFC</em>) Internet security</li>
+<li>
+<p><strong>ANYWHERE</strong>. can work even the systems that must be integrated are in different non routable LANs (address systems at <code>http</code> protocol level)</p>
+</li>
+<li>
+<p><strong>ANYHOW</strong>. is agnostic to format, composition, structure, encoding of information required / provided by systems that must be integrated</p>
+</li>
+<li>
+<p><strong>ANYTIME</strong>. can work as a distributed high scalable cluster of "<strong>ALPHA-REN Integrator Machines</strong>"</p>
+</li>
+<li>
+<p><strong>SECURED</strong>. can work with any public standard (ie, defined at least as <code>RFC</code>) of Internet security</p>
+</li>
 </ul>
-<h1 id="810-dsgn-130.02-overview-detailed-features">Detailed features</h1>
+<h2 id="810-dsgn-130.02-overview-detailed-features">Detailed features</h2>
 <ul>
-<li>Open API full compliant</li>
-<li>Integrations, Microservices, SOA and ESB in Python</li>
-<li>HA load-balancer, hot-deployment and hot-reconfiguration - deploy with no downtime
-Browser-based GUI, CLI and</li>
-<li>API - easy to use and customize</li>
-<li>Protocols, industry standards and data formats - REST, SOAP, Odoo, AMQP, HL7, MongoDB, Redis, SAP, IBM MQ, SQL, OpenAPI, ZeroMQ, WebSockets, Cassandra, Amazon S3, Swift, LDAP, Active Directory, Kafka, SMTP, IMAP, FTP, SFTP, ElasticSearch, Solr, Memcached, Twilio, Vault, Slack, Telegram, RBAC, JMS, integration patterns, cryptography, security and more</li>
+<li>
+<p>Open API full compliant</p>
+</li>
+<li>
+<p>Integrations, Microservices, SOA and ESB in Python</p>
+</li>
+<li>
+<p>HA load-balancer, hot-deployment and hot-reconfiguration - deploy with no downtime
+Browser-based GUI, CLI and</p>
+</li>
+<li>
+<p>API - easy to use and customize</p>
+</li>
+<li>
+<p>Protocols, industry standards and data formats - REST, SOAP, Odoo, AMQP, HL7, MongoDB, Redis, SAP, IBM MQ, SQL, OpenAPI, ZeroMQ, WebSockets, Cassandra, Amazon S3, Swift, LDAP, Active Directory, Kafka, SMTP, IMAP, FTP, SFTP, ElasticSearch, Solr, Memcached, Twilio, Vault, Slack, Telegram, RBAC, JMS, integration patterns, cryptography, security and more</p>
+</li>
 </ul>
-<h1 id="810-dsgn-130.02-overview-typical-use-cases">Typical use cases</h1>
-<p><strong><em>ALPHA-REN Integrator</em></strong> is used for enterprise, business integrations, data science, IoT and other scenarios that require integrations of multiple systems.</p>
+<h2 id="810-dsgn-130.02-overview-typical-use-cases">Typical use cases</h2>
+<p><strong><em>ALPHAREN Integrator</em></strong> is used for enterprise, business integrations, data science, IoT and other scenarios that require integrations of multiple systems.</p>
 <p>Real-world, production <strong><em>ALPHA-REN Integrator</em></strong> environments include:</p>
 <ul>
-<li>A platform for processing payments from consumer devices</li>
-<li>A system for a telecom operators integrating CRM, ERP, Billing and other systems as well as applications of the operator’s external partners</li>
-<li>A data science system for processing of information related to securities transactions (FIX)</li>
-<li>A platform for public administration systems, helping achieve healthcare data interoperability through the integration of independent data sources, databases and health information exchanges (HIE)</li>
-<li>A global IoT platform integrating medical devices</li>
-<li>A platform to process events produced by early warning systems, (ex SAP EWS)</li>
-<li>Backend e-commerce systems managing multiple suppliers, marketplaces and process flows
-B2B platforms to accept and process multi-channel orders in cooperation with backend ERP and CRM systems</li>
-<li>Platforms integrating real-estate applications, collecting data from independent data sources to present unified APIs to internal and external applications</li>
-<li>A system for the management of hardware resources of an enterprise cloud provider</li>
-<li>Online auction sites</li>
-<li>E-learning platforms</li>
+<li>
+<p>A platform for processing payments from consumer devices</p>
+</li>
+<li>
+<p>A system for a telecom operators integrating CRM, ERP, Billing and other systems as well as applications of the operator’s external partners</p>
+</li>
+<li>
+<p>A data science system for processing of information related to securities transactions (FIX)</p>
+</li>
+<li>
+<p>A platform for public administration systems, helping achieve healthcare data interoperability through the integration of independent data sources, databases and health information exchanges (HIE)</p>
+</li>
+<li>
+<p>A global IoT platform integrating medical devices</p>
+</li>
+<li>
+<p>A platform to process events produced by early warning systems, (ex SAP EWS)</p>
+</li>
+<li>
+<p>Backend e-commerce systems managing multiple suppliers, marketplaces and process flows
+B2B platforms to accept and process multi-channel orders in cooperation with backend ERP and CRM systems</p>
+</li>
+<li>
+<p>Platforms integrating real-estate applications, collecting data from independent data sources to present unified APIs to internal and external applications</p>
+</li>
+<li>
+<p>A system for the management of hardware resources of an enterprise cloud provider</p>
+</li>
+<li>
+<p>Online auction sites</p>
+</li>
+<li>
+<p>E-learning platforms</p>
+</li>
+<li>
+<p>ad-hoc data API for databases, protecting them to direct access</p>
+</li>
 </ul></section><section class="print-page" id="810-dsgn-system_landscape"><p><img align="left" alt="arint_logo" src="pictures/arint_logo.png" width="55" />
 <small markdown><strong>ALPHAREN Integrator (ARINT) System</strong><br>
 <em>(c) 2021 RENware Software Systems. RESTRICTED only for project internal use</em>
@@ -1263,25 +1304,18 @@ class GetUserDetails(Service):
 <p>In most cases will want to access this service by a request from other system. Therefore will be needed a channel (as endpoint) where to invoke the service and sending it data (pls remember that <strong><em>anything that is outside ARSRV is 'linked' to ARSRV thru  channel</em></strong>).</p>
 <p>There could be cases when want that the service to run automatically driven by a scheduler. As long as ARSRV has its own scheduler, there is not need a channel to invoke the service.</p>
 <p>And finally, the service can be invoked by other external event, like a new file in a directory, an updated file, a change in a database, a new message in a queue, a mail, etc. These aspects are <strong><em>subject to channels</em></strong> and will be treated there.</p>
-<p>To produce an usable result, of course, the service must be linked to a channel which will receive response.</p></section><section class="print-page" id="810-dsgn-06.dev-channel"><p><img align="left" alt="arint_logo" src="pictures/arint_logo.png" width="55" />
+<p>To produce an usable result, of course, the service must be linked to a channel which will receive response.</p></section><section class="print-page" id="810-dsgn-810.40-in_channels_and_calling_service"><p><img align="left" alt="arint_logo" src="pictures/arint_logo.png" width="55" />
 <small markdown><strong>ALPHAREN Integrator (ARINT) System</strong><br>
 <em>(c) 2021 RENware Software Systems. RESTRICTED only for project internal use</em>
 </small><br><br><br></p>
-<h1 id="810-dsgn-06.dev-channel-channels">Channels</h1>
-<p><small></p>
-<p>Product 0000-0156 0.0 to current version </p>
-<ul>
-<li>210730 me new doc </li>
-<li>210731 me last update 
-</small> </li>
-</ul>
+<h1 id="810-dsgn-810.40-in_channels_and_calling_service-basic-concepts-in-channels-and-calling-a-service">Basic concepts - in channels and calling a service</h1>
 <p><strong><em>Table of contents:</em></strong></p>
 <div class="toc">
 <ul>
-<li><a href="#810-dsgn-06.dev-channel-channels">Channels</a><ul>
-<li><a href="#810-dsgn-06.dev-channel-channels-overview">Channels overview</a></li>
-<li><a href="#810-dsgn-06.dev-channel-rest-channel-definition">REST channel definition</a><ul>
-<li><a href="#810-dsgn-06.dev-channel-invoking-the-channel">Invoking the channel</a></li>
+<li><a href="#810-dsgn-810.40-in_channels_and_calling_service-basic-concepts-in-channels-and-calling-a-service">Basic concepts - in channels and calling a service</a><ul>
+<li><a href="#810-dsgn-810.40-in_channels_and_calling_service-in-channels-overview">In Channels overview</a></li>
+<li><a href="#810-dsgn-810.40-in_channels_and_calling_service-rest-channel-definition">REST channel definition</a><ul>
+<li><a href="#810-dsgn-810.40-in_channels_and_calling_service-invoking-the-channel">Invoking the channel</a></li>
 </ul>
 </li>
 </ul>
@@ -1289,11 +1323,15 @@ class GetUserDetails(Service):
 </ul>
 </div>
 <hr />
-<h2 id="810-dsgn-06.dev-channel-channels-overview">Channels overview</h2>
-<p>A channel is a <strong>request endpoint</strong> from outside world.  </p>
+<h2 id="810-dsgn-810.40-in_channels_and_calling_service-in-channels-overview">In Channels overview</h2>
+<p>An <strong>IN channel</strong> is a communication channel defined for <em>calling (invoking) a service</em> and act as <em>request endpoint</em> seen from outside world.</p>
+<div class="admonition tip">
+<p class="admonition-title">Channel term</p>
+<p>The <em>IN channel</em> is also named simple <em>Channel</em> meaning that if no other details / hints are given, a "channel" shuld be understood as "IN channel".</p>
+</div>
 <p>Channels can use multiple standard protocols, such as: REST, AMQP, HL7, IBM MQ, JSON RPC, SOAP, Web Sockets, File Transfer protocols, and others. </p>
 <p>A channel at request will invoke an existing service. </p>
-<h2 id="810-dsgn-06.dev-channel-rest-channel-definition">REST channel definition</h2>
+<h2 id="810-dsgn-810.40-in_channels_and_calling_service-rest-channel-definition">REST channel definition</h2>
 <p>For a <em>REST</em> channel, the following parameters must be provided: </p>
 <ul>
 <li>Name</li>
@@ -1308,7 +1346,7 @@ class GetUserDetails(Service):
 <p><strong>Service</strong> is the name of the service that will be called when channel is invoked.</p>
 <p><strong>Security</strong> represents the security domain that will be applied to this channel.</p>
 <p>Other parameters could also be specified here, for example if there are supplementary parameters (like those with ? after the route), header info (for out channels) and so on.</p>
-<h3 id="810-dsgn-06.dev-channel-invoking-the-channel">Invoking the channel</h3>
+<h3 id="810-dsgn-810.40-in_channels_and_calling_service-invoking-the-channel">Invoking the channel</h3>
 <p>General form of invoking path will be:    <code>http://&lt;user&gt;:&lt;password&gt;@ARCLST_path:11223/URL_path</code>. </p>
 <p>The request is normally made thru load balancer (port 11223). The password is those defined at security domain definition. </p>
 <p><strong><em>NOTE:</em></strong> <em>The first slash (/) from URL path is part of was entered in definition and not is automatically appended. This will allow for combining channels</em>.</p></section><section class="print-page" id="810-dsgn-06.dev-out-channel"><p><img align="left" alt="arint_logo" src="pictures/arint_logo.png" width="55" />

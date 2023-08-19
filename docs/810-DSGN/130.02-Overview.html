@@ -210,9 +210,36 @@ div.download-btn {
 </li>
 <li class="md-nav__item md-nav__item--active">
 <input class="md-nav__toggle md-toggle" id="__toc" type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
+          Overview
+          <span class="md-nav__icon md-icon"></span>
+</label>
 <a class="md-nav__link md-nav__link--active" href="130.02-Overview.html">
         Overview
       </a>
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#basic-features">
+    Basic features
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#detailed-features">
+    Detailed features
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#typical-use-cases">
+    Typical use cases
+  </a>
+</li>
+</ul>
+</nav>
 </li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="system_landscape.html">
@@ -282,8 +309,8 @@ div.download-btn {
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="06.DEV-channel.html">
-        DEV chanel build
+<a class="md-nav__link" href="810.40-in_channels_and_calling_service.html">
+        IN channels
       </a>
 </li>
 <li class="md-nav__item">
@@ -351,6 +378,27 @@ div.download-btn {
 <div class="md-sidebar__scrollwrap">
 <div class="md-sidebar__inner">
 <nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#basic-features">
+    Basic features
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#detailed-features">
+    Detailed features
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#typical-use-cases">
+    Typical use cases
+  </a>
+</li>
+</ul>
 </nav>
 </div>
 </div>
@@ -362,54 +410,95 @@ div.download-btn {
 <em>(c) 2021 RENware Software Systems. RESTRICTED only for project internal use</em>
 </small><br/><br/><br/><br/><br/><br/></img></p>
 <h1 id="integrator-system-overview">Integrator System Overview</h1>
-<p><small><strong><em>Document control:</em></strong><br/>
-* last update date: 210712<br/>
-* last updated by: petre iordanescu
-</small></p>
 <p><strong><em>Table of contents:</em></strong></p>
 <div class="toc">
 <ul>
-<li><a href="#integrator-system-overview">Integrator System Overview</a></li>
+<li><a href="#integrator-system-overview">Integrator System Overview</a><ul>
 <li><a href="#basic-features">Basic features</a></li>
 <li><a href="#detailed-features">Detailed features</a></li>
 <li><a href="#typical-use-cases">Typical use cases</a></li>
 </ul>
+</li>
+</ul>
 </div>
 <hr/>
-<p><strong>Integrator</strong> system is a model of ALPHA-REN <em>appliance</em> which assure integration at services level between different systems.</p>
-<p>It acts as high level <em>"ESB, ESOA"</em> to connect different services and to make them to work <strong><em>as one</em></strong> without the human intervention, ie, is automated.</p>
-<h1 id="basic-features">Basic features</h1>
+<p><strong>ALPHAREN Integrator</strong> system is a product (available as <em>software</em> or<em>appliance</em>) aimed to assure integration of different and various informational services between systems.</p>
+<p>It acts as a high level <em>ESB or ESOA</em> to connect different services and to make them to work <strong><em>as one</em></strong> without the human intervention, ie, is automated.</p>
+<h2 id="basic-features">Basic features</h2>
 <ul>
-<li><strong>anywhere</strong>, can work even the systems that must be integrated are in different non routable LANs</li>
-<li><strong>anyhow</strong>, is agnostic to form and look of information required / provided by systems that must be integrated</li>
-<li><strong>anytime</strong>, can work as a distributed high scalable cluster of "<strong>ALPHA-REN Integrator Machines</strong>"</li>
-<li><strong>secured</strong>, can work with any standard (ie, defined as <em>RFC</em>) Internet security</li>
+<li>
+<p><strong>ANYWHERE</strong>. can work even the systems that must be integrated are in different non routable LANs (address systems at <code>http</code> protocol level)</p>
+</li>
+<li>
+<p><strong>ANYHOW</strong>. is agnostic to format, composition, structure, encoding of information required / provided by systems that must be integrated</p>
+</li>
+<li>
+<p><strong>ANYTIME</strong>. can work as a distributed high scalable cluster of "<strong>ALPHA-REN Integrator Machines</strong>"</p>
+</li>
+<li>
+<p><strong>SECURED</strong>. can work with any public standard (ie, defined at least as <code>RFC</code>) of Internet security</p>
+</li>
 </ul>
-<h1 id="detailed-features">Detailed features</h1>
+<h2 id="detailed-features">Detailed features</h2>
 <ul>
-<li>Open API full compliant</li>
-<li>Integrations, Microservices, SOA and ESB in Python</li>
-<li>HA load-balancer, hot-deployment and hot-reconfiguration - deploy with no downtime
-Browser-based GUI, CLI and</li>
-<li>API - easy to use and customize</li>
-<li>Protocols, industry standards and data formats - REST, SOAP, Odoo, AMQP, HL7, MongoDB, Redis, SAP, IBM MQ, SQL, OpenAPI, ZeroMQ, WebSockets, Cassandra, Amazon S3, Swift, LDAP, Active Directory, Kafka, SMTP, IMAP, FTP, SFTP, ElasticSearch, Solr, Memcached, Twilio, Vault, Slack, Telegram, RBAC, JMS, integration patterns, cryptography, security and more</li>
+<li>
+<p>Open API full compliant</p>
+</li>
+<li>
+<p>Integrations, Microservices, SOA and ESB in Python</p>
+</li>
+<li>
+<p>HA load-balancer, hot-deployment and hot-reconfiguration - deploy with no downtime
+Browser-based GUI, CLI and</p>
+</li>
+<li>
+<p>API - easy to use and customize</p>
+</li>
+<li>
+<p>Protocols, industry standards and data formats - REST, SOAP, Odoo, AMQP, HL7, MongoDB, Redis, SAP, IBM MQ, SQL, OpenAPI, ZeroMQ, WebSockets, Cassandra, Amazon S3, Swift, LDAP, Active Directory, Kafka, SMTP, IMAP, FTP, SFTP, ElasticSearch, Solr, Memcached, Twilio, Vault, Slack, Telegram, RBAC, JMS, integration patterns, cryptography, security and more</p>
+</li>
 </ul>
-<h1 id="typical-use-cases">Typical use cases</h1>
-<p><strong><em>ALPHA-REN Integrator</em></strong> is used for enterprise, business integrations, data science, IoT and other scenarios that require integrations of multiple systems.</p>
+<h2 id="typical-use-cases">Typical use cases</h2>
+<p><strong><em>ALPHAREN Integrator</em></strong> is used for enterprise, business integrations, data science, IoT and other scenarios that require integrations of multiple systems.</p>
 <p>Real-world, production <strong><em>ALPHA-REN Integrator</em></strong> environments include:</p>
 <ul>
-<li>A platform for processing payments from consumer devices</li>
-<li>A system for a telecom operators integrating CRM, ERP, Billing and other systems as well as applications of the operator’s external partners</li>
-<li>A data science system for processing of information related to securities transactions (FIX)</li>
-<li>A platform for public administration systems, helping achieve healthcare data interoperability through the integration of independent data sources, databases and health information exchanges (HIE)</li>
-<li>A global IoT platform integrating medical devices</li>
-<li>A platform to process events produced by early warning systems, (ex SAP EWS)</li>
-<li>Backend e-commerce systems managing multiple suppliers, marketplaces and process flows
-B2B platforms to accept and process multi-channel orders in cooperation with backend ERP and CRM systems</li>
-<li>Platforms integrating real-estate applications, collecting data from independent data sources to present unified APIs to internal and external applications</li>
-<li>A system for the management of hardware resources of an enterprise cloud provider</li>
-<li>Online auction sites</li>
-<li>E-learning platforms</li>
+<li>
+<p>A platform for processing payments from consumer devices</p>
+</li>
+<li>
+<p>A system for a telecom operators integrating CRM, ERP, Billing and other systems as well as applications of the operator’s external partners</p>
+</li>
+<li>
+<p>A data science system for processing of information related to securities transactions (FIX)</p>
+</li>
+<li>
+<p>A platform for public administration systems, helping achieve healthcare data interoperability through the integration of independent data sources, databases and health information exchanges (HIE)</p>
+</li>
+<li>
+<p>A global IoT platform integrating medical devices</p>
+</li>
+<li>
+<p>A platform to process events produced by early warning systems, (ex SAP EWS)</p>
+</li>
+<li>
+<p>Backend e-commerce systems managing multiple suppliers, marketplaces and process flows
+B2B platforms to accept and process multi-channel orders in cooperation with backend ERP and CRM systems</p>
+</li>
+<li>
+<p>Platforms integrating real-estate applications, collecting data from independent data sources to present unified APIs to internal and external applications</p>
+</li>
+<li>
+<p>A system for the management of hardware resources of an enterprise cloud provider</p>
+</li>
+<li>
+<p>Online auction sites</p>
+</li>
+<li>
+<p>E-learning platforms</p>
+</li>
+<li>
+<p>ad-hoc data API for databases, protecting them to direct access</p>
+</li>
 </ul>
 <hr/>
 <div class="md-source-file">
