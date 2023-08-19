@@ -5,6 +5,11 @@
 
 # CHANGELOG
 
+...put text ref (F) and (B) here...
+
+## -#NOTE only 0 releases work up to create first application system...
+
+
 -#NOTE: here are the SDEVEN procedure codes:
     130.02 Product Overview (REQUIRED if not present in Datasheet)
     130.04 Licensing Editions & Pricing (OPTIONAL)
@@ -12,18 +17,28 @@
     810.02 System Landscape (REQUIRED)
     810.46 Product Features - update of 130.01 (REQUIRED)
 
+* tbd... update doc `system_landscape.md` to `...see TODO - from here continue review...`
+
 * tbd... permanently follow RMAP.001 - sys 1.0 doc manuals
+
 
 
 
 ## 0.0.5-release (#NOTE wip...)
 
-* tbd... update doc `system_landscape.md` to ...see TODO - from here continue review...
+* tbd... rename in 810-DSGN `06-Development.md` `810.40_Development_overview.md`
+
+* tbd... rename in 810-DSGN `06-DEV-channel.md` `810.40 Basic_concepts_in channels_and_calling_service.md`, upd RMAP.001
+
 
 * wip...
 
+
+* 230819piu_b updated title for `06-DEV-channel.md` to "Basic concepts - in channels and calling a service" and cleared the Introductory section
 * 230819piu_a created a ROADMAP with _RMAP.001 - sys 1.0 doc manuals_
 * 230818piu_h updated `130.00-Overview.md` for outline structure to keep only one heading 1 and small text corrections
+-#TODO..........test all up iss.......
+
 * 230818piu_g applied ARINT logo on site and documents & updated the "facelift" on all docs; refactored `...Overview.md` to `130.02-Overview.md`
 * 230818piu_f updated all doc layout ref TOC and header
 * 230818piu_e created `.../euma/adma_catalog.md` doc as all *adma documentation* catalog and ref it in navigation instead of all docs
