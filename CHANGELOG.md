@@ -32,7 +32,7 @@ FROM PUBLISHING BRANCH, so wheen publish checkout it or upload from git
 ## 0.0.5-release (#NOTE wip...)
 
 * tbd... rename in 810-DSGN `06-Development.md` `810.40_Development_overview.md`
-
+* tbd... put `810.46-Product_Features.md` in `mkdocs.yml` in Overview area
 
 * wip...
 
