@@ -5,7 +5,7 @@
 
 ***Document control***
 
-* updated at: 230820<br>
+* updated at: 230819<br>
 * updated by: petre iordanescu
 
 
@@ -20,8 +20,8 @@
 ## RMAP.001 - sys 1.0 doc manuals 
 
 * **Objective:** creation of system documentation manuals "placeholders"
-* **Recorded at:** 230820
-* **Updated at:** wip @ 230820
+* **Recorded at:** 230819
+* **Updated at:** wip@230819
 * **Recorded by:** petre iordanescu
 * **Detailed  description:**
     * create required system manuals at least as placeholder empty files and refer them in a catalog (admin, user, dev)
