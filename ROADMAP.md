@@ -15,13 +15,32 @@
 [TOC]
 
 
-# Appendix D ROADMAP Template (RMAP)
+# ROADMAP
+
+## RMAP.001 - documentation manuals 
+
+* **Objective:** creation of system documentation manuals "placeholders"
+* **Recorded at:** 230820
+* **Updated at:** -
+* **Recorded by:** petre iordanescu
+* **Detailed  description:**
+    * create required system manuals at least as placeholder empty files that will be populated latter in time
+    * reference then in corresponding catalog (admin, user, dev) 
+* **Recommendations:** list of docs:
+    * [ ] Learn basic concepts as: in channel, calling a service, out channel, protocols to write on out channel, data formats, ... (euma)
+    * [ ] Tutorial (euma)
+* **Known dependencies:** -
+* **Assigned to:** petre iordanescu
+* **References & notes:** -
 
 
-!!! warning "#TODO CHANGE ME. THIS IS A TEMPLATE DOCUMENT"
-    ___This is a template document !!! Please make a copy, drop this note and use it. Instructions are provided as #NOTE at each item.___
 
 
+
+
+
+
+``` template
 
 ## RMAP.item_code - -#NOTE `<give a hort human name of item>`
 
@@ -40,8 +59,5 @@
 * **References & notes:**
     * -#NOTE `<more notes... (if use footnote like [^xxx]: ..., please do not mark as list entry because will appear at foonotes)>`
 
-
-
-
-
+```
 
