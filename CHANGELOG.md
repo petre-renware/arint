@@ -36,6 +36,7 @@ FROM PUBLISHING BRANCH, so wheen publish checkout it or upload from git
 
 * wip...
 
+* 230819piu_e cteated `810.46-Product_Features.md` as empty doc to be completed with "Product Features"
 * 230819piu_d updated `06-Development.md` ref channels section cleared to make distinction between IN & OUT channels as endpoint routes and "places where can write"
 * --------------------#TODO to test all closed issues up
 * 230819piu_c renamed in 810-DSGN `06-DEV-channel.md` `810.40-in_channels_and_calling_service.md`, upd `mkdocs.yml` for entry name & RMAP.001
