@@ -22,7 +22,10 @@
 
 * wip...
 
-* tbd... rename 810.40 development 
+* tbd... rename in 810-DSGN `06-Development.md` `810.40_Development_overview.md`
+
+
+
 
 * 230819piu_a created a ROADMAP with _RMAP.001 - sys 1.0 doc manuals_
 * 230818piu_h updated `130.00-Overview.md` for outline structure to keep only one heading 1 and small text corrections
