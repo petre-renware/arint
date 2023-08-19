@@ -24,11 +24,11 @@
 * **Updated at:** -
 * **Recorded by:** petre iordanescu
 * **Detailed  description:**
-    * create required system manuals at least as placeholder empty files that will be populated latter in time
-    * reference then in corresponding catalog (admin, user, dev) 
+    * create required system manuals at least as placeholder empty files and refer them in a catalog (admin, user, dev) 
 * **Recommendations:** list of docs:
-    * [ ] Learn basic concepts as: in channel, calling a service, out channel, protocols to write on out channel, data formats, ... (euma)
-    * [ ] Tutorial (euma)
+    * [ ] Basic concepts - in channels and calling a service
+    * [ ] Basic concepts - out channels, protocols to write on out channel, data formats, ... (euma)
+    * [ ] ... (euma)
 * **Known dependencies:** -
 * **Assigned to:** petre iordanescu
 * **References & notes:** -
