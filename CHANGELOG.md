@@ -35,8 +35,12 @@ FROM PUBLISHING BRANCH, so wheen publish checkout it or upload from git
 
 * wip...
 
+
+* 230819piu_h first "compilation" for `130.02-Overview.md` & `810.46-Product_Features.md`
+* -------- -#TODO to test all closed issues up
+
 * 230819piu_g copied info from `130.02-Overview.md` to `810.46-Product_Features.md` as bulk to keep what is needed in both filles
-* --------------------#TODO to test all closed issues up
+
 
 
 
