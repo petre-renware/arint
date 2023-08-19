@@ -34,6 +34,8 @@ FROM PUBLISHING BRANCH, so wheen publish checkout it or upload from git
 * tbd... rename in 810-DSGN `06-Development.md` `810.40_Development_overview.md`
 
 * wip...
+
+* 230819piu_g copied info from `130.02-Overview.md` to `810.46-Product_Features.md` as bulk to keep what is needed in both filles
 * --------------------#TODO to test all closed issues up
 
 
