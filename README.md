@@ -18,7 +18,7 @@ For more information please see the product [About page](https://arint.renware.e
 
 ## Demo system DISCLAIMER
 
-The system siste contains also a link to a demo system where you can live see the system "at workc and try its capabilities.
+The system contains also a link to a demo system where you can live see the system "at workc and try its capabilities.
 
 Pay attention that this system is just a demo and no saved
 data is guaranteed to be preserved even your information is stored under your "user context". Keep in mind that's just a demonstration system and ***do not store sensitive data***.
@@ -28,5 +28,5 @@ data is guaranteed to be preserved even your information is stored under your "u
 
 ## Support and assistance
 
-The product site give you information about how to access support channel and how to buy this product. Support channel is ofered from producer site but depending on your country this will redirect you to most appropriate local dealear.
+The product site give you information about how to access support channel and how to buy this product. Support channel is ofered from producer site but depending on your country this will redirect you to most appropriate local dealer.
 
