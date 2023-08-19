@@ -12,7 +12,7 @@
     810.02 System Landscape (REQUIRED)
     810.46 Product Features - update of 130.01 (REQUIRED)
 
-
+* tbd... permanently follow RMAP.001 - sys 1.0 doc manuals
 
 
 
@@ -22,8 +22,9 @@
 
 * wip...
 
-* 230818piu_h update `130.00-Overview.md` for outline structure to keep only one heading 1 and small text corrections
-* 230818piu_g apply ARINT logo on site and documents & updated the "facelift" on all docs; refactored `...Overview.md` to `130.02-Overview.md`
+* 230819piu_a created a ROADMAP with _RMAP.001 - sys 1.0 doc manuals_
+* 230818piu_h updated `130.00-Overview.md` for outline structure to keep only one heading 1 and small text corrections
+* 230818piu_g applied ARINT logo on site and documents & updated the "facelift" on all docs; refactored `...Overview.md` to `130.02-Overview.md`
 * 230818piu_f updated all doc layout ref TOC and header
 * 230818piu_e created `.../euma/adma_catalog.md` doc as all *adma documentation* catalog and ref it in navigation instead of all docs
 * 230818piu_d created `.../euma/euma_catalog.md` doc as all *euma documentation* catalog and ref it in navigation instead of all docs
