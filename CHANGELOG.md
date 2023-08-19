@@ -22,6 +22,8 @@
 
 * wip...
 
+* tbd... rename 810.40 development 
+
 * 230819piu_a created a ROADMAP with _RMAP.001 - sys 1.0 doc manuals_
 * 230818piu_h updated `130.00-Overview.md` for outline structure to keep only one heading 1 and small text corrections
 * 230818piu_g applied ARINT logo on site and documents & updated the "facelift" on all docs; refactored `...Overview.md` to `130.02-Overview.md`
