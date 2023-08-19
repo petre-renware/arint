@@ -5,12 +5,7 @@
 
 
 # Development Overview 
-<small>
 
-Product 0000-0156 0.0 to current version 
-
-* 210728 me new doc 
-</small> 
 
 ***Table of contents:***
 
@@ -30,10 +25,15 @@ Development process over ARSRV implies basically the following components:
 
 Fundamentally and very high level, a service (SRV) use a channel (CHN) to communicate with external environment.
 
-------
+
+
+
 ## CHN - channel 
 
-A channel must be defined in **ARSRV** management interface before use.
+A channel must be defined in **ARSRV** management interface before use. The channel can be:
+
+* **IN channel** which establish and endpoint route through an ARINT service can be invoked (called)
+* **OUT channel** which establish a "place whwere ARINT can write (send)" information
 
 The CHN establish: 
 
@@ -43,7 +43,9 @@ The CHN establish:
 * data formats in messages exchanged thru the channel 
 * auth and other security parameters 
 
-------
+
+
+
 ## SRV - service
 
 A service must be written in Python then deployed to **ARSRV** in order to be used.
@@ -57,7 +59,9 @@ A service has the following high level flow:
 * connects to a channel to write computed output
 * log any process details for future references and errors debugging
 
-------
+
+
+
 ## File names 
 
 Development documents (except the current one) will be named as follows:
@@ -66,7 +70,9 @@ Development documents (except the current one) will be named as follows:
 * *optional* a code which specify (only if is case) at which subcomponent or pritocol, and so on 
 * name of the document
 
-------
+
+
+
 ## Services names
 
 The producer reserve a name space for its services (as built in AR Integrator or as future updates) starting with characters **AR**.
