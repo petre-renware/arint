@@ -16,7 +16,7 @@ nav:
         - Developer manuals:
             - Development overview: ./810-DSGN/06-Development.md
             - DEV a service anatomy: ./810-DSGN/06.DEV-service-anatomy.md
-            - DEV chanel build: ./810-DSGN/06.DEV-channel.md
+            - IN channels: ./810-DSGN/810.40-in_channels_and_calling_service.md
             - DEV output channel build: ./810-DSGN/06.DEV-out-channel.md
             - DEV security: ./810-DSGN/06.DEV-security.md
         - ARIntegrator Manual (PDF): pdfs/print_page.html/print_page.pdf

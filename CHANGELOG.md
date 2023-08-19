@@ -34,12 +34,9 @@ FROM PUBLISHING BRANCH, so wheen publish checkout it or upload from git
 * tbd... rename in 810-DSGN `06-Development.md` `810.40_Development_overview.md`
 
 
-
 * wip...
 
-* tbd... rename in 810-DSGN `06-DEV-channel.md` `810.40 Basic_concepts_in channels_and_calling_service.md`, upd RMAP.001
-
-
+* 230819piu_c renamed in 810-DSGN `06-DEV-channel.md` `810.40-in_channels_and_calling_service.md`, upd `mkdocs.yml` for entry name & RMAP.001
 * 230819piu_b updated title for `06-DEV-channel.md` to "Basic concepts - in channels and calling a service" and cleared the Introductory section
 * 230819piu_a created a ROADMAP with _RMAP.001 - sys 1.0 doc manuals_
 * 230818piu_h updated `130.00-Overview.md` for outline structure to keep only one heading 1 and small text corrections
