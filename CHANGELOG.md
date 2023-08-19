@@ -31,12 +31,14 @@ FROM PUBLISHING BRANCH, so wheen publish checkout it or upload from git
 
 ## 0.0.6-release Overview & Features (#NOTE wip...)
 
-* tbd... rename in 810-DSGN `06-Development.md` `810.40_Development_overview.md`
+* tbd... rename in `06-Development.md` `810.40_Development_overview.md`
+
+* tbd... work to  `810.46-Product_Features.md`
+
 
 * wip...
 
-
-* 230819piu_h first "compilation" for `130.02-Overview.md` & `810.46-Product_Features.md`
+* 230819piu_h first "compilation" for `130.02-Overview.md` (99%) & `810.46-Product_Features.md` (30%)
 * -------- -#TODO to test all closed issues up
 
 * 230819piu_g copied info from `130.02-Overview.md` to `810.46-Product_Features.md` as bulk to keep what is needed in both filles
