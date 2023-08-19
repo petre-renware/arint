@@ -27,9 +27,10 @@
     * create required system manuals at least as placeholder empty files and refer them in a catalog (admin, user, dev)
     * this is "long open" issue but a minimum set of manuals are targeted
 * **Recommendations:** list of docs:
-    * [ ] Basic concepts - in channels and calling a service
-    * [ ] Basic concepts - out channels, protocols to write on out channel, data formats, ... (euma)
-    * [ ] ... (euma)
+    * [...] Basic concepts - in channels and calling a service (devma)
+    * [ ] Basic concepts - out channels, protocols to write on out channel, data formats (devma)
+    * [ ] System overview (skitma)
+    * [ ] ... (skitma)
 * **Known dependencies:** -
 * **Assigned to:** petre iordanescu
 * **References & notes:** -
