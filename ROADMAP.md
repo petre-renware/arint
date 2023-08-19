@@ -1,22 +1,12 @@
-<small>**SDEVEN Software Development & Engineering Methodology**</small>
 
-Version: 7.0.12<br>
-Release date: 230805
-
-
-
--#NOTE the template starts here. README this before using this templat <br>
--#NOTE all fields that should be filled are marked as ***-#NOTE*** and enclosed in ***`<...>`*** as `code section like me`
-
-
-**-#NOTE `<your project name here>`**
+**ARINT project**
 
 ***
 
 ***Document control***
 
-* updated at: \<last updated date\><br>
-* updated by: \<person who made last update\>
+* updated at: 230820<br>
+* updated by: petre iordanescu
 
 
 
