@@ -879,7 +879,7 @@ data is guaranteed to be preserved even your information is stored under your "u
 <div class="toc">
 <ul>
 <li><a href="#810-dsgn-130.02-overview-integrator-system-overview">Integrator System Overview</a><ul>
-<li><a href="#810-dsgn-130.02-overview-basic-features">Basic features</a></li>
+<li><a href="#810-dsgn-130.02-overview-fundamental-features">Fundamental features</a></li>
 <li><a href="#810-dsgn-130.02-overview-detailed-features">Detailed features</a></li>
 <li><a href="#810-dsgn-130.02-overview-typical-use-cases">Typical use cases</a></li>
 </ul>
@@ -887,9 +887,27 @@ data is guaranteed to be preserved even your information is stored under your "u
 </ul>
 </div>
 <hr />
-<p><strong>ALPHAREN Integrator</strong> system is a product (available as <em>software</em> or<em>appliance</em>) aimed to assure integration of different and various informational services between systems.</p>
+<p><strong>ALPHAREN Integrator</strong> (aka <strong><code>ARINT</code></strong> or <strong><code>arint</code></strong>) system is a product (available as <em>software</em> or <em>appliance</em>) aimed to assure integration of different and various informational services between systems.</p>
 <p>It acts as a high level <em>ESB or ESOA</em> to connect different services and to make them to work <strong><em>as one</em></strong> without the human intervention, ie, is automated.</p>
-<h2 id="810-dsgn-130.02-overview-basic-features">Basic features</h2>
+<p><strong><em>ARINT</em></strong> very general and generic process flow is: </p>
+<pre class="mermaid"><code>graph TD
+    SRV[[Service]]
+    EXT([External system])
+    INCH{{IN channel}}
+    DTB[(external \n databases)]
+    OUTCH{{OUT \n channel}}
+    CALLBCK([callback endpoint])
+    LOGFILE[(actions \n log file)]
+
+    EXT --&gt;|call| INCH
+    INCH --&gt; SRV
+    SRV --&gt; OUTCH
+
+    OUTCH &lt;-.-&gt; DTB
+    OUTCH --&gt; |notify| CALLBCK
+    OUTCH --&gt; |logging \n actions| LOGFILE
+</code></pre>
+<h2 id="810-dsgn-130.02-overview-fundamental-features">Fundamental features</h2>
 <ul>
 <li>
 <p><strong>ANYWHERE</strong>. can work even the systems that must be integrated are in different non routable LANs (address systems at <code>http</code> protocol level)</p>
@@ -905,27 +923,10 @@ data is guaranteed to be preserved even your information is stored under your "u
 </li>
 </ul>
 <h2 id="810-dsgn-130.02-overview-detailed-features">Detailed features</h2>
-<ul>
-<li>
-<p>Open API full compliant</p>
-</li>
-<li>
-<p>Integrations, Microservices, SOA and ESB in Python</p>
-</li>
-<li>
-<p>HA load-balancer, hot-deployment and hot-reconfiguration - deploy with no downtime
-Browser-based GUI, CLI and</p>
-</li>
-<li>
-<p>API - easy to use and customize</p>
-</li>
-<li>
-<p>Protocols, industry standards and data formats - REST, SOAP, Odoo, AMQP, HL7, MongoDB, Redis, SAP, IBM MQ, SQL, OpenAPI, ZeroMQ, WebSockets, Cassandra, Amazon S3, Swift, LDAP, Active Directory, Kafka, SMTP, IMAP, FTP, SFTP, ElasticSearch, Solr, Memcached, Twilio, Vault, Slack, Telegram, RBAC, JMS, integration patterns, cryptography, security and more</p>
-</li>
-</ul>
+<p>For <a href="#810-dsgn-810.46-product_features">features list see</a></p>
 <h2 id="810-dsgn-130.02-overview-typical-use-cases">Typical use cases</h2>
 <p><strong><em>ALPHAREN Integrator</em></strong> is used for enterprise, business integrations, data science, IoT and other scenarios that require integrations of multiple systems.</p>
-<p>Real-world, production <strong><em>ALPHA-REN Integrator</em></strong> environments include:</p>
+<p>Real-world, production <strong><em>ALPHAREN Integrator</em></strong> environments include:</p>
 <ul>
 <li>
 <p>A platform for processing payments from consumer devices</p>
@@ -977,22 +978,37 @@ B2B platforms to accept and process multi-channel orders in cooperation with bac
 <li><a href="#810-dsgn-810.46-product_features-protocols-and-standards">Protocols and standards</a></li>
 <li><a href="#810-dsgn-810.46-product_features-data-formats">Data formats</a></li>
 <li><a href="#810-dsgn-810.46-product_features-databases">Databases</a></li>
-<li><a href="#810-dsgn-810.46-product_features-todo">... ...#TODO</a></li>
 </ul>
 </li>
 </ul>
 </div>
 <hr />
-<p>UPCOMING...</p>
 <h2 id="810-dsgn-810.46-product_features-basic-features">Basic features</h2>
-<p>...#TODO</p>
+<ul>
+<li>
+<p>Open API full compliant</p>
+</li>
+<li>
+<p>Integrations, Microservices, SOA and ESB in Python</p>
+</li>
+<li>
+<p>HA load-balancer, hot-deployment and hot-reconfiguration - deploy with no downtime
+Browser-based GUI, CLI and</p>
+</li>
+<li>
+<p>API - easy to use and customize</p>
+</li>
+<li>
+<p>Protocols, industry standards and data formats - REST, SOAP, Odoo, AMQP, HL7, MongoDB, Redis, SAP, IBM MQ, SQL, OpenAPI, ZeroMQ, WebSockets, Cassandra, Amazon S3, Swift, LDAP, Active Directory, Kafka, SMTP, IMAP, FTP, SFTP, ElasticSearch, Solr, Memcached, Twilio, Vault, Slack, Telegram, RBAC, JMS, integration patterns, cryptography, security and more</p>
+</li>
+</ul>
+<p>For an <a href="#810-dsgn-130.02-overview">overview of rhe product please see</a>.</p>
 <h2 id="810-dsgn-810.46-product_features-protocols-and-standards">Protocols and standards</h2>
 <p>...#TODO</p>
 <h2 id="810-dsgn-810.46-product_features-data-formats">Data formats</h2>
 <p>...#TODO</p>
 <h2 id="810-dsgn-810.46-product_features-databases">Databases</h2>
-<p>...#TODO</p>
-<h2 id="810-dsgn-810.46-product_features-todo">... ...#TODO</h2></section><section class="print-page" id="810-dsgn-system_landscape"><p><img align="left" alt="arint_logo" src="pictures/arint_logo.png" width="55" />
+<p>...#TODO</p></section><section class="print-page" id="810-dsgn-system_landscape"><p><img align="left" alt="arint_logo" src="pictures/arint_logo.png" width="55" />
 <small markdown><strong>ALPHAREN Integrator (ARINT) System</strong><br>
 <em>(c) 2021 RENware Software Systems. RESTRICTED only for project internal use</em>
 </small><br><br><br></p>
