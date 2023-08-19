@@ -40,9 +40,9 @@
 
 
 
+## Template
 
-``` template
-
+```
 ## RMAP.item_code - -#NOTE `<give a hort human name of item>`
 
 * **Objective:** -#NOTE `<the item objective>`
