@@ -39,7 +39,7 @@ FROM PUBLISHING BRANCH, so wheen publish checkout it or upload from git
 
 * wip...
 
-* ... 230819piu_l upload `ZATO` peoduct license in `doc_src/ZATO_LICENSE.md`
+* 230819piu_l upload `ZATO` product license in `doc_src/ZATO_LICENSE.txt`
 * -------- -#TODO to test all closed issues up
 
 * 230819piu_k updated structure of `810.46-Product_Features.md`
