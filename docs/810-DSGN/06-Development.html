@@ -214,6 +214,11 @@ div.download-btn {
       </a>
 </li>
 <li class="md-nav__item">
+<a class="md-nav__link" href="810.46-Product_Features.html">
+        Features
+      </a>
+</li>
+<li class="md-nav__item">
 <a class="md-nav__link" href="system_landscape.html">
         Landscape
       </a>
@@ -430,12 +435,6 @@ div.download-btn {
 <em>(c) 2021 RENware Software Systems. RESTRICTED only for project internal use</em>
 </small><br/><br/><br/></img></p>
 <h1 id="development-overview">Development Overview</h1>
-<p><small></small></p>
-<p>Product 0000-0156 0.0 to current version </p>
-<ul>
-<li>210728 me new doc 
- </li>
-</ul>
 <p><strong><em>Table of contents:</em></strong></p>
 <div class="toc">
 <ul>
@@ -457,9 +456,12 @@ div.download-btn {
 <li><strong>CHN</strong> - channel</li>
 </ul>
 <p>Fundamentally and very high level, a service (SRV) use a channel (CHN) to communicate with external environment.</p>
-<hr/>
 <h2 id="chn-channel">CHN - channel</h2>
-<p>A channel must be defined in <strong>ARSRV</strong> management interface before use.</p>
+<p>A channel must be defined in <strong>ARSRV</strong> management interface before use. The channel can be:</p>
+<ul>
+<li><strong>IN channel</strong> which establish and endpoint route through an ARINT service can be invoked (called)</li>
+<li><strong>OUT channel</strong> which establish a "place whwere ARINT can write (send)" information</li>
+</ul>
 <p>The CHN establish: </p>
 <ul>
 <li>an own name which uniquely identifies it </li>
@@ -468,7 +470,6 @@ div.download-btn {
 <li>data formats in messages exchanged thru the channel </li>
 <li>auth and other security parameters </li>
 </ul>
-<hr/>
 <h2 id="srv-service">SRV - service</h2>
 <p>A service must be written in Python then deployed to <strong>ARSRV</strong> in order to be used.</p>
 <p>A service has the following high level flow: </p>
@@ -480,7 +481,6 @@ div.download-btn {
 <li>connects to a channel to write computed output</li>
 <li>log any process details for future references and errors debugging</li>
 </ul>
-<hr/>
 <h2 id="file-names">File names</h2>
 <p>Development documents (except the current one) will be named as follows:</p>
 <ul>
@@ -488,7 +488,6 @@ div.download-btn {
 <li><em>optional</em> a code which specify (only if is case) at which subcomponent or pritocol, and so on </li>
 <li>name of the document</li>
 </ul>
-<hr/>
 <h2 id="services-names">Services names</h2>
 <p>The producer reserve a name space for its services (as built in AR Integrator or as future updates) starting with characters <strong>AR</strong>.</p>
 <p>The users are free to name how they wants their own developed services, but not start with AR characters. Respecting this rule will allow producer future updates to overwrite <em>client own developed services</em>.</p>
@@ -499,7 +498,7 @@ div.download-btn {
 <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">August 18, 2023</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">August 19, 2023</span>
 </small>
 </div>
 </article>

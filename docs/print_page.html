@@ -384,6 +384,20 @@
   
   
     <li class="md-nav__item">
+      <a href="810-DSGN/810.46-Product_Features.html" class="md-nav__link">
+        Features
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
       <a href="810-DSGN/system_landscape.html" class="md-nav__link">
         Landscape
       </a>
@@ -752,8 +766,15 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#810-dsgn-810.46-product_features" class="md-nav__link">
+    3. Features
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#810-dsgn-system_landscape" class="md-nav__link">
-    3. Landscape
+    4. Landscape
   </a>
   
 </li>
@@ -772,7 +793,7 @@
       
         <li class="md-nav__item">
   <a href="#wip" class="md-nav__link">
-    4. Demo system
+    5. Demo system
   </a>
   
 </li>
@@ -943,7 +964,35 @@ B2B platforms to accept and process multi-channel orders in cooperation with bac
 <li>
 <p>ad-hoc data API for databases, protecting them to direct access</p>
 </li>
-</ul></section><section class="print-page" id="810-dsgn-system_landscape"><p><img align="left" alt="arint_logo" src="pictures/arint_logo.png" width="55" />
+</ul></section><section class="print-page" id="810-dsgn-810.46-product_features"><p><img align="left" alt="arint_logo" src="pictures/arint_logo.png" width="55" />
+<small markdown><strong>ALPHAREN Integrator (ARINT) System</strong><br>
+<em>(c) 2021 RENware Software Systems. RESTRICTED only for project internal use</em>
+</small><br><br><br></p>
+<h1 id="810-dsgn-810.46-product_features-product-features">Product features</h1>
+<p><strong><em>Table of contents:</em></strong></p>
+<div class="toc">
+<ul>
+<li><a href="#810-dsgn-810.46-product_features-product-features">Product features</a><ul>
+<li><a href="#810-dsgn-810.46-product_features-basic-features">Basic features</a></li>
+<li><a href="#810-dsgn-810.46-product_features-protocols-and-standards">Protocols and standards</a></li>
+<li><a href="#810-dsgn-810.46-product_features-data-formats">Data formats</a></li>
+<li><a href="#810-dsgn-810.46-product_features-databases">Databases</a></li>
+<li><a href="#810-dsgn-810.46-product_features-todo">... ...#TODO</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<hr />
+<p>UPCOMING...</p>
+<h2 id="810-dsgn-810.46-product_features-basic-features">Basic features</h2>
+<p>...#TODO</p>
+<h2 id="810-dsgn-810.46-product_features-protocols-and-standards">Protocols and standards</h2>
+<p>...#TODO</p>
+<h2 id="810-dsgn-810.46-product_features-data-formats">Data formats</h2>
+<p>...#TODO</p>
+<h2 id="810-dsgn-810.46-product_features-databases">Databases</h2>
+<p>...#TODO</p>
+<h2 id="810-dsgn-810.46-product_features-todo">... ...#TODO</h2></section><section class="print-page" id="810-dsgn-system_landscape"><p><img align="left" alt="arint_logo" src="pictures/arint_logo.png" width="55" />
 <small markdown><strong>ALPHAREN Integrator (ARINT) System</strong><br>
 <em>(c) 2021 RENware Software Systems. RESTRICTED only for project internal use</em>
 </small><br><br><br></p>
@@ -1147,12 +1196,6 @@ B2B platforms to accept and process multi-channel orders in cooperation with bac
 <em>(c) 2021 RENware Software Systems. RESTRICTED only for project internal use</em>
 </small><br><br><br></p>
 <h1 id="810-dsgn-06-development-development-overview">Development Overview</h1>
-<p><small></p>
-<p>Product 0000-0156 0.0 to current version </p>
-<ul>
-<li>210728 me new doc 
-</small> </li>
-</ul>
 <p><strong><em>Table of contents:</em></strong></p>
 <div class="toc">
 <ul>
@@ -1174,9 +1217,12 @@ B2B platforms to accept and process multi-channel orders in cooperation with bac
 <li><strong>CHN</strong> - channel</li>
 </ul>
 <p>Fundamentally and very high level, a service (SRV) use a channel (CHN) to communicate with external environment.</p>
-<hr />
 <h2 id="810-dsgn-06-development-chn-channel">CHN - channel</h2>
-<p>A channel must be defined in <strong>ARSRV</strong> management interface before use.</p>
+<p>A channel must be defined in <strong>ARSRV</strong> management interface before use. The channel can be:</p>
+<ul>
+<li><strong>IN channel</strong> which establish and endpoint route through an ARINT service can be invoked (called)</li>
+<li><strong>OUT channel</strong> which establish a "place whwere ARINT can write (send)" information</li>
+</ul>
 <p>The CHN establish: </p>
 <ul>
 <li>an own name which uniquely identifies it </li>
@@ -1185,7 +1231,6 @@ B2B platforms to accept and process multi-channel orders in cooperation with bac
 <li>data formats in messages exchanged thru the channel </li>
 <li>auth and other security parameters </li>
 </ul>
-<hr />
 <h2 id="810-dsgn-06-development-srv-service">SRV - service</h2>
 <p>A service must be written in Python then deployed to <strong>ARSRV</strong> in order to be used.</p>
 <p>A service has the following high level flow: </p>
@@ -1197,7 +1242,6 @@ B2B platforms to accept and process multi-channel orders in cooperation with bac
 <li>connects to a channel to write computed output</li>
 <li>log any process details for future references and errors debugging</li>
 </ul>
-<hr />
 <h2 id="810-dsgn-06-development-file-names">File names</h2>
 <p>Development documents (except the current one) will be named as follows:</p>
 <ul>
@@ -1205,7 +1249,6 @@ B2B platforms to accept and process multi-channel orders in cooperation with bac
 <li><em>optional</em> a code which specify (only if is case) at which subcomponent or pritocol, and so on </li>
 <li>name of the document</li>
 </ul>
-<hr />
 <h2 id="810-dsgn-06-development-services-names">Services names</h2>
 <p>The producer reserve a name space for its services (as built in AR Integrator or as future updates) starting with characters <strong>AR</strong>.</p>
 <p>The users are free to name how they wants their own developed services, but not start with AR characters. Respecting this rule will allow producer future updates to overwrite <em>client own developed services</em>.</p>
@@ -1330,9 +1373,9 @@ class GetUserDetails(Service):
 <p>The <em>IN channel</em> is also named simple <em>Channel</em> meaning that if no other details / hints are given, a "channel" shuld be understood as "IN channel".</p>
 </div>
 <p>Channels can use multiple standard protocols, such as: REST, AMQP, HL7, IBM MQ, JSON RPC, SOAP, Web Sockets, File Transfer protocols, and others. </p>
-<p>A channel at request will invoke an existing service. </p>
+<p>A channel at request will invoke an existing service.</p>
 <h2 id="810-dsgn-810.40-in_channels_and_calling_service-rest-channel-definition">REST channel definition</h2>
-<p>For a <em>REST</em> channel, the following parameters must be provided: </p>
+<p>For a <em>REST</em> channel, the following parameters must be provided:</p>
 <ul>
 <li>Name</li>
 <li>URL path</li>
