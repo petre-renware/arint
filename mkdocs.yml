@@ -1,4 +1,4 @@
-site_name: ALPHAREN Integrarator
+site_name: ALPHAREN CORE-Integrator
 site_author: 'Petre Iordanescu, RENware Software Systems, petre.iordanescu@gmail.com'
 copyright: 'Copyright (c) RENware Software Systems'
 
@@ -10,6 +10,9 @@ nav:
         - Overview: ./810-DSGN/130.02-Overview.md
         - Features: ./810-DSGN/810.46-Product_Features.md
         - Landscape: ./810-DSGN/810.02-System_Landscape.md
+        - Licensing Editions and Pricing: ./810-DSGN/130.04-Licensing_Editions_Pricing.md
+        - Services: ./810-DSGN/130.05-Services.md
+        - Training Programmes: ./810-DSGN/130.05-Training_Programmes.md
     - Documentation:
         - User manuals:
             - User help: ./880-RLSE/euma/euma_catalog.md

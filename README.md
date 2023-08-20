@@ -1,4 +1,4 @@
-# ALPHAREN Integrator
+# ALPHAREN CORE-Integrator
 
 
 

@@ -1,16 +1,11 @@
 ![arint_logo](../pictures/arint_logo.png){ width="55" align=left }
-<small markdown>**ALPHAREN Integrator (ARINT) System**<br>
+<small markdown>**ALPHAREN CORE-Integrator (ARINT) System**<br>
 *(c) 2021 RENware Software Systems. RESTRICTED only for project internal use*
 </small><br><br><br>
 
 
-# API Security 
-<small>
+# API Security
 
-Product 0000-0156 0.0 to current version 
-
-* 210730 me new doc 
-</small> 
 
 ***Table of contents:***
 

@@ -1,7 +1,7 @@
 
-# ALPHAREN Integrator LICENSE addendum
+# ALPHAREN CORE-Integrator LICENSE addendum
 
-This document describe how to Apply These (ie, of `zato.io`) Terms to **ALPHAREN Integrator**.
+This document describe how to Apply These (ie, of `zato.io`) Terms to **ALPHAREN CORE-Integrator**.
 
 
 

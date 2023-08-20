@@ -9,28 +9,55 @@
 - with (F) are marked those changes that are features in order to be copied in a RELNOTE file
 - #NOTE ____ PUBLISHING IS MADE ON www.renware.eu:
 FROM PUBLISHING BRANCH, so wheen publish checkout it or upload from git
+- `<PROJECT ROOT>/doc_src/` is the default starting location in a file path (if not given a clear one)
+
 
 * TBD...#NOTE...ATTN  iss `230820piu_a` ref license of ARINT
 
-## 0.1 (#NOTE wip...)
 
-* -#NOTE: here are the SDEVEN procedure codes:
 
-```
-    130.02 Product Overview (REQUIRED if not present in Datasheet)
-    130.04 Licensing Editions & Pricing (OPTIONAL)
-    130.05 Service & Training Programmes (OPTIONAL as RECOMMENDED)
-    810.02 System Landscape (REQUIRED)
-    120-CPTS System Concepts
-    810.46 Product Features - update of 130.01 (REQUIRED)
-```
+
+## 0.1 new ALPHAREN CORE Integrarator (#TODO wip...)
+
 
 * tbd... permanently follow RMAP.001 - sys 1.0 doc manuals
 
+* tbd... to write:
+    * `130.04-Licensing_Editions_Pricing.md`
+    * `130.05-Services.md`
+    * `130.05-Training_Programmes.md`
 
-### 0.1.0-release Features (#NOTE wip...)
 
-* wip... (last used 230820piu_c)
+
+### -#TODO 0.1.1-release Features (#TODO incoming...)
+
+* tbd... work on `810.46-Product_Features.md`
+* tbd... explain licensing concepts of ARINT solution (package... see book notes)
+* tbd... redefine system as SOLUTION composed of `zato` (mk links to `zato.io`) and other components incl an ***unification admin Interface***
+* tbd... ALPHAREN CORE-Integrator becomes the core platform for RENware Software Systems products **Microservices style***
+
+* future...
+
+
+
+
+
+
+
+
+### 0.1.0-release new ALPHAREN CORE-Integrator (230820 19:00)
+
+* 230820piu_k RENAME PROD TO ALPHAREN CORE-Integrator & RELEASE becomes the core platform for RENware Software Systems products **Microservices style***
+* 230820piu_j updated product logo to reflect new "CORE Integrator"
+* 230820piu_i updated `130.02-Overview.md` to start to reflect the new role os **ALPHAREN CORE**
+* 230820piu_h updated `index.md` (About page) to clarify what copyright has RENware and what is 3rd party (ie, product "spare parts")
+* 230820piu_g fixed some text bugs in `810-DSGN/130.02-Overview.md`
+* 230820piu_f tested iss `230820piu_e` & fixed all pages with titles
+* 230820piu_e linked iss `230820piu_d` files in `mkdocs.yml` and put TODO iss to make them in future versions
+* 230820piu_d created new empty docs for future use as:
+    * `130.04-Licensing_Editions_Pricing.md`
+    * `130.05-Services.md`
+    * `130.05-Training_Programmes.md`
 
 
 

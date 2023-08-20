@@ -1,5 +1,5 @@
 
-# ALPHAREN Integrator - ARint
+# ALPHAREN CORE-Integrator - ARint
 
 
 
