@@ -29,16 +29,24 @@ FROM PUBLISHING BRANCH, so wheen publish checkout it or upload from git
 
 
 
-
-### 0.1.0-release Features (#TODO wip...)
+###-#TODO 0.1.1-release Features (#TODO incoming...)
 
 * tbd... work on `810.46-Product_Features.md`
 * tbd... explain licensing concepts of ARINT solution (package... see book notes)
 * tbd... redefine system as SOLUTION composed of `zato` (mk links to `zato.io`) and other components incl an ***unification admin Interface***
 
-* @#FIXME RENAME PROD TO ALPHAREN CORE and becomes the  ore platform fot RENware Software Systems products **Microservices style**. Include in core packet a Postgresql DB.
+* future...
 
-* wip...
+
+
+
+
+
+
+
+### 0.1.0-release new ALPHAREN CORE Integrator (#TODO wip...)
+
+* @#FIXME RENAME PROD TO ALPHAREN CORE & RELEASE. This becomes the core platform for RENware Software Systems products **Microservices style**. Include in core packet a Postgresql DB
 
 * 230820piu_j updated product logo to reflect new "CORE Integrarator"
 * 230820piu_i updated `130.02-Overview.md` to start to reflect the new role os **ALPHAREN CORE**
