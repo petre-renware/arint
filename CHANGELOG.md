@@ -12,7 +12,9 @@ FROM PUBLISHING BRANCH, so wheen publish checkout it or upload from git
 
 * TBD...#NOTE...ATTN  iss `230820piu_a` ref license of ARINT
 
-## 0.1 (#NOTE wip...)
+
+
+## 0.1 (#TODO wip...)
 
 * -#NOTE: here are the SDEVEN procedure codes:
 
@@ -28,7 +30,13 @@ FROM PUBLISHING BRANCH, so wheen publish checkout it or upload from git
 * tbd... permanently follow RMAP.001 - sys 1.0 doc manuals
 
 
-### 0.1.0-release Features (#NOTE wip...)
+
+
+### 0.1.0-release Features (#TODO wip...)
+
+* tbd... work on `810.46-Product_Features.md`
+* tbd... explain licensing concepts of ARINT solution (package... see book notes)
+* tbd... redefine system as SOLUTION composed of `zato` (mk links to `zato.io`) and other components incl an ***unification admin Interface***
 
 * wip... (last used 230820piu_c)
 
