@@ -38,7 +38,11 @@ FROM PUBLISHING BRANCH, so wheen publish checkout it or upload from git
 * tbd... explain licensing concepts of ARINT solution (package... see book notes)
 * tbd... redefine system as SOLUTION composed of `zato` (mk links to `zato.io`) and other components incl an ***unification admin Interface***
 
-* wip... (last used 230820piu_c)
+* wip...
+
+* ... 230820piu_d created new empty docs for future use as:
+    * `xxx`
+    * `xxx`
 
 
 
