@@ -30,12 +30,14 @@ FROM PUBLISHING BRANCH, so wheen publish checkout it or upload from git
 * tbd... explain licensing concepts of ARINT solution (package... see book notes)
 * tbd... redefine system as SOLUTION composed of `zato` (mk links to `zato.io`) and other components incl an ***unification admin Interface***
 
+* tbd... link iss `230820piu_d` files in `mkdocs.yml`
+
 * wip...
 
 * ... 230820piu_d created new empty docs for future use as:
     * `130.04-Licensing_Editions_Pricing.md`
     * `130.05-Services.md`
-   * `130.05-Training_Programmes.md`
+    * `130.05-Training_Programmes.md`
 
 
 
