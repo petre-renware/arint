@@ -41,7 +41,7 @@ FROM PUBLISHING BRANCH, so wheen publish checkout it or upload from git
 
 * @#FIXME RENAME PROD TO ALPHAREN CORE and becomes the  ore platform fot RENware Software Systems products **Microservices style**. Include in core packet a Postgresql DB.
 
-* 230820piu_i updated ...
+* 230820piu_i updated `130.02-Overview.md` to start to reflect the new role os **ALPHAREN CORE**
 * 230820piu_h updated `index.md` (About page) to clarify what copyright has RENware and what is 3rd party (ie, product "spare parts")
 * 230820piu_g fixed some text bugs in `810-DSGN/130.02-Overview.md`
 * ---#TODO---[ to test all up here ]---
