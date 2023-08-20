@@ -24,7 +24,7 @@
     * `130.05-Services.md`
     * `130.05-Training_Programmes.md`
 
-* tbd... how use `SQLAlchemy` for own database ?
+* tbd... use `SQLAlchemy` models for database ==> here: `https://zato.io/en/docs/3.2/dev/examples/sql.html`
 
 
 
