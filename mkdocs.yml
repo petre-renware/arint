@@ -1,17 +1,31 @@
 site_name: ALPHAREN Integrarator
+site_author: 'Petre Iordanescu, RENware Software Systems, petre.iordanescu@gmail.com'
+copyright: 'Copyright (c) RENware Software Systems'
+
+
 
 nav:
-    - Home: index.md
-    - Design documentation:
-        - Overview: 01-Overview.md
-        - Installation: 02-installation.md
-        - Landscape: 05-Landscape.md
-    - Development how to(s):
-        - Development overview: 06-Development.md
-        - DEV a service anatomy: 06.DEV-service-anathomy.md
-        - DEV chanel build: 06.DEV-channel.md
-        - DEV output channel build: 06.DEV-out-channel.md
-        - DEV security: 06.DEV-security.md
+    - System overview:
+        - About: index.md
+        - Overview: ./810-DSGN/130.02-Overview.md
+        - Features: ./810-DSGN/810.46-Product_Features.md
+        - Landscape: ./810-DSGN/810.02-System_Landscape.md
+    - Documentation:
+        - User manuals:
+            - User help: ./880-RLSE/euma/euma_catalog.md
+            - System administration: ./880-RLSE/adma/adma_catalog.md
+        - Developer manuals:
+            - Development overview: ./810-DSGN/120-CPTS-Development_overview.md
+            - Service anatomy: ./810-DSGN/120-CPTS-service-anatomy.md
+            - IN channels: ./810-DSGN/120-CTPS-in_channels_and_calling_service.md
+            - OUT channels: ./810-DSGN/120-CPTS-out-channel.md
+            - Components security: ./810-DSGN/120-CPTS-security.md
+        - ARIntegrator Manual (PDF): pdfs/print_page.html/print_page.pdf
+    - Demo system: wip.md
+    - RENware support:
+        - Support: https://www.renware.eu/support.html
+        - Contact: https://www.renware.eu/contact.html
+        - How to buy: https://www.renware.eu/resources.html#how-to-buy-from-renware
 
 
 
@@ -20,33 +34,114 @@ markdown_extensions:
     - admonition
     - tables
     - pymdownx.details
-    - pymdownx.superfences
     - pymdownx.superfences:
-        custom_fences:
+        custom_fences: #NOTE: [petre iordanescu]: is very important to respect syntax ref `-` character at beginning of items (otherwise not right JSON result !)
             - name: mermaid
               class: mermaid
               format: !!python/name:pymdownx.superfences.fence_code_format
+    - footnotes
+    - pymdownx.critic
+    - pymdownx.caret
+    - pymdownx.keys
+    - pymdownx.mark
+    - pymdownx.tilde
+    - def_list
+    - attr_list
+    - md_in_html
+    - pymdownx.tasklist:
+        custom_checkbox: true
+
+
+
+#NOTE language options - FUTURE FEATURE - should first have a translation...
+#extra:
+#  alternate:
+#    - name: English
+#      link: /
+#      lang: en
+#    - name: Romanian
+#      link: /ro/
+#      lang: ro
+
+
+
+
+#NOTE required to render `mermaid` diagrams
+extra_javascript:
+  - optionalConfig.js
+  - https://unpkg.com/mermaid@9.4.0/dist/mermaid.min.js
+  - extra-loader.js
+
+
+
 
 
 plugins:
     - search
     - include-markdown
-    # - pdf-export # this version does not render mermaid in PDF docs
+    - markdown-exec #NOTE Python execution inside markdown files (execution at build time, "compilation like" NOT dynamically NOT JavaScript)
+    - git-revision-date-localized
+    # - pdf-export #NOTE DO NOT USE this as does not render mermaid in PDF docs
+    - print-site: #NOTE_IMPORTANT_#NOTE put `print-site` plug in BEFORE `pdf-with-js` in order to works the workaround wit a fake `print_page.md` that will determine generation of 'print_page.pdf' as any other page generated pdf by `pdf-with-js`; ingnore warning ` [mkdocs-print-site] 'print-site' should be defined as the *last* plugin,to ensure...`
+        # add_to_navigation: true #NOTE not needed here
+        # print_page_title: 'Complete ARIntegrator Manual' #NOTE not needed here
+        add_full_urls: true
+        add_table_of_contents: true
     - pdf-with-js:
         enable: true
+        #NOTE - all next are examples...
+        #author: #NOTE defaulted from site_author item
+        #copyright: #NOTE defaulted from copyright item
+        #cover: false
+        #back_cover: true
+        #cover_title: TITLE TEXT
+        #cover_subtitle: SUBTITLE TEXT
+        #custom_template_path: TEMPLATES PATH
+        #
+        #toc_title: TOC TITLE TEXT
+        #heading_shift: false
+        #toc_level: 3
+        #ordered_chapter_level: 2
+        #excludes_children:
+        #    - 'release-notes/:upgrading'
+        #    - 'release-notes/:changelog'
+        #
+        #exclude_pages:
+        #    - 'bugs/'
+        #    - 'appendix/contribute/'
+        #convert_iframe:
+        #    - src: IFRAME SRC
+        #      img: POSTER IMAGE URL
+        #      text: ALTERNATE TEXT
+        #    - src: ...
+        #two_columns_level: 3
+        #
+        #render_js: true
+        #headless_chrome_path: headless-chromium
+        #
+        #output_path: any-place/document.pdf
+        #enabled_if_env: ENABLE_PDF_EXPORT
+        #
+        #debug_html: true
+        #show_anchors: true
+        #verbose: true
 
 
 
-# provide material theme
+#NOTE provide material theme
 theme:
+    # language: en #NOTE FUTURE FEATURE - should first have a translation...
+    logo: pictures/arint_logo.png
     name: material
     features:
-        # - navigation.tabs # left navigation side bar, all level 1 will be shown as top navigation bar
+        - navigation.tabs # left navigation side bar, all level 1 will be shown as top navigation bar
         - navigation.tracking
         - navigation.tabs.sticky
         - navigation.path
+        #- toc.integrate #NOTE integrates all navigation only in left nav bar
     palette:
         primary: blue # see https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/ for other color options
+        accent: blue
     icon:
         admonition:
             note: fontawesome/solid/note-sticky
@@ -63,15 +158,21 @@ theme:
             quote: fontawesome/solid/quote-left
 
 
+
+
+
+
+
+
 # or can use readthedocstheme
 # theme: readthedocs
 
 
 # directory where start to search or markdown sources
-docs_dir: './810-DSGN'
+docs_dir: './doc_src'
 
 # root directory where to be generated portal
-site_dir: './documentation_site'
+site_dir: './static_portal' #NOTE: [piu] this is the working directory; final is in `docs/`` which is published through GitHub (chk but @ 230706 petre-dev branch)
 
 # other useful configurations
 use_directory_urls: false # allow link between pages to work properly as static site an "callable" as `file:///...`
