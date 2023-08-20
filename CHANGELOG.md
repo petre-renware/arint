@@ -9,6 +9,8 @@
 - with (F) are marked those changes that are features in order to be copied in a RELNOTE file
 - #NOTE ____ PUBLISHING IS MADE ON www.renware.eu:
 FROM PUBLISHING BRANCH, so wheen publish checkout it or upload from git
+- `<PROJECT ROOT>/doc_src/` is the default starting location in a file path (if not given a clear one)
+
 
 * TBD...#NOTE...ATTN  iss `230820piu_a` ref license of ARINT
 
