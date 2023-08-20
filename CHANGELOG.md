@@ -15,17 +15,21 @@ FROM PUBLISHING BRANCH, so wheen publish checkout it or upload from git
 
 * TBD...#NOTE...ATTN  iss `230820piu_a` ref license of ARINT
 
--#NOTE: here are the SDEVEN procedure codes:
+* -#NOTE: here are the SDEVEN procedure codes:
+
+```
     130.02 Product Overview (REQUIRED if not present in Datasheet)
     130.04 Licensing Editions & Pricing (OPTIONAL)
     130.05 Service & Training Programmes (OPTIONAL as RECOMMENDED)
     810.02 System Landscape (REQUIRED)
     810.40 System Concepts in detail
     810.46 Product Features - update of 130.01 (REQUIRED)
-
-* tbd... update doc `system_landscape.md` to `...see TODO - from here continue review...`
+```
 
 * tbd... permanently follow RMAP.001 - sys 1.0 doc manuals
+
+
+
 
 
 
@@ -33,17 +37,11 @@ FROM PUBLISHING BRANCH, so wheen publish checkout it or upload from git
 ## 0.0.6-release Overview & Features (#NOTE wip...)
 
 * -#FIXME_@IMP after this release is FULLY REQUIRED TO MERGE INTO `master` as it is almost empty from init (useles content)
-* tbd... rename in `06-Development.md` `810.40_Development_overview.md`
 
-* tbd... work to  `810.46-Product_Features.md`
+* tbd... rename in `06-Development.md` `810.40_Development_overview.md` and SEE UP + RELEASE
 
-
-* wip...
 
 * 230820piu_a add in project root `LICENSE_for_arint_instructions.md` ref how licence **ARINT** in combination (using) `zato` and other products, for example `nginx` instead of `HA proxy`
-
--#TODO to test all closed issues up
-
 * 230819piu_l upload `ZATO` product license in `doc_src/ZATO_LICENSE.txt`
 * 230819piu_k updated structure of `810.46-Product_Features.md`
 * 230819piu_j explained `/services/` directory - created in `README_services.md` doc
