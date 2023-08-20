@@ -42,7 +42,7 @@ FROM PUBLISHING BRANCH, so wheen publish checkout it or upload from git
 
 * ... 230820piu_d created new empty docs for future use as:
     * `130.04-Licensing_ditions_Pricing.md`
-    * `xxx`
+    * `130.05-Service_Training_Programmes.md`
 
 
 
