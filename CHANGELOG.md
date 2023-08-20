@@ -7,12 +7,9 @@
 
 - For version code structure meaning see SDEVEN methodology document
 - with (F) are marked those changes that are features in order to be copied in a RELNOTE file
-- #NOTE ____ PUBLISHING IS MADE ON www.renware.eu:
-FROM PUBLISHING BRANCH, so wheen publish checkout it or upload from git
+- #NOTE sote publishing on `arint.renware.eu` from `publishing` branch
 - `<PROJECT ROOT>/doc_src/` is the default starting location in a file path (if not given a clear one)
 
-
-* TBD...#NOTE...ATTN  iss `230820piu_a` ref license of ARINT
 
 
 
@@ -23,20 +20,24 @@ FROM PUBLISHING BRANCH, so wheen publish checkout it or upload from git
 * tbd... permanently follow RMAP.001 - sys 1.0 doc manuals
 
 * tbd... to write:
-    * `130.04-Licensing_Editions_Pricing.md`
+    * `130.04-Licensing_Editions_Pricing.md` (licensing concepts of ARINT solution see book notes)
     * `130.05-Services.md`
     * `130.05-Training_Programmes.md`
 
+* tbd... how use `SQLAlchemy` for own database ?
 
 
-### 0.1.1-release new product Features (#TODO incoming...)
+
+### 0.1.1-wip... new product Features (#TODO incoming...)
 
 * tbd... work on `810.46-Product_Features.md`
-* tbd... explain licensing concepts of ARINT solution (package... see book notes)
-* tbd... redefine system as SOLUTION composed of `zato` (mk links to `zato.io`) and other components incl an ***unification admin Interface***
-* tbd... ALPHAREN CORE-Integrator becomes the core platform for RENware Software Systems products **Microservices style***
+* tbd... redefine system as SOLUTION composed of `zato` (mk links to `zato.io`) and other components incl an ***own admin interface (for own components of ARINT package)***
+* tbd... ALPHAREN CORE-Integrator core framework for RENware Software Systems products **Microservices style***
+* tbd... package shoul include DBs: *Redis* & *Postgre* (Redis with interface like that for Flask...)
 
-* future...
+* wip... (last used 230820piu_k)
+
+
 
 
 
@@ -58,11 +59,6 @@ FROM PUBLISHING BRANCH, so wheen publish checkout it or upload from git
     * `130.04-Licensing_Editions_Pricing.md`
     * `130.05-Services.md`
     * `130.05-Training_Programmes.md`
-
-
-
-
-
 
 
 
