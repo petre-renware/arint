@@ -19,7 +19,7 @@
 * product page: [http://arint.renware.eu](http://arint.renware.eu)
 * initial start: 2021
 
-This product is manufactured and registered by [*RENware Software Systems*](http://www.renware.eu) which is the copyright holder.
+This product (as a "whole") is manufactured, registered and licensed by [*RENware Software Systems*](http://www.renware.eu) which is the copyright holder. On the other hand product components / spare parts are under producers copyright ([here can be found detail about components](810-DSGN/130.02-Overview.md)).
 
 
 
