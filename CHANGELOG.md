@@ -33,9 +33,9 @@ FROM PUBLISHING BRANCH, so wheen publish checkout it or upload from git
 * wip...
 
 * ... 230820piu_d created new empty docs for future use as:
-    * `130.04-LicensingEditionsPricing.md`
+    * `130.04-Licensing_Editions_Pricing.md`
     * `130.05-Services.md`
-   * `130.05-TrainingProgrammes.md`
+   * `130.05-Training_Programmes.md`
 
 
 
