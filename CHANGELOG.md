@@ -16,16 +16,8 @@ FROM PUBLISHING BRANCH, so wheen publish checkout it or upload from git
 
 ## 0.1 (#TODO wip...)
 
-* -#NOTE: here are the SDEVEN procedure codes:
-
-```
-    130.02 Product Overview (REQUIRED if not present in Datasheet)
-    130.04 Licensing Editions & Pricing (OPTIONAL)
-    130.05 Service & Training Programmes (OPTIONAL as RECOMMENDED)
-    810.02 System Landscape (REQUIRED)
-    120-CPTS System Concepts
-    810.46 Product Features - update of 130.01 (REQUIRED)
-```
+* tbd... `130.04 Licensing Editions & Pricing`
+* tbd... `130.05 Service & Training Programmes`
 
 * tbd... permanently follow RMAP.001 - sys 1.0 doc manuals
 
