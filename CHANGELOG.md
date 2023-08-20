@@ -17,7 +17,8 @@ FROM PUBLISHING BRANCH, so wheen publish checkout it or upload from git
 
 
 
-## 0.1 (#TODO wip...)
+## 0.1 RENAME IT TO ALPHAREN CORE (#TODO wip...)
+
 
 * tbd... permanently follow RMAP.001 - sys 1.0 doc manuals
 
