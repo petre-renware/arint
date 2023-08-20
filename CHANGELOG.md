@@ -17,7 +17,7 @@ FROM PUBLISHING BRANCH, so wheen publish checkout it or upload from git
 
 
 
-## 0.1 RENAME IT TO ALPHAREN CORE (#TODO wip...)
+## 0.1 new ALPHAREN CORE Integrarator (#TODO wip...)
 
 
 * tbd... permanently follow RMAP.001 - sys 1.0 doc manuals
@@ -29,7 +29,7 @@ FROM PUBLISHING BRANCH, so wheen publish checkout it or upload from git
 
 
 
-###-#TODO 0.1.1-release Features (#TODO incoming...)
+### -#TODO 0.1.1-release Features (#TODO incoming...)
 
 * tbd... work on `810.46-Product_Features.md`
 * tbd... explain licensing concepts of ARINT solution (package... see book notes)
