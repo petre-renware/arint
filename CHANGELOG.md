@@ -16,17 +16,6 @@ FROM PUBLISHING BRANCH, so wheen publish checkout it or upload from git
 
 ## 0.1 (#TODO wip...)
 
-* -#NOTE: here are the SDEVEN procedure codes:
-
-```
-    130.02 Product Overview (REQUIRED if not present in Datasheet)
-    130.04 Licensing Editions & Pricing (OPTIONAL)
-    130.05 Service & Training Programmes (OPTIONAL as RECOMMENDED)
-    810.02 System Landscape (REQUIRED)
-    120-CPTS System Concepts
-    810.46 Product Features - update of 130.01 (REQUIRED)
-```
-
 * tbd... permanently follow RMAP.001 - sys 1.0 doc manuals
 
 
@@ -38,7 +27,15 @@ FROM PUBLISHING BRANCH, so wheen publish checkout it or upload from git
 * tbd... explain licensing concepts of ARINT solution (package... see book notes)
 * tbd... redefine system as SOLUTION composed of `zato` (mk links to `zato.io`) and other components incl an ***unification admin Interface***
 
-* wip... (last used 230820piu_c)
+* tbd... link iss `230820piu_d` files in `mkdocs.yml` and put TODO iss to make them in future versions
+
+
+* wip...
+
+* 230820piu_d created new empty docs for future use as:
+    * `130.04-Licensing_Editions_Pricing.md`
+    * `130.05-Services.md`
+    * `130.05-Training_Programmes.md`
 
 
 
