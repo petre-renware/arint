@@ -16,9 +16,6 @@ FROM PUBLISHING BRANCH, so wheen publish checkout it or upload from git
 
 ## 0.1 (#TODO wip...)
 
-* tbd... `130.04 Licensing Editions & Pricing`
-* tbd... `130.05 Service & Training Programmes`
-
 * tbd... permanently follow RMAP.001 - sys 1.0 doc manuals
 
 
@@ -30,7 +27,7 @@ FROM PUBLISHING BRANCH, so wheen publish checkout it or upload from git
 * tbd... explain licensing concepts of ARINT solution (package... see book notes)
 * tbd... redefine system as SOLUTION composed of `zato` (mk links to `zato.io`) and other components incl an ***unification admin Interface***
 
-* tbd... link iss `230820piu_d` files in `mkdocs.yml`
+* tbd... link iss `230820piu_d` files in `mkdocs.yml` and put TODO iss to make them in future versions
 
 * wip...
 
