@@ -13,6 +13,7 @@ FROM PUBLISHING BRANCH, so wheen publish checkout it or upload from git
 
 ## -#NOTE only 0 releases work up to create first application system...
 
+* TBD...#NOTE...ATTN  iss `230820piu_a` ref license of ARINT
 
 -#NOTE: here are the SDEVEN procedure codes:
     130.02 Product Overview (REQUIRED if not present in Datasheet)
@@ -39,9 +40,11 @@ FROM PUBLISHING BRANCH, so wheen publish checkout it or upload from git
 
 * wip...
 
-* 230819piu_l upload `ZATO` product license in `doc_src/ZATO_LICENSE.txt`
-* -------- -#TODO to test all closed issues up
+* 230820piu_a add `LICENSE_for_arint_instructions.md` ref how licence **ARINT** in combination (using) `zato` and other products, for example `nginx` instead of `HA proxy`
 
+-#TODO to test all closed issues up
+
+* 230819piu_l upload `ZATO` product license in `doc_src/ZATO_LICENSE.txt`
 * 230819piu_k updated structure of `810.46-Product_Features.md`
 * 230819piu_j explained `/services/` directory - created in `README_services.md` doc
 * 230819piu_i review + update iss `230819piu_h` and replicate `static_portal` to `docs` permanently and only branch `publishing` makes the diff for publishing by simply commit in
