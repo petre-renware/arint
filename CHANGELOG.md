@@ -17,7 +17,8 @@ FROM PUBLISHING BRANCH, so wheen publish checkout it or upload from git
 
 
 
-## 0.1 (#TODO wip...)
+## 0.1 RENAME IT TO ALPHAREN CORE (#TODO wip...)
+
 
 * tbd... permanently follow RMAP.001 - sys 1.0 doc manuals
 
@@ -38,9 +39,13 @@ FROM PUBLISHING BRANCH, so wheen publish checkout it or upload from git
 
 * wip...
 
+* @#FIXME RENAME PROD TO ALPHAREN CORE and becomes the  ore platform fot RENware Software Systems products **Microservices style**. Include in core packet a Postgresql DB.
+
+* 230820piu_i updated `130.02-Overview.md` to start to reflect the new role os **ALPHAREN CORE**
 * 230820piu_h updated `index.md` (About page) to clarify what copyright has RENware and what is 3rd party (ie, product "spare parts")
 * 230820piu_g fixed some text bugs in `810-DSGN/130.02-Overview.md`
 * ---#TODO---[ to test all up here ]---
+
 * 230820piu_f tested iss `230820piu_e` & fixed all pages with titles
 * 230820piu_e linked iss `230820piu_d` files in `mkdocs.yml` and put TODO iss to make them in future versions
 * 230820piu_d created new empty docs for future use as:
