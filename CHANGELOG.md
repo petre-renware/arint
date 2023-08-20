@@ -40,7 +40,7 @@ FROM PUBLISHING BRANCH, so wheen publish checkout it or upload from git
 
 * wip...
 
-* 230820piu_a add `LICENSE_for_arint_instructions.md` ref how licence **ARINT** in combination (using) `zato` and other products, for example `nginx` instead of `HA proxy`
+* 230820piu_a add in project root `LICENSE_for_arint_instructions.md` ref how licence **ARINT** in combination (using) `zato` and other products, for example `nginx` instead of `HA proxy`
 
 -#TODO to test all closed issues up
 
