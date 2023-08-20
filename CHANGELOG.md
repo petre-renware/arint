@@ -36,7 +36,8 @@ FROM PUBLISHING BRANCH, so wheen publish checkout it or upload from git
 
 * wip...
 
-* ... 230820piu_g updated `index.md` (About page) to clarify what copyright has RENware and what is 3rd party (ie, product "spare parts")
+* 230820piu_h updated `index.md` (About page) to clarify what copyright has RENware and what is 3rd party (ie, product "spare parts")
+* 230820piu_g fixed some text bugs in `...DSGN.../130.02-Overview.md`
 * ---#TODO---[ to test all up here ]---
 * 230820piu_f tested iss `230820piu_e` & fixed all pages with titles
 * 230820piu_e linked iss `230820piu_d` files in `mkdocs.yml` and put TODO iss to make them in future versions
