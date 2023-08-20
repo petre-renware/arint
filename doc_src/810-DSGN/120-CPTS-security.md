@@ -4,13 +4,8 @@
 </small><br><br><br>
 
 
-# API Security 
-<small>
+# API Security
 
-Product 0000-0156 0.0 to current version 
-
-* 210730 me new doc 
-</small> 
 
 ***Table of contents:***
 
