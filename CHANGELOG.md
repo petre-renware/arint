@@ -29,7 +29,7 @@ FROM PUBLISHING BRANCH, so wheen publish checkout it or upload from git
 
 
 
-### -#TODO 0.1.1-release Features (#TODO incoming...)
+### 0.1.1-release new product Features (#TODO incoming...)
 
 * tbd... work on `810.46-Product_Features.md`
 * tbd... explain licensing concepts of ARINT solution (package... see book notes)
