@@ -18,3 +18,31 @@
 UPCOMING...
 
 
+## Introductory in HTTP requests and responses
+
+
+### HTTP protocol
+
+tbd...
+
+### HTTP header
+
+tbd...
+
+### HTTP data carrying
+
+tbd...
+
+
+
+
+## Request object
+
+tbd...
+
+
+
+
+### Response object
+
+tbd...
