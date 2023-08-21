@@ -36,7 +36,7 @@
 
 * wip...
 
-* ... 200821piu_c updated `index.md` with links in "Documentation" section 
+* 230821piu_c updated `index.md` with links in "Documentation" section 
 * 230821piu_b updated `130.02-Overview.md`, explain how can be addressed and high level operations
 * ---#TODO test all up ---------
 
