@@ -20,6 +20,7 @@ nav:
         - Developer manuals:
             - Development overview: ./810-DSGN/120-CPTS-Development_overview.md
             - Service anatomy: ./810-DSGN/120-CPTS-service-anatomy.md
+            - Request and Response objects:  ./810-DSGN/120-CPTS-Request_Response_objects.md
             - IN channels: ./810-DSGN/120-CTPS-in_channels_and_calling_service.md
             - OUT channels: ./810-DSGN/120-CPTS-out-channel.md
             - Components security: ./810-DSGN/120-CPTS-security.md
