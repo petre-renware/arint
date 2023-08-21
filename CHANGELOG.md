@@ -30,9 +30,8 @@
 
 ### 0.1.1-wip... new product Features (#TODO incoming...)
 
-* tbd... update `810.46-Product_Features.md`
-* tbd... redefine system as SOLUTION composed of `zato` (mk links to `zato.io`) and other components incl an ***own admin interface (for own components of ARINT package)***
-* tbd... ALPHAREN CORE-Integrator core framework for RENware Software Systems products **Microservices style***
+* tbd... update `810.46-Product_Features.md` ref technologies already listed in doc
+* tbd... talk of system as SOLUTION composed of `zato` (mk links to `zato.io`) and ***own admin interface (for own components of ARINT package)***
 * tbd... package should include DBs: *Redis* & *Postgre* (Redis with interface like that for Flask...)
 
 * wip...
