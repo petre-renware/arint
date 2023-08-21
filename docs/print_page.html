@@ -951,9 +951,11 @@ data is guaranteed to be preserved even your information is stored under your "u
 </ul>
 </div>
 <hr />
-<p><strong>ALPHAREN Core Integrator</strong> (aka <strong><code>ARINT</code></strong> or <strong><code>arint</code></strong>) system is a product (available as <em>software</em> or <em>appliance</em>) aimed to assure operation (and integration) of different and various informational services between systems.</p>
-<p>It acts as a high level <em>ESB or ESOA</em> to connect different micro-services and to make them to work <strong><em>as one</em></strong>. As example it is used for almost all <em>RENware Software Systems</em> products. Of cours6 it can be used for <strong>CUSTOMER SYSTEMS and SERVICES</strong> too.</p>
-<p><strong><em>ARINT</em></strong> very general and generic process flow is: </p>
+<p><strong>ALPHAREN Core Integrator</strong> (aka <strong><code>ARINT</code></strong> or <strong><code>arint</code></strong>) system is a framework product for automation, integration and interoperability between <em>distributed systems</em> or <em>data sources</em> basically aimed to build <em>API oriented</em>, <em>middleware</em>, <em>frontend</em> and <em>backend</em> applications.</p>
+<p>Practically it allows to create small-footprint and focused <em>business oriented microservices</em> or to transform "monolith" applications to micro-applications that will act <em>as a single one</em> but with a high degree of <em>maintainability</em>.</p>
+<p>Product is available as <em>distinct software</em> or as <em>ready to run appliance</em> (including also some built-in components such as an internal database for business operations).</p>
+<p>It acts as a high level <em>Service BUS</em> (ie, ESB or ESOA) to connect different micro-services and to make them to work <strong><em>as one</em></strong>. As example it is already used by all <em>RENware Software Systems</em> products. Of course it can be used for <strong>CUSTOMER SYSTEMS and SERVICES</strong> too.</p>
+<p><strong>ARINT</strong> generic process flow is:</p>
 <pre class="mermaid"><code>graph TD
     SRV[[Service]]
     RSRV[[Repetitive \n Service]]
@@ -974,8 +976,7 @@ data is guaranteed to be preserved even your information is stored under your "u
     OUTCH &lt;-.-&gt; EDB
     OUTCH &lt;--&gt; IDB
     OUTCH --&gt; |notify| CALLBCK
-    OUTCH --&gt; |logging \n actions| LOGFILE
-</code></pre>
+    OUTCH --&gt; |logging \n actions| LOGFILE</code></pre>
 <h2 id="810-dsgn-130.02-overview-fundamental-features">Fundamental features</h2>
 <ul>
 <li>
@@ -1032,7 +1033,7 @@ B2B platforms to accept and process multi-channel orders in cooperation with bac
 <p>E-learning platforms</p>
 </li>
 <li>
-<p>ad-hoc data API for databases, protecting them to direct access</p>
+<p>Ad-hoc data API for databases for example to protect them to direct access or to hide particular implementation details (especially in legacy old databases) allowing for a smooth and transparent transition to new redesigned implementations</p>
 </li>
 </ul></section><section class="print-page" id="810-dsgn-810.46-product_features"><p><img align="left" alt="arint_logo" src="pictures/arint_logo.png" width="55" />
 <small markdown><strong>ALPHAREN CORE-Integrator (ARINT) System</strong><br>
