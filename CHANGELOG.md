@@ -37,7 +37,7 @@
 
 * wip...
 
-* ... 230821piu_a updated `130.02-Overview.md` doc to reflect new ARINT CORE
+* 230821piu_a updated `130.02-Overview.md` doc to reflect new ARINT CORE
 
 
 
