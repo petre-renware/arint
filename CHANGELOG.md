@@ -30,8 +30,7 @@
 
 * wip...
 
-* tbd ... _finish_ update `810.46-Product_Features.md` ref standards
-
+* ... 230821piu_f _finish_ update `810.46-Product_Features.md` ref standards
 * 230821piu_e _first raw_ update `810.46-Product_Features.md` ref standards
 * 230821piu_d created new empty file for latter write:  `810-DSGN/120-CPTS-Request_Response_objects.md` and ref it in `mkdocs.ynl`
 * 230821piu_c updated `index.md` with links in "Documentation" section 
