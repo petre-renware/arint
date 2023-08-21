@@ -25,12 +25,14 @@
 
 ### 0.1.1-wip... new product Features (#TODO incoming...)
 
-* tbd... update `810.46-Product_Features.md` ref technologies already listed in doc
 * tbd... talk of system as SOLUTION composed of `zato` (mk links to `zato.io`) and ***own admin interface (for own components of ARINT package)***
 * tbd... package should include DBs: *Redis* & *Postgre* (Redis with interface like that for Flask...)
 
 * wip...
 
+* tbd ... _finish_ update `810.46-Product_Features.md` ref standards
+
+* 230821piu_e _first raw_ update `810.46-Product_Features.md` ref standards
 * 230821piu_d created new empty file for latter write:  `810-DSGN/120-CPTS-Request_Response_objects.md` and ref it in `mkdocs.ynl`
 * 230821piu_c updated `index.md` with links in "Documentation" section 
 * 230821piu_b updated `130.02-Overview.md`, explain how can be addressed and high level operations
