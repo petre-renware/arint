@@ -43,7 +43,7 @@ To access documentation just follow the navigation entries.
 
 The system siste contains also a link to a demo system where you can see & try the system "at work" and try its capabilities.
 
-!!! warning "Demo system data"
+!!! warning "Demo system entered data"
     Pay attention that this system is just a demo and no saved data is guaranteed to be preserved even your information is stored under your "user context". Keep in mind that's just a demonstration system and ***do not store sensitive data***.
 
 
