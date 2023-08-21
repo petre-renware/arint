@@ -35,8 +35,9 @@
 * tbd... ALPHAREN CORE-Integrator core framework for RENware Software Systems products **Microservices style***
 * tbd... package shoul include DBs: *Redis* & *Postgre* (Redis with interface like that for Flask...)
 
-* wip... (last used 230820piu_k)
+* wip...
 
+* ... 230821piu_a updated `...Overview.md` doc to reflect new ARINT CORE
 
 
 
