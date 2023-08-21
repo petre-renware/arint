@@ -17,12 +17,7 @@
 ## 0.1 new ALPHAREN CORE Integrarator (#TODO wip...)
 
 
-* tbd... permanently follow RMAP.001 - sys 1.0 doc manuals
-
-* tbd... to write:
-    * `130.04-Licensing_Editions_Pricing.md` (licensing concepts of ARINT solution see book notes)
-    * `130.05-Services.md`
-    * `130.05-Training_Programmes.md`
+* tbd... permanently follow RMAP.001 - sys 1.0 a lot of #TODO manuals
 
 * tbd... use `SQLAlchemy` models for database ==> here: `https://zato.io/en/docs/3.2/dev/examples/sql.html`
 
@@ -36,6 +31,7 @@
 
 * wip...
 
+* 230821piu_d created new empty file for latter write:  `810-DSGN/120-CPTS-Request_Response_objects.md` and ref it in `mkdocs.ynl`
 * 230821piu_c updated `index.md` with links in "Documentation" section 
 * 230821piu_b updated `130.02-Overview.md`, explain how can be addressed and high level operations
 * ---#TODO test all up ---------
