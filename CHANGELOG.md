@@ -36,7 +36,7 @@
 
 * wip...
 
-* ... 230821piu_d created new empty file for k atter write:  `810-DSGN/120-CPTS-Request_Response_objects.md` amd ref it in `mkdocs.ynl`
+* ... 230821piu_d created new empty file for k atter write:  `810-DSGN/120-CPTS-Request_Response_objects.md` and ref it in `mkdocs.ynl`
 * 230821piu_c updated `index.md` with links in "Documentation" section 
 * 230821piu_b updated `130.02-Overview.md`, explain how can be addressed and high level operations
 * ---#TODO test all up ---------
