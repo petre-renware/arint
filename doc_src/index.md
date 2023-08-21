@@ -31,7 +31,7 @@ This product (as a "whole") is manufactured, registered and licensed by [*RENwar
 Product documentation is divided in:
 
 * **[Overview](./810-DSGN/130.02-Overview.md)** contains the information to understand your **ARINT** system and start of using it
-* **User help** which represents a set of procedures for "day by day" operations
+* **[User help](../880-RLSE/euma/euma_catalog.md)** which represents a set of procedures for "day by day" operations
 * **System administration** which contains in essence necessary information to install, configure and maintain the system
 
 To access documentation just follow the navigation entries.
