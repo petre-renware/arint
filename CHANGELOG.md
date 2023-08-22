@@ -32,7 +32,7 @@
 
 * wip...
 
-* ... 230822piu_d update `810.46-Product_Features.md` ref section "Services level features" ref ARINT objects / componenta & section "Services level features"
+* ... 230822piu_d update `810.46-Product_Features.md` ref section "Services level features" ref _ARINT objects a d components_ & section "Services level features"
 * 230822piu_c partial update `810.46-Product_Features.md` ref section "Services level features" listed frequent issues that system address in wrting services
 * 230822piu_b raw update `810.46-Product_Features.md` ref section "Services level features" - left a HTML comment with intended text
 * ---#TODO test all up ---------
