@@ -25,21 +25,32 @@
 * tbd... package should include DBs: *Redis* & *Postgre* (Redis with interface like that for Flask...)
 
 
-
-### 0.1.1-#TODO_set_me... product Features (wip...)
+### 0.1.1-#TODO product Features (wip...)
 
 * tbd... update `810.46-Product_Features.md` ref section "Services level features" ref ...
 
 * wip...
+* ---#TODO test all up ---------
 
+
+
+
+
+
+
+
+
+
+
+### 0.1.1-release product Features (230822 14:30)
+
+* 230822piu_e revived, tested links & updated from `230822piu_b` to `230822piu_d`. published 230822 h14:30
 * 230822piu_d update `810.46-Product_Features.md` ref:
     * new section ref "ARINT objects a d components"
     * finished section "Services level features"
     * ROADMAP `RMAP.001 - sys 1.0 doc manuals`
 * 230822piu_c partial update `810.46-Product_Features.md` ref section "Services level features" listed frequent issues that system address in wrting services
 * 230822piu_b raw update `810.46-Product_Features.md` ref section "Services level features" - left a HTML comment with intended text
-* ---#TODO test all up ---------
-
 * 230822piu_a revived, tested links & updated from `230821piu_a` to `230821piu_f`. published 230822 h06:20
 * 230821piu_f _finish_ update `810.46-Product_Features.md` ref standards
 * 230821piu_e _first raw_ update `810.46-Product_Features.md` ref standards
@@ -47,11 +58,6 @@
 * 230821piu_c updated `index.md` with links in "Documentation" section
 * 230821piu_b updated `130.02-Overview.md`, explain how can be addressed and high level operations
 * 230821piu_a updated `130.02-Overview.md` doc to reflect new ARINT CORE
-
-
-
-
-
 
 
 
