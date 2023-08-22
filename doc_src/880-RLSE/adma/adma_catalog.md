@@ -35,6 +35,8 @@
 ## Advanced procedures
 
 
+* [System Data and Objects](../../810-DSGN/810.03-System_Data_and_Objects.md)
+
 * [Advanced configuration](../../wip.md) <!-- #TODO make me... -->
 
 * [Additional database systems installation](../../wip.md) <!-- #TODO make me... -->
