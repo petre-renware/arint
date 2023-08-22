@@ -27,9 +27,13 @@
 
 ### 0.1.1-#TODO product Features (wip...)
 
-* tbd... update `810.46-Product_Features.md` ref section "Services level features" ref ...
+* tbd... update `810.46-Product_Features.md` ref section "Services level features" ref & link to ``.../810—DSGN/810.03 System Data & Objects.md`
+
+* tbd... work on doc `.../810—DSGN/810.03 System Data & Objects.md`
 
 * wip...
+
+* ... 230822piu_f create as new `.../810—DSGN/810.03 System Data & Objects.md`
 * ---#TODO test all up ---------
 
 
