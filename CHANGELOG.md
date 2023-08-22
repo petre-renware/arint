@@ -32,7 +32,10 @@
 
 * wip...
 
+
+* 230822piu_b raw update `810.46-Product_Features.md` ref section "Services level features" - left a HTML comment with intended text
 * ---#TODO test all up ---------
+
 * 230822piu_a revived, tested links & updated from `230821piu_a` to `230821piu_f`. published 230822 h06:20
 * 230821piu_f _finish_ update `810.46-Product_Features.md` ref standards
 * 230821piu_e _first raw_ update `810.46-Product_Features.md` ref standards
