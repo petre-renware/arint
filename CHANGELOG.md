@@ -7,12 +7,9 @@
 
 - For version code structure meaning see SDEVEN methodology document
 - with (F) are marked those changes that are features in order to be copied in a RELNOTE file
-- #NOTE ____ PUBLISHING IS MADE ON www.renware.eu:
-FROM PUBLISHING BRANCH, so wheen publish checkout it or upload from git
+- #NOTE sote publishing on `arint.renware.eu` from `publishing` branch
 - `<PROJECT ROOT>/doc_src/` is the default starting location in a file path (if not given a clear one)
 
-
-* TBD...#NOTE...ATTN  iss `230820piu_a` ref license of ARINT
 
 
 
@@ -20,27 +17,47 @@ FROM PUBLISHING BRANCH, so wheen publish checkout it or upload from git
 ## 0.1 new ALPHAREN CORE Integrarator (#TODO wip...)
 
 
-* tbd... permanently follow RMAP.001 - sys 1.0 doc manuals
+* tbd... permanently follow RMAP.001 - sys 1.0 a lot of #TODO manuals
 
-* tbd... to write:
-    * `130.04-Licensing_Editions_Pricing.md`
-    * `130.05-Services.md`
-    * `130.05-Training_Programmes.md`
+* tbd... use `SQLAlchemy` models for database ==> here: `https://zato.io/en/docs/3.2/dev/examples/sql.html`
+
+* tbd... talk of system as SOLUTION composed of `zato` (mk links to `zato.io`) and ***own admin interface (for own components of ARINT package)***
+* tbd... package should include DBs: *Redis* & *Postgre* (Redis with interface like that for Flask...)
 
 
+### 0.1.1-#TODO product Features (wip...)
 
-### -#TODO 0.1.1-release Features (#TODO incoming...)
+* tbd... update `810.46-Product_Features.md` ref section "Services level features" ref ...
 
-* tbd... work on `810.46-Product_Features.md`
-* tbd... explain licensing concepts of ARINT solution (package... see book notes)
-* tbd... redefine system as SOLUTION composed of `zato` (mk links to `zato.io`) and other components incl an ***unification admin Interface***
-* tbd... ALPHAREN CORE-Integrator becomes the core platform for RENware Software Systems products **Microservices style***
-
-* future...
+* wip...
+* ---#TODO test all up ---------
 
 
 
 
+
+
+
+
+
+
+
+### 0.1.1-release product Features (230822 14:30)
+
+* 230822piu_e revived, tested links & updated from `230822piu_b` to `230822piu_d`. published 230822 h14:30
+* 230822piu_d update `810.46-Product_Features.md` ref:
+    * new section ref "ARINT objects a d components"
+    * finished section "Services level features"
+    * ROADMAP `RMAP.001 - sys 1.0 doc manuals`
+* 230822piu_c partial update `810.46-Product_Features.md` ref section "Services level features" listed frequent issues that system address in wrting services
+* 230822piu_b raw update `810.46-Product_Features.md` ref section "Services level features" - left a HTML comment with intended text
+* 230822piu_a revived, tested links & updated from `230821piu_a` to `230821piu_f`. published 230822 h06:20
+* 230821piu_f _finish_ update `810.46-Product_Features.md` ref standards
+* 230821piu_e _first raw_ update `810.46-Product_Features.md` ref standards
+* 230821piu_d created new empty file for latter write:  `810-DSGN/120-CPTS-Request_Response_objects.md` and ref it in `mkdocs.ynl`
+* 230821piu_c updated `index.md` with links in "Documentation" section
+* 230821piu_b updated `130.02-Overview.md`, explain how can be addressed and high level operations
+* 230821piu_a updated `130.02-Overview.md` doc to reflect new ARINT CORE
 
 
 
@@ -58,11 +75,6 @@ FROM PUBLISHING BRANCH, so wheen publish checkout it or upload from git
     * `130.04-Licensing_Editions_Pricing.md`
     * `130.05-Services.md`
     * `130.05-Training_Programmes.md`
-
-
-
-
-
 
 
 
