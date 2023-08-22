@@ -19,17 +19,24 @@
 
 * tbd... permanently follow RMAP.001 - sys 1.0 a lot of #TODO manuals
 
-* tbd... use `SQLAlchemy` models for database ==> here: `https://zato.io/en/docs/3.2/dev/examples/sql.html`
-
 * tbd... talk of system as SOLUTION composed of `zato` (mk links to `zato.io`) and ***own admin interface (for own components of ARINT package)***
 * tbd... package should include DBs: *Redis* & *Postgre* (Redis with interface like that for Flask...)
 
 
-### 0.1.1-#TODO product Features (wip...)
 
-* tbd... update `810.46-Product_Features.md` ref section "Services level features" ref ...
+
+
+### 0.1.1-#TODO System Data and Objects (wip...)
+
+* tbd... use `SQLAlchemy` models for database ==> here: `https://zato.io/en/docs/3.2/dev/examples/sql.html`
+
+* tbd... update `810.46-Product_Features.md` ref section "Services level features" ref & link to `810-DSGN/810.03 System Data & Objects.md`
+
+* tbd... work on doc `...810.03-System_Data_and_Objects.md`
 
 * wip...
+
+* 230822piu_f create as new `810-DSGN/810.03-System_Data_and_Objects.md`, updated `ROADMAP` doc
 * ---#TODO test all up ---------
 
 

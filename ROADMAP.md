@@ -19,23 +19,25 @@
 
 ## RMAP.001 - sys 1.0 doc manuals 
 
-* **Objective:** creation of system documentation manuals "placeholders"
+* **Objective:** creation of system documentation manuals
 * **Recorded at:** 230819
 * **Updated at:** wip @ 230822
 * **Recorded by:** petre iordanescu
-* **Detailed  description:**
-    * create required system manuals at least as placeholder empty files and refer them in a catalog (admin, user, dev)
-    * this is "long open" issue but a minimum set of manuals are targeted
-* **Recommendations:** list of docs:
+
+* **Detailed  description:** list of docs to be done:
     * [x] Basic concepts - in channels and calling a service (devma)
     * [ ] Basic concepts - Request and Response objects (devma)
-    * [x] Basic concepts - out channels, protocols to write on out channel(devms)
+    * [x] Basic concepts - out channels, protocols to write on out channel (devma)
     * [ ] Basic concepts - data formats, conversation and mapping (devma)
-    * [x] System overview (skitma)
-    * [x] 810.46-Product_Features.md 
-    * [ ] Licensing Editions (skitma)
-    * [ ] Training Programmes (skitma)
-    * [ ] Services (skitma)
+    * [ ] 810.03-System_Data_and_Objects.md (adma)
+    * [x] System overview (skit)
+    * [x] 810.46-Product_Features.md (skit)
+    * [ ] Licensing Editions (skit)
+    * [ ] Training Programmes (skit)
+    * [ ] Services (skit)
+* **Recommendations:**
+    * create required system manuals at least as placeholder empty files and refer them in a catalog (admin, user, dev)
+    * this is "long open" issue but a minimum set of manuals are targeted
 * **Known dependencies:** -
 * **Assigned to:** petre iordanescu
 * **References & notes:** -
