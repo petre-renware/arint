@@ -32,7 +32,7 @@
 
 * tbd... update `810.46-Product_Features.md` ref section "Services level features" ref & link to ``.../810—DSGN/810.03 System Data & Objects.md`
 
-* tbd... work on doc `...810.03-System_Data_and_Objects.md
+* tbd... work on doc `...810.03-System_Data_and_Objects.md`
 
 * wip...
 
