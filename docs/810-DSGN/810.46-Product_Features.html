@@ -229,32 +229,18 @@ div.download-btn {
     </label>
 <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="#basic-features">
-    Basic features
+<a class="md-nav__link" href="#general-features">
+    General features
   </a>
 </li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="#standards-compliance">
     Standards compliance
   </a>
-<nav aria-label="Standards compliance" class="md-nav">
-<ul class="md-nav__list">
-<li class="md-nav__item">
-<a class="md-nav__link" href="#protocols">
-    Protocols
-  </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#data-formats">
-    Data formats
-  </a>
-</li>
-</ul>
-</nav>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#databases">
-    Databases
+<a class="md-nav__link" href="#services-level-features">
+    Services level features
   </a>
 </li>
 </ul>
@@ -343,6 +329,11 @@ div.download-btn {
       </a>
 </li>
 <li class="md-nav__item">
+<a class="md-nav__link" href="120-CPTS-Request_Response_objects.html">
+        Request and Response objects
+      </a>
+</li>
+<li class="md-nav__item">
 <a class="md-nav__link" href="120-CTPS-in_channels_and_calling_service.html">
         IN channels
       </a>
@@ -418,32 +409,18 @@ div.download-btn {
     </label>
 <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="#basic-features">
-    Basic features
+<a class="md-nav__link" href="#general-features">
+    General features
   </a>
 </li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="#standards-compliance">
     Standards compliance
   </a>
-<nav aria-label="Standards compliance" class="md-nav">
-<ul class="md-nav__list">
-<li class="md-nav__item">
-<a class="md-nav__link" href="#protocols">
-    Protocols
-  </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#data-formats">
-    Data formats
-  </a>
-</li>
-</ul>
-</nav>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#databases">
-    Databases
+<a class="md-nav__link" href="#services-level-features">
+    Services level features
   </a>
 </li>
 </ul>
@@ -462,19 +439,15 @@ div.download-btn {
 <div class="toc">
 <ul>
 <li><a href="#product-features">Product features</a><ul>
-<li><a href="#basic-features">Basic features</a></li>
-<li><a href="#standards-compliance">Standards compliance</a><ul>
-<li><a href="#protocols">Protocols</a></li>
-<li><a href="#data-formats">Data formats</a></li>
-</ul>
-</li>
-<li><a href="#databases">Databases</a></li>
+<li><a href="#general-features">General features</a></li>
+<li><a href="#standards-compliance">Standards compliance</a></li>
+<li><a href="#services-level-features">Services level features</a></li>
 </ul>
 </li>
 </ul>
 </div>
 <hr/>
-<h2 id="basic-features">Basic features</h2>
+<h2 id="general-features">General features</h2>
 <ul>
 <li>
 <p>Open API full compliant</p>
@@ -489,24 +462,113 @@ Browser-based GUI, CLI and</p>
 <li>
 <p>API - easy to use and customize</p>
 </li>
-<li>
-<p>Protocols, industry standards and data formats - REST, SOAP, Odoo, AMQP, HL7, MongoDB, Redis, SAP, IBM MQ, SQL, OpenAPI, ZeroMQ, WebSockets, Cassandra, Amazon S3, Swift, LDAP, Active Directory, Kafka, SMTP, IMAP, FTP, SFTP, ElasticSearch, Solr, Memcached, Twilio, Vault, Slack, Telegram, RBAC, JMS, integration patterns, cryptography, security and more</p>
-</li>
 </ul>
 <p>For an <a href="130.02-Overview.html">overview of rhe product please see</a>.</p>
 <h2 id="standards-compliance">Standards compliance</h2>
-<h3 id="protocols">Protocols</h3>
-<p>...#TODO</p>
-<h3 id="data-formats">Data formats</h3>
-<p>...#TODO</p>
-<h2 id="databases">Databases</h2>
-<p>...#TODO</p>
+<p>The following list presents the most known standards, protocols, data stores, formats, and so on, <em>that ARINT system can use and is compliant with</em>.</p>
+<p>The actual list is larger and practically <em>any kind of specific interface</em> can be written in services as long as is written the corresponding code.</p>
+<div class="admonition note">
+<p class="admonition-title">Standards update</p>
+<p>Also verify your system version and update it as new standards can be included in official package releases.</p>
+</div>
+<blockquote>
+<p>The order of items is not relevant (meaning that it does not pursue a specific objective). Also classification made is not <em>an exact one</em> as some items can be categorized in more places. If someone know exactly what standard is looking for, a traversal of the entire list is best option.</p>
+</blockquote>
+<ul>
+<li>
+<p>Protocols:</p>
+<ul>
+<li>REST</li>
+<li>SOAP</li>
+<li>FTP</li>
+<li>SFTP</li>
+<li>LDAP</li>
+<li>Active Directory</li>
+<li>WebSockets</li>
+</ul>
+</li>
+<li>
+<p>Industry standards:</p>
+<ul>
+<li>HL7 <small>(healthcare - data exchange)</small></li>
+<li>RBAC <small>(IT - Role Based Access Control)</small></li>
+<li>Swift <small>(banking - Society for Worldwide Interbank Financial Telecommunication)</small></li>
+</ul>
+</li>
+<li>
+<p>Business systems:</p>
+<ul>
+<li>SAP</li>
+<li>Odoo</li>
+</ul>
+</li>
+<li>
+<p>Mail and messaging protocol and systems:</p>
+<ul>
+<li>SMTP</li>
+<li>IMAP</li>
+<li>Telegram</li>
+<li>JMS</li>
+<li>Twilio</li>
+<li>Slack</li>
+</ul>
+</li>
+<li>
+<p>Data languages and formats;</p>
+<ul>
+<li>OpenAPI</li>
+<li>SQL</li>
+</ul>
+</li>
+<li>
+<p>Databases and broker systems:</p>
+<ul>
+<li>MongoDB</li>
+<li>Redis</li>
+<li>Memcached</li>
+<li>Cassandra</li>
+<li>Kafka</li>
+</ul>
+</li>
+<li>
+<p>Search systems:</p>
+<ul>
+<li>ElasticSearch</li>
+<li>Solr (Apache)</li>
+</ul>
+</li>
+<li>
+<p>File oriented stores and depots:</p>
+<ul>
+<li>Amazon S3</li>
+</ul>
+</li>
+<li>
+<p>Queue based communication systems:</p>
+<ul>
+<li>AMQP</li>
+<li>IBM MQ</li>
+<li>ZeroMQ</li>
+<li>JMS (Java Message Service)</li>
+</ul>
+</li>
+<li>
+<p>Security and protection:</p>
+<ul>
+<li>Vault</li>
+<li>all cryptography standard algorithms</li>
+</ul>
+</li>
+</ul>
+<h2 id="services-level-features">Services level features</h2>
+<p>...UPCOMING</p>
+<!-- -#TODO here to talk about what can be done through services (see Programing Examples `https://zato.io/en/docs/3.2/dev/examples/index.html`) -->
 <hr/>
 <div class="md-source-file">
 <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">August 20, 2023</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">August 22, 2023</span>
 </small>
 </div>
 </article>

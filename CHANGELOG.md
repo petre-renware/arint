@@ -32,13 +32,13 @@
 
 * wip...
 
+* ---#TODO test all up ---------
+* 230822piu_a revived, tested links & updated from `230821piu_a` to `230821piu_f`. published 230822 h06:20
 * 230821piu_f _finish_ update `810.46-Product_Features.md` ref standards
 * 230821piu_e _first raw_ update `810.46-Product_Features.md` ref standards
 * 230821piu_d created new empty file for latter write:  `810-DSGN/120-CPTS-Request_Response_objects.md` and ref it in `mkdocs.ynl`
-* 230821piu_c updated `index.md` with links in "Documentation" section 
+* 230821piu_c updated `index.md` with links in "Documentation" section
 * 230821piu_b updated `130.02-Overview.md`, explain how can be addressed and high level operations
-* ---#TODO test all up ---------
-
 * 230821piu_a updated `130.02-Overview.md` doc to reflect new ARINT CORE
 
 
