@@ -25,16 +25,16 @@
 * **Recorded by:** petre iordanescu
 
 * **Detailed  description:** list of docs to be done:
-    * [x] Basic concepts - in channels and calling a service
-    * [ ] Basic concepts - Request and Response objects
-    * [x] Basic concepts - out channels, protocols to write on out channel
-    * [ ] Basic concepts - data formats, conversation and mapping
-    * [ ] 810.03-System_Data_and_Objects.md
-    * [x] System overview
-    * [x] 810.46-Product_Features.md 
-    * [ ] Licensing Editions
-    * [ ] Training Programmes
-    * [ ] Services
+    * [x] Basic concepts - in channels and calling a service (devma)
+    * [ ] Basic concepts - Request and Response objects (devma)
+    * [x] Basic concepts - out channels, protocols to write on out channel (devma)
+    * [ ] Basic concepts - data formats, conversation and mapping (devma)
+    * [ ] 810.03-System_Data_and_Objects.md (adma)
+    * [x] System overview (skit)
+    * [x] 810.46-Product_Features.md (skit)
+    * [ ] Licensing Editions (skit)
+    * [ ] Training Programmes (skit)
+    * [ ] Services (skit)
 * **Recommendations:**
     * create required system manuals at least as placeholder empty files and refer them in a catalog (admin, user, dev)
     * this is "long open" issue but a minimum set of manuals are targeted
