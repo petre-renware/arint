@@ -28,12 +28,12 @@
 
 ### 0.1.1-#TODO_set_me... product Features (wip...)
 
-* tbd... update `810.46-Product_Features.md` ref section "Services level features" (left a link in...)
+* tbd... update `810.46-Product_Features.md` ref section "Services level features" ref ...
 
 * wip...
 
 
-* ... 230822piu_c partial update `810.46-Product_Features.md` ref section "Services level features"
+* 230822piu_c partial update `810.46-Product_Features.md` ref section "Services level features" listed frequent issues that system address in wrting services
 * 230822piu_b raw update `810.46-Product_Features.md` ref section "Services level features" - left a HTML comment with intended text
 * ---#TODO test all up ---------
 
