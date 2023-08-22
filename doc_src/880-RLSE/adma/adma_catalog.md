@@ -34,10 +34,11 @@
 
 ## Advanced procedures
 
-
 * [Advanced configuration](../../wip.md) <!-- #TODO make me... -->
 
 * [Additional database systems installation](../../wip.md) <!-- #TODO make me... -->
+
+* [System Data and Objects](../../810-DSGN/810.03-System_Data_and_Objects.md)
 
 * [Configure an ad-hoc data API](../../wip.md) <!-- #TODO make me... -->
 

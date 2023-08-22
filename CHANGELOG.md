@@ -30,11 +30,15 @@
 
 * tbd... use `SQLAlchemy` models for database ==> here: `https://zato.io/en/docs/3.2/dev/examples/sql.html`
 
-* tbd... update `810.46-Product_Features.md` ref section "Services level features" ref & link to `810-DSGN/810.03 System Data & Objects.md`
-
 * tbd... work on doc `...810.03-System_Data_and_Objects.md`
 
 * wip...
+
+
+* 230822piu_g updated<br>
+    (1) `810.46-Product_Features.md` ref section _ARINT own objects and components_ &<br>
+    (2) `adma_catalog.md`<br>
+    with link to `810-DSGN/810.03 System Data & Objects.md`
 
 * 230822piu_f create as new `810-DSGN/810.03-System_Data_and_Objects.md`, updated `ROADMAP` doc
 * ---#TODO test all up ---------
