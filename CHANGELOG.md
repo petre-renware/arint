@@ -23,7 +23,7 @@
 
 
 
-### 0.1.1-wip... new product Features (#TODO incoming...)
+### 0.1.1-#TODO_set_me... product Features (wip...)
 
 * tbd... talk of system as SOLUTION composed of `zato` (mk links to `zato.io`) and ***own admin interface (for own components of ARINT package)***
 * tbd... package should include DBs: *Redis* & *Postgre* (Redis with interface like that for Flask...)
@@ -33,6 +33,7 @@
 * wip...
 
 
+* ... 230822piu_c partial update `810.46-Product_Features.md` ref section "Services level features"
 * 230822piu_b raw update `810.46-Product_Features.md` ref section "Services level features" - left a HTML comment with intended text
 * ---#TODO test all up ---------
 
