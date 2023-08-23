@@ -19,17 +19,17 @@
 
 ## Basic work procedures
 
-* [Navigation in system](../../wip.md) <!-- #TODO make me... -->
+* [wip... Navigation in system](../../wip.md) <!-- #TODO make me and list in mkdoms.yml nav to go in PDF ... -->
 
-* [Procedure A](../../wip.md) <!-- #TODO make me... -->
+* [wip... Procedure A](../../wip.md) <!-- #TODO make me and list in mkdoms.yml nav to go in PDF ... -->
 
-* [Procedure B](../../wip.md) <!-- #TODO make me... -->
+* [wip... Procedure B](../../wip.md) <!-- #TODO make me and list in mkdoms.yml nav to go in PDF ... -->
 
 * ...
 
 ## Advanced work procedures
 
-* [Calling a repetitive task](../../wip.md) <!-- #TODO make me... -->
+* [wip... Calling a repetitive task](../../wip.md) <!-- #TODO make me and list in mkdoms.yml nav to go in PDF ... -->
 
 
 

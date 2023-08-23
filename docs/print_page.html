@@ -499,14 +499,14 @@
       
       
         <label class="md-nav__link" for="__nav_2_1" id="__nav_2_1_label" tabindex="0">
-          User manuals
+          End User procedures
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_1_label" aria-expanded="false">
         <label class="md-nav__title" for="__nav_2_1">
           <span class="md-nav__icon md-icon"></span>
-          User manuals
+          End User procedures
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -517,21 +517,7 @@
   
     <li class="md-nav__item">
       <a href="880-RLSE/euma/euma_catalog.html" class="md-nav__link">
-        User help
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="880-RLSE/adma/adma_catalog.html" class="md-nav__link">
-        System administration
+        Catalog
       </a>
     </li>
   
@@ -561,16 +547,106 @@
       
       
         <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
-          Developer manuals
+          System administration
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
         <label class="md-nav__title" for="__nav_2_2">
           <span class="md-nav__icon md-icon"></span>
-          Developer manuals
+          System administration
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="880-RLSE/adma/adma_catalog.html" class="md-nav__link">
+        Catalog
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="880-RLSE/adma/system_installation.html" class="md-nav__link">
+        Installation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="810-DSGN/810.03-System_Data_and_Objects.html" class="md-nav__link">
+        System Data and Objects
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
+          Development manuals
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_2_3">
+          <span class="md-nav__icon md-icon"></span>
+          Development manuals
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="880-RLSE/adma/devma_catalog.html" class="md-nav__link">
+        Catalog
+      </a>
+    </li>
+  
+
+            
           
             
               
@@ -929,8 +1005,9 @@
 <hr />
 <h2 id="index-product-information">Product information</h2>
 <ul>
-<li>p/n code: <strong>0000-6151</strong></li>
-<li>product short name: <strong>arint</strong></li>
+<li>p/n code: <strong><code>0000-6151</code></strong></li>
+<li>product short name: <strong><code>arint</code></strong></li>
+<li>product version: <strong><code>0.1</code></strong></li>
 <li>product page: <a href="http://arint.renware.eu">http://arint.renware.eu</a></li>
 <li>initial start: 2021</li>
 </ul>
@@ -980,11 +1057,11 @@
 <pre class="mermaid"><code>graph TD
     SRV[[Service]]
     RSRV[[Repetitive \n Service]]
-    EXT([External system])
-    INCH{{IN channel}}
+    EXT((External system))
+    INCH([IN channel])
     EDB[(external \n databases)]
     IDB[(own internal \n database)]
-    OUTCH{{OUT \n channel}}
+    OUTCH([OUT \n channel])
     CALLBCK([callback endpoint])
     LOGFILE[(actions \n log file)]
 
@@ -1282,7 +1359,8 @@ Browser-based GUI, CLI and</p>
 <li>
 <p><strong>Master data</strong> containing all "cross instances" master data objects (more exactly master data objects that are agnostic to business entities and objects content)</p>
 </li>
-</ul></section><section class="print-page" id="810-dsgn-810.02-system_landscape"><p><img align="left" alt="arint_logo" src="pictures/arint_logo.png" width="55" />
+</ul>
+<p>A <a href="#810-dsgn-810.03-system_data_and_objects">detailed description of <em>System Data &amp; Objects</em></a>.</p></section><section class="print-page" id="810-dsgn-810.02-system_landscape"><p><img align="left" alt="arint_logo" src="pictures/arint_logo.png" width="55" />
 <small markdown><strong>ALPHAREN CORE-Integrator (ARINT) System</strong><br>
 <em>(c) 2021 RENware Software Systems. RESTRICTED only for project internal use</em>
 </small><br><br><br></p>
@@ -1434,8 +1512,8 @@ Browser-based GUI, CLI and</p>
                             Documentation <a class='headerlink' href='#section-documentation' title='Permanent link'>↵</a>
                         </h1>
                         
-                        <h2 class='nav-section-title' id='section-user-manuals'>
-                            User manuals <a class='headerlink' href='#section-user-manuals' title='Permanent link'>↵</a>
+                        <h2 class='nav-section-title' id='section-end-user-procedures'>
+                            End User procedures <a class='headerlink' href='#section-end-user-procedures' title='Permanent link'>↵</a>
                         </h2>
                         <section class="print-page" id="880-rlse-euma-euma_catalog"><p><img align="left" alt="arint_logo" src="pictures/arint_logo.png" width="55" />
 <small markdown><strong>ALPHAREN CORE-Integrator (ARINT) System</strong><br>
@@ -1456,13 +1534,13 @@ Browser-based GUI, CLI and</p>
 <h2 id="880-rlse-euma-euma_catalog-basic-work-procedures">Basic work procedures</h2>
 <ul>
 <li>
-<p><a href="#wip">Navigation in system</a> <!-- #TODO make me... --></p>
+<p><a href="#wip">wip... Navigation in system</a> <!-- #TODO make me and list in mkdoms.yml nav to go in PDF ... --></p>
 </li>
 <li>
-<p><a href="#wip">Procedure A</a> <!-- #TODO make me... --></p>
+<p><a href="#wip">wip... Procedure A</a> <!-- #TODO make me and list in mkdoms.yml nav to go in PDF ... --></p>
 </li>
 <li>
-<p><a href="#wip">Procedure B</a> <!-- #TODO make me... --></p>
+<p><a href="#wip">wip... Procedure B</a> <!-- #TODO make me and list in mkdoms.yml nav to go in PDF ... --></p>
 </li>
 <li>
 <p>...</p>
@@ -1470,8 +1548,12 @@ Browser-based GUI, CLI and</p>
 </ul>
 <h2 id="880-rlse-euma-euma_catalog-advanced-work-procedures">Advanced work procedures</h2>
 <ul>
-<li><a href="#wip">Calling a repetitive task</a> <!-- #TODO make me... --></li>
-</ul></section><section class="print-page" id="880-rlse-adma-adma_catalog"><p><img align="left" alt="arint_logo" src="pictures/arint_logo.png" width="55" />
+<li><a href="#wip">wip... Calling a repetitive task</a> <!-- #TODO make me and list in mkdoms.yml nav to go in PDF ... --></li>
+</ul></section><h1 class='nav-section-title-end'>Ended: End User procedures</h1>
+                        <h2 class='nav-section-title' id='section-system-administration'>
+                            System administration <a class='headerlink' href='#section-system-administration' title='Permanent link'>↵</a>
+                        </h2>
+                        <section class="print-page" id="880-rlse-adma-adma_catalog"><p><img align="left" alt="arint_logo" src="pictures/arint_logo.png" width="55" />
 <small markdown><strong>ALPHAREN CORE-Integrator (ARINT) System</strong><br>
 <em>(c) 2021 RENware Software Systems. RESTRICTED only for project internal use</em>
 </small><br><br><br></p>
@@ -1493,34 +1575,305 @@ Browser-based GUI, CLI and</p>
 <p><a href="#880-rlse-adma-system_installation">Installation</a></p>
 </li>
 <li>
-<p><a href="#wip">Basic configuration</a> <!-- #TODO make me... --></p>
+<p><a href="#wip">wip... Basic configuration</a> <!-- #TODO make me and list in mkdoms.yml nav to go in PDF ... --></p>
 </li>
 <li>
-<p><a href="#wip">Expose static sites</a> <!-- #TODO make me... --></p>
+<p><a href="#wip">wip... Maintain system users</a> <!-- #TODO make me and list in mkdoms.yml nav to go in PDF ... --></p>
 </li>
 <li>
-<p><a href="#wip">System backup &amp; restore</a> <!-- #TODO make me... --></p>
+<p><a href="#wip">wip... Expose static sites</a> <!-- #TODO make me and list in mkdoms.yml nav to go in PDF ... --></p>
+</li>
+<li>
+<p><a href="#wip">wip... System backup &amp; restore</a> <!-- #TODO make me and list in mkdoms.yml nav to go in PDF ... --></p>
 </li>
 </ul>
 <h2 id="880-rlse-adma-adma_catalog-advanced-procedures">Advanced procedures</h2>
 <ul>
 <li>
-<p><a href="#wip">Advanced configuration</a> <!-- #TODO make me... --></p>
+<p><a href="#wip">wip... Advanced configuration</a> <!-- #TODO make me and list in mkdoms.yml nav to go in PDF ... --></p>
 </li>
 <li>
-<p><a href="#wip">Additional database systems installation</a> <!-- #TODO make me... --></p>
+<p><a href="#wip">wip... Additional database systems installation</a> <!-- #TODO make me and list in mkdoms.yml nav to go in PDF ... --></p>
 </li>
 <li>
-<p><a href="#wip">Configure an ad-hoc data API</a> <!-- #TODO make me... --></p>
+<p><a href="#810-dsgn-810.03-system_data_and_objects">System Data and Objects</a></p>
 </li>
 <li>
-<p><a href="#wip">Configure a callback route</a> (for example as return from a 3<sup>rd</sup> party electronic payment system) <!-- #TODO make me... --></p>
+<p><a href="#wip">wip... Configure an ad-hoc data API</a> <!-- #TODO make me and list in mkdoms.yml nav to go in PDF ... --></p>
 </li>
-</ul></section><h1 class='nav-section-title-end'>Ended: User manuals</h1>
-                        <h2 class='nav-section-title' id='section-developer-manuals'>
-                            Developer manuals <a class='headerlink' href='#section-developer-manuals' title='Permanent link'>↵</a>
+<li>
+<p><a href="#wip">wip... Configure a callback route</a> (for example as return from a 3<sup>rd</sup> party electronic payment system) <!-- #TODO make me and list in mkdoms.yml nav to go in PDF ... --></p>
+</li>
+</ul></section><section class="print-page" id="880-rlse-adma-system_installation"><p><img align="left" alt="arint_logo" src="pictures/arint_logo.png" width="55" />
+<small markdown><strong>ALPHAREN CORE-Integrator (ARINT) System</strong><br>
+<em>(c) 2021 RENware Software Systems. RESTRICTED only for project internal use</em>
+</small><br><br><br></p>
+<h1 id="880-rlse-adma-system_installation-system-installation">System Installation</h1>
+<p><small><strong><em>Document control:</em></strong><br>
+* last update date: 230605<br>
+* last updated by: petre iordanescu
+</small></p>
+<p><strong><em>Table of contents:</em></strong></p>
+<div class="toc">
+<ul>
+<li><a href="#880-rlse-adma-system_installation-system-installation">System Installation</a><ul>
+<li><a href="#880-rlse-adma-system_installation-install-helpers">Install helpers</a><ul>
+<li><a href="#880-rlse-adma-system_installation-package-key">Package key</a></li>
+<li><a href="#880-rlse-adma-system_installation-add-apt-repository">Add apt repository</a></li>
+<li><a href="#880-rlse-adma-system_installation-install-zato">Install zato</a></li>
+<li><a href="#880-rlse-adma-system_installation-apply-latest-updates">Apply latest updates</a></li>
+<li><a href="#880-rlse-adma-system_installation-check-confirm">Check &amp; confirm</a></li>
+</ul>
+</li>
+<li><a href="#880-rlse-adma-system_installation-create-a-quick-cluster-environment">Create a quick cluster environment</a><ul>
+<li><a href="#880-rlse-adma-system_installation-create-the-cluster">Create the cluster</a></li>
+<li><a href="#880-rlse-adma-system_installation-change-web-console-password">Change web console password</a></li>
+</ul>
+</li>
+<li><a href="#880-rlse-adma-system_installation-configuration-access">Configuration &amp; access</a><ul>
+<li><a href="#880-rlse-adma-system_installation-machine-general-configuration">Machine general configuration</a></li>
+<li><a href="#880-rlse-adma-system_installation-machine-environment-configuration">Machine environment configuration</a></li>
+<li><a href="#880-rlse-adma-system_installation-system-launch-scripts">System launch scripts</a></li>
+</ul>
+</li>
+<li><a href="#880-rlse-adma-system_installation-installation-notes">Installation notes</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<hr />
+<h2 id="880-rlse-adma-system_installation-install-helpers">Install helpers</h2>
+<div class="highlight"><pre><span></span><code>sudo apt-get install apt-transport-https curl
+sudo apt-get install software-properties-common
+sudo add-apt-repository universe
+sudo apt-get install tzdata
+</code></pre></div>
+<h3 id="880-rlse-adma-system_installation-package-key">Package key</h3>
+<div class="highlight"><pre><span></span><code>curl -s https://zato.io/repo/zato-3.2-48849AAD40BCBB0E.pgp.txt | sudo apt-key add -
+</code></pre></div>
+<h3 id="880-rlse-adma-system_installation-add-apt-repository">Add apt repository</h3>
+<div class="highlight"><pre><span></span><code>sudo add-apt-repository \
+   &quot;deb [arch=amd64] https://zato.io/repo/stable/3.2/ubuntu $(lsb_release -cs) main&quot;
+</code></pre></div>
+<h3 id="880-rlse-adma-system_installation-install-zato">Install zato</h3>
+<div class="highlight"><pre><span></span><code>sudo apt-get install zato
+</code></pre></div>
+<h3 id="880-rlse-adma-system_installation-apply-latest-updates">Apply latest updates</h3>
+<div class="highlight"><pre><span></span><code>sudo su - zato
+cd /opt/zato/current &amp;&amp; ./update.sh
+</code></pre></div>
+<h3 id="880-rlse-adma-system_installation-check-confirm">Check &amp; confirm</h3>
+<div class="highlight"><pre><span></span><code>zato --version
+</code></pre></div>
+<h2 id="880-rlse-adma-system_installation-create-a-quick-cluster-environment">Create a quick cluster environment</h2>
+<h3 id="880-rlse-adma-system_installation-create-the-cluster">Create the cluster</h3>
+<p>This will create a new cluster ARCLST named <strong><code>arclst</code></strong> in directory <code>/opt/zato/env/arclst</code>.</p>
+<div class="highlight"><pre><span></span><code>sudo su - zato
+mkdir -p ~/env/arclst
+cd ~/env/arclst
+zato quickstart create . sqlite localhost 6379
+</code></pre></div>
+<p>Response should looks like that:</p>
+<div class="highlight"><pre><span></span><code>[1/8] Certificate authority created
+[2/8] ODB schema created
+[3/8] ODB initial data created
+[4/8] server1 created
+[5/8] Load-balancer created
+Superuser created successfully.
+[6/8] Dashboard created
+[7/8] Scheduler created
+[8/8] Management scripts created
+Quickstart cluster quickstart-904765 created
+Dashboard user:[admin], password:[F7qCOiabas5ToQ7EWupLrHOn9iVHzyBv]
+Visit https://zato.io/support for more information and support options
+</code></pre></div>
+<h3 id="880-rlse-adma-system_installation-change-web-console-password">Change web console password</h3>
+<p>The username web administraton console is <strong>admin</strong>. To change the password in <strong>admin</strong>, do:</p>
+<div class="highlight"><pre><span></span><code>cd ~/env/arclst/web-admin/
+zato update password . admin
+</code></pre></div>
+<h2 id="880-rlse-adma-system_installation-configuration-access">Configuration &amp; access</h2>
+<h3 id="880-rlse-adma-system_installation-machine-general-configuration">Machine general configuration</h3>
+<ul>
+<li>Test machine ren-cluster, 192.168.1.190</li>
+<li>Admin console port 8183</li>
+<li>Credentials admin / admin</li>
+<li>public access http://90.84.237.32:8183 user admin pswd admin </li>
+</ul>
+<h3 id="880-rlse-adma-system_installation-machine-environment-configuration">Machine environment configuration</h3>
+<ul>
+<li>User <code>sudo su - zato</code></li>
+<li>Path <code>/opt/env/arclst</code></li>
+<li>web admin console path <code>/opt/env/arclst/web-admin</code></li>
+<li>ZATO Server <code>arclst</code></li>
+</ul>
+<h3 id="880-rlse-adma-system_installation-system-launch-scripts">System launch scripts</h3>
+<ul>
+<li><code>zato-qs-start.sh</code></li>
+<li><code>zato-qs-restart.sh</code></li>
+<li><code>zato-qs-stop.sh</code></li>
+</ul>
+<p>Server start in background mode, NOT as daemon.</p>
+<h2 id="880-rlse-adma-system_installation-installation-notes">Installation notes</h2>
+<p>None. Everything works as documented. ATTN open 8183 port</p></section><section class="print-page" id="810-dsgn-810.03-system_data_and_objects"><p><img align="left" alt="arint_logo" src="pictures/arint_logo.png" width="55" />
+<small markdown><strong>ALPHAREN CORE-Integrator (ARINT) System</strong><br>
+<em>(c) 2021 RENware Software Systems. RESTRICTED only for project internal use</em>
+</small><br><br><br><br><br><br></p>
+<h1 id="810-dsgn-810.03-system_data_and_objects-system-data-and-objects">System Data and Objects</h1>
+<p><strong>product version: <code>0.1</code></strong></p>
+<p><strong><em>Table of contents:</em></strong></p>
+<div class="toc">
+<ul>
+<li><a href="#810-dsgn-810.03-system_data_and_objects-system-data-and-objects">System Data and Objects</a><ul>
+<li><a href="#810-dsgn-810.03-system_data_and_objects-introductory">Introductory</a><ul>
+<li><a href="#810-dsgn-810.03-system_data_and_objects-naming-rules">Naming rules</a></li>
+<li><a href="#810-dsgn-810.03-system_data_and_objects-object-categories-and-models">Object categories and models</a></li>
+<li><a href="#810-dsgn-810.03-system_data_and_objects-namespaces-catalog">Namespaces catalog</a></li>
+</ul>
+</li>
+<li><a href="#810-dsgn-810.03-system_data_and_objects-namespace-urrm">Namespace URRM</a><ul>
+<li><a href="#810-dsgn-810.03-system_data_and_objects-urrm-catalog">URRM catalog</a></li>
+<li><a href="#810-dsgn-810.03-system_data_and_objects-urrm_new_object_x">URRM_new_object_x</a></li>
+</ul>
+</li>
+<li><a href="#810-dsgn-810.03-system_data_and_objects-namespace-odef">Namespace ODEF</a><ul>
+<li><a href="#810-dsgn-810.03-system_data_and_objects-odef-catalog">ODEF catalog</a></li>
+<li><a href="#810-dsgn-810.03-system_data_and_objects-odef_new_object_x">ODEF_new_object_x</a></li>
+</ul>
+</li>
+<li><a href="#810-dsgn-810.03-system_data_and_objects-namespace-mada">Namespace MADA</a><ul>
+<li><a href="#810-dsgn-810.03-system_data_and_objects-mada-catalog">MADA catalog</a></li>
+<li><a href="#810-dsgn-810.03-system_data_and_objects-mada_new_object_x">MADA_new_object_x</a></li>
+</ul>
+</li>
+<li><a href="#810-dsgn-810.03-system_data_and_objects-notes-and-remarks">Notes and remarks</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<hr />
+<h2 id="810-dsgn-810.03-system_data_and_objects-introductory">Introductory</h2>
+<h3 id="810-dsgn-810.03-system_data_and_objects-naming-rules">Naming rules</h3>
+<ul>
+<li>
+<p>Objects <code>code-name</code> is not case sensitive and is a good rule to use always uppercase. The system will convert the data objects <code>code-name</code> to uppercase, even from the save step.</p>
+</li>
+<li>
+<p>New "user or client or implementation" level business objects <code>code-name</code> should start with character <code>Z</code>. Any other ARINT objects do not use <code>Z</code> as first character in code-names, so this can make an <em>acceptable separation of those objects that are subject of change by system updates</em> and is a <em>guarantee that objects starting with <code>Z</code> in code-name will not be altered</em> by any system update.</p>
+</li>
+</ul>
+<h3 id="810-dsgn-810.03-system_data_and_objects-object-categories-and-models">Object categories and models</h3>
+<p>Any data object must be in one of these categories:</p>
+<ul>
+<li>
+<p><strong>entity</strong> - This is a relational data entity, more exactly a <em>table</em> to use the specific relational modeling concept. Such kind of objects are stored in relational system database.</p>
+</li>
+<li>
+<p><strong>json</strong> - This is an object can contain any data model and type that respect <code>JSON</code> standard. This kind of object can cover almost all kind <code>NoSQL document type</code> variants. Such kind of object can be stored in any system database (relational or kv store) at your option. Default store place is kv system database.</p>
+</li>
+<li>
+<p><strong>crypto_key</strong> - This kind of object contains keys used for cryptographic purposes. This kind of object is represented as a limited <code>json</code> type (strict one level, no arrays, only string type keys). A <code>crypto_key</code> object usually has one or two entries corresponding to one (in symmetrical cryptography) or two (in asymmetrical cryptography) keys, both as strings of <code>UTF-8</code> characters (bytes).</p>
+</li>
+<li>
+<p><strong>file</strong> - This kind of object is designed to keep files or directories references. This references are stored can be stored in any system database (relational or kv store) and must respect all <em>Linux</em> conventions regarding file names (directories are files too represented as convention with a <code>/</code> character at end if is not obvious from context). So as a minimum strings of <code>UTF-8</code> characters (bytes) no more than 256 characters (bytes)</p>
+</li>
+</ul>
+<p>As definition models the <code>OO</code> definition is preferred and for relational objects the <em><a href="https://www.sqlalchemy.org/">SQL Alchemy</a></em> is preferred option. For <code>kv</code> data the Python normal <code>dictionaries</code> can be used.</p>
+<h3 id="810-dsgn-810.03-system_data_and_objects-namespaces-catalog">Namespaces catalog</h3>
+<p>Here are listed the main <em>area of objects</em> defined in <em>System database</em>. These are the equivalent of a <code>namespace</code> (or <code>schema</code> in relational databases terminology) and they will become in a way<sup id="fnref:1"><a class="footnote-ref" href="#810-dsgn-810.03-system_data_and_objects-fn:1">1</a></sup> a <em><code>prefix</code></em> for all entities / objects contained in.</p>
+<ul>
+<li><strong>URRM</strong> user roles and rights management</li>
+<li><strong>ODEF</strong> business objects definition</li>
+<li><strong>MADA</strong> global master data (cross any systems, applications, nodes, ie global for an <strong>ARINT instance</strong>)</li>
+<li>-#NOTE future reserved ...</li>
+</ul>
+<h2 id="810-dsgn-810.03-system_data_and_objects-namespace-urrm">Namespace URRM</h2>
+<h3 id="810-dsgn-810.03-system_data_and_objects-urrm-catalog">URRM catalog</h3>
+<ul>
+<li>-#NOTE future reserved ...</li>
+</ul>
+<h3 id="810-dsgn-810.03-system_data_and_objects-urrm_new_object_x">URRM_new_object_x</h3>
+<ul>
+<li>-#NOTE future reserved ...</li>
+</ul>
+<h2 id="810-dsgn-810.03-system_data_and_objects-namespace-odef">Namespace ODEF</h2>
+<h3 id="810-dsgn-810.03-system_data_and_objects-odef-catalog">ODEF catalog</h3>
+<ul>
+<li>-#NOTE future reserved ...</li>
+</ul>
+<h3 id="810-dsgn-810.03-system_data_and_objects-odef_new_object_x">ODEF_new_object_x</h3>
+<ul>
+<li>-#NOTE future reserved ...</li>
+</ul>
+<h2 id="810-dsgn-810.03-system_data_and_objects-namespace-mada">Namespace MADA</h2>
+<h3 id="810-dsgn-810.03-system_data_and_objects-mada-catalog">MADA catalog</h3>
+<ul>
+<li>
+<p><strong><code>OBTYP</code></strong> object types and models. This contains values described of <a href="#810-dsgn-810.03-system_data_and_objects-object-categories-and-models">"Object types and models" section</a></p>
+</li>
+<li>
+<p>-#NOTE future reserved ...</p>
+</li>
+</ul>
+<h3 id="810-dsgn-810.03-system_data_and_objects-mada_new_object_x">MADA_new_object_x</h3>
+<ul>
+<li>-#NOTE future reserved ...</li>
+</ul>
+<h2 id="810-dsgn-810.03-system_data_and_objects-notes-and-remarks">Notes and remarks</h2>
+<div class="footnote">
+<hr />
+<ol>
+<li id="810-dsgn-810.03-system_data_and_objects-fn:1">
+<p>(<code>PROPOSAL @ 230823 by piu</code>): The way that concrete entities / objects are prefixed depends of database, ORM instrument used, etc. To keep as agnostic as possible this prefix will be used as <em>object name prefix</em> followed by <code>_</code> character. <strong>All <code>code-name</code>s for a prefix will be kept in 4 characters</strong>.&#160;<a class="footnote-backref" href="#810-dsgn-810.03-system_data_and_objects-fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div></section><h1 class='nav-section-title-end'>Ended: System administration</h1>
+                        <h2 class='nav-section-title' id='section-development-manuals'>
+                            Development manuals <a class='headerlink' href='#section-development-manuals' title='Permanent link'>↵</a>
                         </h2>
-                        <section class="print-page" id="810-dsgn-120-cpts-development_overview"><p><img align="left" alt="arint_logo" src="pictures/arint_logo.png" width="55" />
+                        <section class="print-page" id="880-rlse-adma-devma_catalog"><p><img align="left" alt="arint_logo" src="pictures/arint_logo.png" width="55" />
+<small markdown><strong>ALPHAREN CORE-Integrator (ARINT) System</strong><br>
+<em>(c) 2021 RENware Software Systems. RESTRICTED only for project internal use</em>
+</small><br><br><br></p>
+<h1 id="880-rlse-adma-devma_catalog-development-documentation-catalog">Development documentation catalog</h1>
+<p><strong><em>Table of contents:</em></strong></p>
+<div class="toc">
+<ul>
+<li><a href="#880-rlse-adma-devma_catalog-development-documentation-catalog">Development documentation catalog</a><ul>
+<li><a href="#880-rlse-adma-devma_catalog-developer-manuals">Developer manuals</a></li>
+<li><a href="#880-rlse-adma-devma_catalog-development-information">Development information</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<hr />
+<h2 id="880-rlse-adma-devma_catalog-developer-manuals">Developer manuals</h2>
+<ul>
+<li>
+<p><a href="#810-dsgn-120-cpts-development_overview">Development overview</a></p>
+</li>
+<li>
+<p><a href="#810-dsgn-120-cpts-service-anatomy">Service anatomy</a></p>
+</li>
+<li>
+<p><a href="#810-dsgn-120-cpts-request_response_objects">Request and Response objects</a></p>
+</li>
+<li>
+<p><a href="#810-dsgn-120-ctps-in_channels_and_calling_service">IN channels</a></p>
+</li>
+<li>
+<p><a href="#810-dsgn-120-cpts-out-channel">OUT channels</a></p>
+</li>
+</ul>
+<h2 id="880-rlse-adma-devma_catalog-development-information">Development information</h2>
+<ul>
+<li>
+<p><a href="#810-dsgn-810.03-system_data_and_objects">System Data and Objects</a></p>
+</li>
+<li>
+<p><a href="#810-dsgn-120-cpts-security">Components security</a></p>
+</li>
+</ul></section><section class="print-page" id="810-dsgn-120-cpts-development_overview"><p><img align="left" alt="arint_logo" src="pictures/arint_logo.png" width="55" />
 <small markdown><strong>ALPHAREN CORE-Integrator (ARINT) System</strong><br>
 <em>(c) 2021 RENware Software Systems. RESTRICTED only for project internal use</em>
 </small><br><br><br></p>
@@ -1623,11 +1976,11 @@ Browser-based GUI, CLI and</p>
 </ul>
 <pre class="mermaid"><code>graph TD
     SRV[[Service]]
-    EXT([External system])
-    INCH{{Service endpoint \n invoking channel}}
+    EXT((External system))
+    INCH([Service endpoint \n invoking channel])
     DTB[(data)]
-    OUTCH{{Outgoing \n channel}}
-    CALLBCK{{callback endpoint}}
+    OUTCH([Outgoing \n channel])
+    CALLBCK([callback endpoint])
 
     EXT ---&gt;|request \n service| INCH
     INCH --&gt; |call_service| SRV
@@ -1827,7 +2180,7 @@ class GetUserDetails(Service):
 <li>an username </li>
 <li>a domain in which rule is applicable (think domain as a kind of grouping more rules in a set usable for a purpose, for example channels); thid approach allows for many to many relationships between security rules and channels or other objects </li>
 </ul>
-<p>Password will be generated automatically as uuid4 (guid) and This can be modified latter.</p></section><h1 class='nav-section-title-end'>Ended: Developer manuals</h1><h1 class='nav-section-title-end'>Ended: Documentation</h1><section class="print-page" id="wip"><h1 id="wip-under-construction-page">Under construction page</h1>
+<p>Password will be generated automatically as uuid4 (guid) and This can be modified latter.</p></section><h1 class='nav-section-title-end'>Ended: Development manuals</h1><h1 class='nav-section-title-end'>Ended: Documentation</h1><section class="print-page" id="wip"><h1 id="wip-under-construction-page">Under construction page</h1>
 <p><img alt="wip page" src="pictures/under_maintenance.png" /></p>
 <p>UPCOMING...</p></section>
                         <h1 class='nav-section-title' id='section-renware-support'>

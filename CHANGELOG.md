@@ -8,36 +8,57 @@
 - For version code structure meaning see SDEVEN methodology document
 - with (F) are marked those changes that are features in order to be copied in a RELNOTE file
 - #NOTE sote publishing on `arint.renware.eu` from `publishing` branch
-- `<PROJECT ROOT>/doc_src/` is the default starting location in a file path (if not given a clear one)
+- `<PROJECT ROOT>/doc_src/` is the default starting location in a file path (if not clear from context)
 
 
 
-
-
-## 0.1 new ALPHAREN CORE Integrarator (#TODO wip...)
-
+## 0.1 ALPHAREN Integrarator CORE (wip...)
 
 * tbd... permanently follow RMAP.001 - sys 1.0 a lot of #TODO manuals
 
-* tbd... use `SQLAlchemy` models for database ==> here: `https://zato.io/en/docs/3.2/dev/examples/sql.html`
-
 * tbd... talk of system as SOLUTION composed of `zato` (mk links to `zato.io`) and ***own admin interface (for own components of ARINT package)***
 * tbd... package should include DBs: *Redis* & *Postgre* (Redis with interface like that for Flask...)
+* tbd... use `SQLAlchemy` models for database ==> here: `https://zato.io/en/docs/3.2/dev/examples/sql.html`
 
 
-### 0.1.1-#TODO product Features (wip...)
+### 0.1.3-??? #FIXME INCOMING (wip...)
 
-* tbd... update `810.46-Product_Features.md` ref section "Services level features" ref ...
-
-* wip...
-* ---#TODO test all up ---------
-
+* wip... (last entry used 230823piu_j)
 
 
 
 
 
 
+
+
+
+
+
+
+
+
+### 0.1.2-release System Data and Objects (230823 18:00)
+
+* 230823piu_j published 230823 h17:45
+* 230823piu_i close at this stage  `810.03-System_Data_and_Objects.md` by letting notes for new onjects creation. As an important thing in  this file, the product version is written in clear
+* 230823piu_h work in progress on doc `810.03-System_Data_and_Objects.md`, section "Object categories and models"
+* 230823piu_g move content of `880-RLSE/devma` to `880-RLSE/adma` and drop `devma*`. Updated `mkdocs.yml`
+* 230823piu_f work in progress on doc `810.03-System_Data_and_Objects.md`
+* 230823piu_e grouped all DEVELOPMENT documentation in `880-RLSE/devma/` catalog, updated `mkdocs.yml` navigation
+* 230823piu_d work in progress on doc `810.03-System_Data_and_Objects.md`
+* 230823piu_c first raw skeleton of doc `810.03-System_Data_and_Objects.md`
+* 230823piu_b published 230823 h07:15
+* 230823piu_a install `mkdocs-macros-plugin`:
+    *  to be able to use external Jinja variables and macros at compiling time (see `https://mkdocs-macros-plugin.readthedocs.io/en/latest/`)
+    *  updated all docs where `{}` brackets appear as doubled because of `mermaid` syntax and used another diagram symbol...
+    *  included `arint_version` as extra data in `mkdocs.yml` and used it in `index.md` doc as product version info
+* 230822piu_h revived, tested links & updated from `230822piu_f` to `230822piu_g`
+* 230822piu_g updated<br>
+    (1) `810.46-Product_Features.md` ref section _ARINT own objects and components_ &<br>
+    (2) `adma_catalog.md`<br>
+    with link to `810-DSGN/810.03 System Data & Objects.md`
+* 230822piu_f create as new `810-DSGN/810.03-System_Data_and_Objects.md`, updated `ROADMAP` doc
 
 
 
