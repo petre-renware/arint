@@ -8,14 +8,11 @@
 - For version code structure meaning see SDEVEN methodology document
 - with (F) are marked those changes that are features in order to be copied in a RELNOTE file
 - #NOTE sote publishing on `arint.renware.eu` from `publishing` branch
-- `<PROJECT ROOT>/doc_src/` is the default starting location in a file path (if not given a clear one)
+- `<PROJECT ROOT>/doc_src/` is the default starting location in a file path (if not clear from context)
 
 
 
-
-
-## 0.1 new ALPHAREN CORE Integrarator (#TODO wip...)
-
+## 0.1 ALPHAREN Integrarator CORE (wip...)
 
 * tbd... permanently follow RMAP.001 - sys 1.0 a lot of #TODO manuals
 
@@ -26,20 +23,24 @@
 
 
 
+
+
+
+
 ### 0.1.2-#TODO System Data and Objects (wip...)
 
 * tbd... use `SQLAlchemy` models for database ==> here: `https://zato.io/en/docs/3.2/dev/examples/sql.html`
 
-* tbd... work on doc `...810.03-System_Data_and_Objects.md`
+* tbd... work on doc `810.03-System_Data_and_Objects.md`
 
 
 * wip...
 
-
+* ... 230823piu_f work in progress on doc `810.03-System_Data_and_Objects.md`
 * ---[ #TODO publish-test all up ]-------------------------------
 * 230823piu_e grouped all DEVELOPMENT documentation in `880-RLSE/devma/` catalog, updated `mkdocs.yml` navigation
-* 230823piu_d work in progress on doc `...810.03-System_Data_and_Objects.md`
-* 230823piu_c first raw skeleton of doc `...810.03-System_Data_and_Objects.md`
+* 230823piu_d work in progress on doc `810.03-System_Data_and_Objects.md`
+* 230823piu_c first raw skeleton of doc `810.03-System_Data_and_Objects.md`
 * 230823piu_b published 230823 h07:15
 * 230823piu_a install `mkdocs-macros-plugin`:
     *  to be able to use external Jinja variables and macros at compiling time (see `https://mkdocs-macros-plugin.readthedocs.io/en/latest/`)
@@ -51,14 +52,6 @@
     (2) `adma_catalog.md`<br>
     with link to `810-DSGN/810.03 System Data & Objects.md`
 * 230822piu_f create as new `810-DSGN/810.03-System_Data_and_Objects.md`, updated `ROADMAP` doc
-
-
-
-
-
-
-
-
 
 
 
