@@ -27,11 +27,9 @@
 
 
 
-### 0.1.2-#TODO System Data and Objects (wip...)
+### 0.1.2-release System Data and Objects (tbd... #FIXME release after chk)
 
-* tbd... #FIXME CHK & RELEASE ME
-
-* ... 230823piu_i close at this stage  `810.03-System_Data_and_Objects.md` by letting notes for new onjects creation. As an important thing in  this file, the product version is written in clear
+* 230823piu_i close at this stage  `810.03-System_Data_and_Objects.md` by letting notes for new onjects creation. As an important thing in  this file, the product version is written in clear
 * ---[ #TODO publish-test all up ]-------------------------------
 
 * 230823piu_h work in progress on doc `810.03-System_Data_and_Objects.md`, section "Object categories and models"
