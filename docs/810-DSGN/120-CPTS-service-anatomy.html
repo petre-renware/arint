@@ -494,11 +494,11 @@ div.download-btn {
 </ul>
 <pre class="mermaid"><code>graph TD
     SRV[[Service]]
-    EXT([External system])
-    INCH{{Service endpoint \n invoking channel}}
+    EXT((External system))
+    INCH([Service endpoint \n invoking channel])
     DTB[(data)]
-    OUTCH{{Outgoing \n channel}}
-    CALLBCK{{callback endpoint}}
+    OUTCH([Outgoing \n channel])
+    CALLBCK([callback endpoint])
 
     EXT ---&gt;|request \n service| INCH
     INCH --&gt; |call_service| SRV
@@ -553,7 +553,7 @@ class GetUserDetails(Service):
 <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">August 20, 2023</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">August 23, 2023</span>
 </small>
 </div>
 </article>

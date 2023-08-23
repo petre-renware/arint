@@ -943,8 +943,9 @@
 <hr />
 <h2 id="index-product-information">Product information</h2>
 <ul>
-<li>p/n code: <strong>0000-6151</strong></li>
-<li>product short name: <strong>arint</strong></li>
+<li>p/n code: <strong><code>0000-6151</code></strong></li>
+<li>product short name: <strong><code>arint</code></strong></li>
+<li>product version: <strong><code>0.1</code></strong></li>
 <li>product page: <a href="http://arint.renware.eu">http://arint.renware.eu</a></li>
 <li>initial start: 2021</li>
 </ul>
@@ -994,11 +995,11 @@
 <pre class="mermaid"><code>graph TD
     SRV[[Service]]
     RSRV[[Repetitive \n Service]]
-    EXT([External system])
-    INCH{{IN channel}}
+    EXT((External system))
+    INCH([IN channel])
     EDB[(external \n databases)]
     IDB[(own internal \n database)]
-    OUTCH{{OUT \n channel}}
+    OUTCH([OUT \n channel])
     CALLBCK([callback endpoint])
     LOGFILE[(actions \n log file)]
 
@@ -1644,11 +1645,11 @@ Browser-based GUI, CLI and</p>
 </ul>
 <pre class="mermaid"><code>graph TD
     SRV[[Service]]
-    EXT([External system])
-    INCH{{Service endpoint \n invoking channel}}
+    EXT((External system))
+    INCH([Service endpoint \n invoking channel])
     DTB[(data)]
-    OUTCH{{Outgoing \n channel}}
-    CALLBCK{{callback endpoint}}
+    OUTCH([Outgoing \n channel])
+    CALLBCK([callback endpoint])
 
     EXT ---&gt;|request \n service| INCH
     INCH --&gt; |call_service| SRV

@@ -36,6 +36,7 @@
 
 
 * ---#TODO test all up ---------
+* 230823piu_b published 230823 h07:15
 * 230823piu_a install `mkdocs-macros-plugin`:
     *  to be able to use external Jinja variables and macros at compiling time (see `https://mkdocs-macros-plugin.readthedocs.io/en/latest/`)
     *  updated all docs where `{}` brackets appear as doubled because of `mermaid` syntax and used another diagram symbol...
