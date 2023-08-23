@@ -36,6 +36,10 @@
 
 
 * ---#TODO test all up ---------
+* 230823piu_a install `mkdocs-macros-plugin`:
+    *  to be able to use external Jinja variables and macros at compiling time (see `https://mkdocs-macros-plugin.readthedocs.io/en/latest/`)
+    *  updated all docs where `{}` brackets appear as doubled because of `mermaid` syntax and used another diagram symbol...
+    *  included `arint_version` as extra data in `mkdocs.yml` and used it in `index.md` doc as product version info
 * 230822piu_h revived, tested links & updated from `230822piu_f` to `230822piu_g`
 * 230822piu_g updated<br>
     (1) `810.46-Product_Features.md` ref section _ARINT own objects and components_ &<br>

@@ -14,10 +14,12 @@
 ***
 
 
+
 ## Product information
 
-* p/n code: **0000-6151**
-* product short name: **arint**
+* p/n code: **`0000-6151`**
+* product short name: **`arint`**
+* product version: **`{{ arint_version }}`**
 * product page: [http://arint.renware.eu](http://arint.renware.eu)
 * initial start: 2021
 

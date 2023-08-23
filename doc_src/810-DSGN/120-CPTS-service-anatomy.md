@@ -43,11 +43,11 @@ A service has the following high level flow:
 ``` mermaid
 graph TD
     SRV[[Service]]
-    EXT([External system])
-    INCH{{Service endpoint \n invoking channel}}
+    EXT((External system))
+    INCH([Service endpoint \n invoking channel])
     DTB[(data)]
-    OUTCH{{Outgoing \n channel}}
-    CALLBCK{{callback endpoint}}
+    OUTCH([Outgoing \n channel])
+    CALLBCK([callback endpoint])
     
     EXT --->|request \n service| INCH
     INCH --> |call_service| SRV

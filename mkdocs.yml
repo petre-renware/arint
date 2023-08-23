@@ -58,9 +58,10 @@ markdown_extensions:
 
 
 
-#NOTE language options - FUTURE FEATURE - should first have a translation...
-#extra:
-#  alternate:
+
+extra:
+    arint_version: "0.1"
+#  alternate: #NOTE language options - FUTURE FEATURE - should first have a translation...
 #    - name: English
 #      link: /
 #      lang: en
@@ -84,6 +85,7 @@ extra_javascript:
 plugins:
     - search
     - include-markdown
+    - macros #NOTE use external jinja variables and macros (see `https://mkdocs-macros-plugin.readthedocs.io/en/latest/`)
     - markdown-exec #NOTE Python execution inside markdown files (execution at build time, "compilation like" NOT dynamically NOT JavaScript)
     - git-revision-date-localized
     # - pdf-export #NOTE DO NOT USE this as does not render mermaid in PDF docs
