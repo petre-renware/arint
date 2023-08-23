@@ -29,12 +29,12 @@
     * [ ] Basic concepts - Request and Response objects (devma)
     * [x] Basic concepts - out channels, protocols to write on out channel (devma)
     * [ ] Basic concepts - data formats, conversation and mapping (devma)
-    * [ ] ...wip... 810.03-System_Data_and_Objects.md (adma)
+    * [x] 810.03 System Data and Objects (adma)
     * [x] System overview (skit)
-    * [x] 810.46-Product_Features.md (skit)
-    * [ ] Licensing Editions (skit)
-    * [ ] Training Programmes (skit)
-    * [ ] Services (skit)
+    * [x] 810.46 Product Features (skit)
+    * [ ] ...wip... 130.04 Licensing Editions (skit)
+    * [ ] 130.05 Training Programmes (skit)
+    * [ ] 130.5 Services (skit)
 * **Recommendations:**
     * create required system manuals at least as placeholder empty files and refer them in a catalog (admin, user, dev)
     * this is "long open" issue but a minimum set of manuals are targeted
