@@ -25,7 +25,7 @@
 
 * wip...
 
-* ... 230823piu_k create first raw version of `810-DSGN/130.04-Licensing_Editions_Pricing.md` ref proposal of licensing model. Update ROADMAP ref docs status up here
+* 230823piu_k create first raw version of `810-DSGN/130.04-Licensing_Editions_Pricing.md` ref proposal of licensing model. Update ROADMAP ref docs status up here
 
 
 
