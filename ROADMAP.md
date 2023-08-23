@@ -17,11 +17,11 @@
 
 # ROADMAP
 
-## RMAP.001 - sys 1.0 doc manuals 
+## RMAP.001 - sys 1.0 doc manuals
 
 * **Objective:** creation of system documentation manuals
 * **Recorded at:** 230819
-* **Updated at:** wip @ 230822
+* **Updated at:** wip @ 230823
 * **Recorded by:** petre iordanescu
 
 * **Detailed  description:** list of docs to be done:
@@ -29,7 +29,7 @@
     * [ ] Basic concepts - Request and Response objects (devma)
     * [x] Basic concepts - out channels, protocols to write on out channel (devma)
     * [ ] Basic concepts - data formats, conversation and mapping (devma)
-    * [ ] 810.03-System_Data_and_Objects.md (adma)
+    * [ ] ...wip... 810.03-System_Data_and_Objects.md (adma)
     * [x] System overview (skit)
     * [x] 810.46-Product_Features.md (skit)
     * [ ] Licensing Editions (skit)

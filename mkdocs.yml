@@ -14,17 +14,23 @@ nav:
         - Services: ./810-DSGN/130.05-Services.md
         - Training Programmes: ./810-DSGN/130.05-Training_Programmes.md
     - Documentation:
-        - User manuals:
-            - User help: ./880-RLSE/euma/euma_catalog.md
-            - System administration: ./880-RLSE/adma/adma_catalog.md
-        - Developer manuals:
+        - End User procedures:
+            - Catalog: ./880-RLSE/euma/euma_catalog.md
+            #TODO - add here future documentation (from 810-DSGN mainly but not mandatory... - PAY ATTN TO DIRECTORY)
+        - System administration:
+            - Catalog: ./880-RLSE/adma/adma_catalog.md
+            - Installation: ./880-RLSE/adma/system_installation.md #NOTE this is a documentation which is not from design phase but from release stage
+            - System Data and Objects: ./810-DSGN/810.03-System_Data_and_Objects.md
+            #TODO - add here future documentation (from 810-DSGN mainly but not mandatory... - PAY ATTN TO DIRECTORY)
+        - Development manuals:
+            - Catalog: ./880-RLSE/devma/devma_catalog.md
             - Development overview: ./810-DSGN/120-CPTS-Development_overview.md
             - Service anatomy: ./810-DSGN/120-CPTS-service-anatomy.md
             - Request and Response objects: ./810-DSGN/120-CPTS-Request_Response_objects.md
             - IN channels: ./810-DSGN/120-CTPS-in_channels_and_calling_service.md
             - OUT channels: ./810-DSGN/120-CPTS-out-channel.md
             - Components security: ./810-DSGN/120-CPTS-security.md
-            - System Data and Objects: ./810-DSGN/810.03-System_Data_and_Objects.md
+            #TODO - add here future documentation (from 810-DSGN mainly but not mandatory... - PAY ATTN TO DIRECTORY)
         - ARIntegrator Manual (PDF): pdfs/print_page.html/print_page.pdf
     - Demo system: wip.md
     - RENware support:
