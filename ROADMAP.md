@@ -30,11 +30,11 @@
     * [x] Basic concepts - out channels, protocols to write on out channel (devma)
     * [ ] Basic concepts - data formats, conversation and mapping (devma)
     * [x] 810.03 System Data and Objects (adma)
-    * [x] System overview (skit)
+    * [x] 130.02 System overview (skit)
     * [x] 810.46 Product Features (skit)
     * [ ] ...wip... 130.04 Licensing Editions (skit)
     * [ ] 130.05 Training Programmes (skit)
-    * [ ] 130.5 Services (skit)
+    * [ ] 130.05 Services (skit)
 * **Recommendations:**
     * create required system manuals at least as placeholder empty files and refer them in a catalog (admin, user, dev)
     * this is "long open" issue but a minimum set of manuals are targeted
