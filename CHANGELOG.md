@@ -12,15 +12,16 @@
 
 
 
-
-
 ## 0.1 ALPHAREN Integrarator CORE (wip...)
-
 
 * tbd... permanently follow RMAP.001 - sys 1.0 a lot of #TODO manuals
 
 * tbd... talk of system as SOLUTION composed of `zato` (mk links to `zato.io`) and ***own admin interface (for own components of ARINT package)***
 * tbd... package should include DBs: *Redis* & *Postgre* (Redis with interface like that for Flask...)
+
+
+
+
 
 
 
@@ -51,14 +52,6 @@
     (2) `adma_catalog.md`<br>
     with link to `810-DSGN/810.03 System Data & Objects.md`
 * 230822piu_f create as new `810-DSGN/810.03-System_Data_and_Objects.md`, updated `ROADMAP` doc
-
-
-
-
-
-
-
-
 
 
 
