@@ -34,9 +34,8 @@
 
 * wip...
 
-* ...230823piu_c work on doc `...810.03-System_Data_and_Objects.md`
+* 230823piu_c work on doc `...810.03-System_Data_and_Objects.md`
 * ---#TODO test all up ---------
-
 * 230823piu_b published 230823 h07:15
 * 230823piu_a install `mkdocs-macros-plugin`:
     *  to be able to use external Jinja variables and macros at compiling time (see `https://mkdocs-macros-plugin.readthedocs.io/en/latest/`)
