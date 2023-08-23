@@ -640,7 +640,7 @@
   
   
     <li class="md-nav__item">
-      <a href="880-RLSE/devma/devma_catalog.html" class="md-nav__link">
+      <a href="880-RLSE/adma/devma_catalog.html" class="md-nav__link">
         Catalog
       </a>
     </li>
@@ -1724,12 +1724,27 @@ zato update password . admin
 <div class="toc">
 <ul>
 <li><a href="#810-dsgn-810.03-system_data_and_objects-system-data-and-objects">System Data and Objects</a><ul>
-<li><a href="#810-dsgn-810.03-system_data_and_objects-system-objects-catalog">System objects catalog</a><ul>
-<li><a href="#810-dsgn-810.03-system_data_and_objects-namespaces">Namespaces</a></li>
+<li><a href="#810-dsgn-810.03-system_data_and_objects-introductory">Introductory</a><ul>
+<li><a href="#810-dsgn-810.03-system_data_and_objects-naming-rules">Naming rules</a></li>
+<li><a href="#810-dsgn-810.03-system_data_and_objects-object-categories-and-models">Object categories and models</a></li>
+<li><a href="#810-dsgn-810.03-system_data_and_objects-namespaces-catalog">Namespaces catalog</a></li>
 </ul>
 </li>
-<li><a href="#810-dsgn-810.03-system_data_and_objects-namespace-urrm">Namespace URRM</a></li>
-<li><a href="#810-dsgn-810.03-system_data_and_objects-namespace-odef">Namespace ODEF</a></li>
+<li><a href="#810-dsgn-810.03-system_data_and_objects-namespace-urrm">Namespace URRM</a><ul>
+<li><a href="#810-dsgn-810.03-system_data_and_objects-urrm-catalog">URRM catalog</a></li>
+<li><a href="#810-dsgn-810.03-system_data_and_objects-urrm_object_x">URRM_object_x</a></li>
+</ul>
+</li>
+<li><a href="#810-dsgn-810.03-system_data_and_objects-namespace-odef">Namespace ODEF</a><ul>
+<li><a href="#810-dsgn-810.03-system_data_and_objects-odef-catalog">ODEF catalog</a></li>
+<li><a href="#810-dsgn-810.03-system_data_and_objects-odef_object_x">ODEF_object_x</a></li>
+</ul>
+</li>
+<li><a href="#810-dsgn-810.03-system_data_and_objects-namespace-mada">Namespace MADA</a><ul>
+<li><a href="#810-dsgn-810.03-system_data_and_objects-mada-catalog">MADA catalog</a></li>
+<li><a href="#810-dsgn-810.03-system_data_and_objects-mada_object_x">MADA_object_x</a></li>
+</ul>
+</li>
 <li><a href="#810-dsgn-810.03-system_data_and_objects-notes-and-remarks">Notes and remarks</a></li>
 </ul>
 </li>
@@ -1738,18 +1753,58 @@ zato update password . admin
 <hr />
 <p><img alt="wip page" src="pictures/under_maintenance.png" width="300" /></p>
 <p>WORK IN PROGRESS...</p>
-<h2 id="810-dsgn-810.03-system_data_and_objects-system-objects-catalog">System objects catalog</h2>
+<h2 id="810-dsgn-810.03-system_data_and_objects-introductory">Introductory</h2>
+<h3 id="810-dsgn-810.03-system_data_and_objects-naming-rules">Naming rules</h3>
+<ul>
+<li>
+<p>Objects <code>code-name</code> is not case sensitive and is a good rule to use always uppercase. The system will convert the data objects <code>code-name</code> to uppercase, even from the save step.</p>
+</li>
+<li>
+<p>New "user or client or implementation" level business objects <code>code-name</code> should start with character <code>Z</code>. Any other ARINT objects do not use <code>Z</code> as first character in code-names, so this can make an <em>acceptable separation of those objects that are subject of change by system updates</em> and is a <em>guarantee that objects starting with <code>Z</code> in code-name will not be altered</em> by any system update.</p>
+</li>
+</ul>
+<h3 id="810-dsgn-810.03-system_data_and_objects-object-categories-and-models">Object categories and models</h3>
+<p>The data objects can follow in one of these categories:</p>
+<ul>
+<li>
+<p><strong>entity</strong> - This is a relational data entity, more exactly a <em>table</em> to use the specific relational modeling concept. Such kind of objects are stored in relational system database.</p>
+</li>
+<li>
+<p><strong>json</strong> - This is an object can contain any data model and type that respect <code>JSON</code> standard. This kind of object can cover almost all kind <code>NoSQL document type</code> variants. Such kind of object can be stored in any system database (relational or kv store) at your option. Default store place is kv system database.</p>
+</li>
+<li>
+<p><strong>crypto_key</strong> - This kind of object contains keys used for cryptographic purposes. This kind of object is represented as a limited <code>json</code> type (strict one level, no arrays, only string type keys). A <code>crypto_key</code> object usually has one or two entries corresponding to one (in symmetrical cryptography) or two (in asymmetrical cryptography) keys, both as strings of <code>UTF-8</code> characters (bytes).</p>
+</li>
+<li>
+<p><strong>file</strong> - This kind of object is designed to keep files or directories references. This references are stored can be stored in any system database (relational or kv store) and must respect all <em>Linux</em> conventions regarding file names (directories are files too represented as convention with a <code>/</code> character at end if is not obvious from context). So as a minimum strings of <code>UTF-8</code> characters (bytes) no more than 256 characters (bytes)</p>
+</li>
+</ul>
+<p>As definition models the <code>OO</code> definition is preferred and for relational objects the <em><a href="https://www.sqlalchemy.org/">SQL Alchemy</a></em> is preferred option. For <code>kv</code> data the Python normal <code>dictionaries</code> can be used.</p>
+<h3 id="810-dsgn-810.03-system_data_and_objects-namespaces-catalog">Namespaces catalog</h3>
 <p>Here are listed the main <em>area of objects</em> defined in <em>System database</em>. These are the equivalent of a <code>namespace</code> (or <code>schema</code> in relational databases terminology) and they will become in a way<sup id="fnref:1"><a class="footnote-ref" href="#810-dsgn-810.03-system_data_and_objects-fn:1">1</a></sup> a <em><code>prefix</code></em> for all entities / objects contained in.</p>
-<h3 id="810-dsgn-810.03-system_data_and_objects-namespaces">Namespaces</h3>
 <ul>
 <li><strong>URRM</strong> user roles and rights management</li>
 <li><strong>ODEF</strong> business objects definition</li>
 <li><strong>MADA</strong> global master data (cross any systems, applications, nodes, ie global for an <strong>ARINT instance</strong>)</li>
-<li>-#TODO...</li>
+<li>-#NOTE future reserved ...</li>
 </ul>
 <h2 id="810-dsgn-810.03-system_data_and_objects-namespace-urrm">Namespace URRM</h2>
+<h3 id="810-dsgn-810.03-system_data_and_objects-urrm-catalog">URRM catalog</h3>
+<p>-#TODO...</p>
+<h3 id="810-dsgn-810.03-system_data_and_objects-urrm_object_x">URRM_object_x</h3>
 <p>-#TODO...</p>
 <h2 id="810-dsgn-810.03-system_data_and_objects-namespace-odef">Namespace ODEF</h2>
+<h3 id="810-dsgn-810.03-system_data_and_objects-odef-catalog">ODEF catalog</h3>
+<p>-#TODO...</p>
+<h3 id="810-dsgn-810.03-system_data_and_objects-odef_object_x">ODEF_object_x</h3>
+<p>-#TODO...</p>
+<h2 id="810-dsgn-810.03-system_data_and_objects-namespace-mada">Namespace MADA</h2>
+<h3 id="810-dsgn-810.03-system_data_and_objects-mada-catalog">MADA catalog</h3>
+<ul>
+<li><strong><code>OBTYP</code></strong> object types and models. This contains values described of <a href="#810-dsgn-810.03-system_data_and_objects-object-categories-and-models">"Object types and models" section</a></li>
+</ul>
+<p>-#TODO...</p>
+<h3 id="810-dsgn-810.03-system_data_and_objects-mada_object_x">MADA_object_x</h3>
 <p>-#TODO...</p>
 <h2 id="810-dsgn-810.03-system_data_and_objects-notes-and-remarks">Notes and remarks</h2>
 <div class="footnote">
@@ -1763,23 +1818,23 @@ zato update password . admin
                         <h2 class='nav-section-title' id='section-development-manuals'>
                             Development manuals <a class='headerlink' href='#section-development-manuals' title='Permanent link'>↵</a>
                         </h2>
-                        <section class="print-page" id="880-rlse-devma-devma_catalog"><p><img align="left" alt="arint_logo" src="pictures/arint_logo.png" width="55" />
+                        <section class="print-page" id="880-rlse-adma-devma_catalog"><p><img align="left" alt="arint_logo" src="pictures/arint_logo.png" width="55" />
 <small markdown><strong>ALPHAREN CORE-Integrator (ARINT) System</strong><br>
 <em>(c) 2021 RENware Software Systems. RESTRICTED only for project internal use</em>
 </small><br><br><br></p>
-<h1 id="880-rlse-devma-devma_catalog-development-documentation-catalog">Development documentation catalog</h1>
+<h1 id="880-rlse-adma-devma_catalog-development-documentation-catalog">Development documentation catalog</h1>
 <p><strong><em>Table of contents:</em></strong></p>
 <div class="toc">
 <ul>
-<li><a href="#880-rlse-devma-devma_catalog-development-documentation-catalog">Development documentation catalog</a><ul>
-<li><a href="#880-rlse-devma-devma_catalog-developer-manuals">Developer manuals</a></li>
-<li><a href="#880-rlse-devma-devma_catalog-development-information">Development information</a></li>
+<li><a href="#880-rlse-adma-devma_catalog-development-documentation-catalog">Development documentation catalog</a><ul>
+<li><a href="#880-rlse-adma-devma_catalog-developer-manuals">Developer manuals</a></li>
+<li><a href="#880-rlse-adma-devma_catalog-development-information">Development information</a></li>
 </ul>
 </li>
 </ul>
 </div>
 <hr />
-<h2 id="880-rlse-devma-devma_catalog-developer-manuals">Developer manuals</h2>
+<h2 id="880-rlse-adma-devma_catalog-developer-manuals">Developer manuals</h2>
 <ul>
 <li>
 <p><a href="#810-dsgn-120-cpts-development_overview">Development overview</a></p>
@@ -1797,7 +1852,7 @@ zato update password . admin
 <p><a href="#810-dsgn-120-cpts-out-channel">OUT channels</a></p>
 </li>
 </ul>
-<h2 id="880-rlse-devma-devma_catalog-development-information">Development information</h2>
+<h2 id="880-rlse-adma-devma_catalog-development-information">Development information</h2>
 <ul>
 <li>
 <p><a href="#810-dsgn-810.03-system_data_and_objects">System Data and Objects</a></p>
