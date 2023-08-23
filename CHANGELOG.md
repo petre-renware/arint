@@ -21,9 +21,11 @@
 * tbd... use `SQLAlchemy` models for database ==> here: `https://zato.io/en/docs/3.2/dev/examples/sql.html`
 
 
-### 0.1.3-??? #FIXME INCOMING (wip...)
+### 0.1.3-release Licensing Editions and Pricing (#NOTE wip...)
 
-* wip... (last entry used 230823piu_j)
+* wip...
+
+* ... 230823piu_k create first raw version of `810-DSGN/130.04-Licensing_Editions_Pricing.md` ref proposal of licensing model. Update ROADMAP ref docs status up here
 
 
 
