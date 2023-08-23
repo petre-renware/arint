@@ -18,25 +18,19 @@
 
 * tbd... talk of system as SOLUTION composed of `zato` (mk links to `zato.io`) and ***own admin interface (for own components of ARINT package)***
 * tbd... package should include DBs: *Redis* & *Postgre* (Redis with interface like that for Flask...)
-
-
-
-
-
-
-
-
-
-### 0.1.2-#TODO System Data and Objects (wip...)
-
 * tbd... use `SQLAlchemy` models for database ==> here: `https://zato.io/en/docs/3.2/dev/examples/sql.html`
 
-* tbd... work on doc `810.03-System_Data_and_Objects.md`
+
+### 0.1.3-#FIXME INCOMING
+
+* wip... (last entry used 230823piu_i)
 
 
-* wip...
 
-* ---[ #TODO publish-test all up ]-------------------------------
+
+### 0.1.2-release System Data and Objects (tbd... #FIXME release & publish after chk)
+
+* 230823piu_i close at this stage  `810.03-System_Data_and_Objects.md` by letting notes for new onjects creation. As an important thing in  this file, the product version is written in clear
 * 230823piu_h work in progress on doc `810.03-System_Data_and_Objects.md`, section "Object categories and models"
 * 230823piu_g move content of `880-RLSE/devma` to `880-RLSE/adma` and drop `devma*`. Updated `mkdocs.yml`
 * 230823piu_f work in progress on doc `810.03-System_Data_and_Objects.md`
