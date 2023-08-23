@@ -8,7 +8,7 @@
 - For version code structure meaning see SDEVEN methodology document
 - with (F) are marked those changes that are features in order to be copied in a RELNOTE file
 - #NOTE sote publishing on `arint.renware.eu` from `publishing` branch
-- `<PROJECT ROOT>/doc_src/` is the default starting location in a file path (if not given a clear one)
+- `<PROJECT ROOT>/doc_src/` is the default starting location in a file path (if not clear from context)
 
 
 
@@ -30,16 +30,16 @@
 
 * tbd... use `SQLAlchemy` models for database ==> here: `https://zato.io/en/docs/3.2/dev/examples/sql.html`
 
-* tbd... work on doc `...810.03-System_Data_and_Objects.md`
+* tbd... work on doc `810.03-System_Data_and_Objects.md`
 
 
 * wip...
 
-* ... 230823piu_f work in progress on doc `...810.03-System_Data_and_Objects.md`
+* ... 230823piu_f work in progress on doc `810.03-System_Data_and_Objects.md`
 * ---[ #TODO publish-test all up ]-------------------------------
 * 230823piu_e grouped all DEVELOPMENT documentation in `880-RLSE/devma/` catalog, updated `mkdocs.yml` navigation
-* 230823piu_d work in progress on doc `...810.03-System_Data_and_Objects.md`
-* 230823piu_c first raw skeleton of doc `...810.03-System_Data_and_Objects.md`
+* 230823piu_d work in progress on doc `810.03-System_Data_and_Objects.md`
+* 230823piu_c first raw skeleton of doc `810.03-System_Data_and_Objects.md`
 * 230823piu_b published 230823 h07:15
 * 230823piu_a install `mkdocs-macros-plugin`:
     *  to be able to use external Jinja variables and macros at compiling time (see `https://mkdocs-macros-plugin.readthedocs.io/en/latest/`)
