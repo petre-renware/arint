@@ -23,7 +23,7 @@ nav:
             - System Data and Objects: ./810-DSGN/810.03-System_Data_and_Objects.md
             #TODO - add here future documentation (from 810-DSGN mainly but not mandatory... - PAY ATTN TO DIRECTORY)
         - Development manuals:
-            - Catalog: ./880-RLSE/devma/devma_catalog.md
+            - Catalog: ./880-RLSE/adma/devma_catalog.md
             - Development overview: ./810-DSGN/120-CPTS-Development_overview.md
             - Service anatomy: ./810-DSGN/120-CPTS-service-anatomy.md
             - Request and Response objects: ./810-DSGN/120-CPTS-Request_Response_objects.md

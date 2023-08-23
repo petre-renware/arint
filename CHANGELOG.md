@@ -36,7 +36,8 @@
 
 * wip...
 
-* ... 230823piu_f work in progress on doc `810.03-System_Data_and_Objects.md`
+* 230823piu_g move content of `880-RLSE/devma` to `880-RLSE/adma` and drop `devma*`. Updated `mkdocs.yml`
+* 230823piu_f work in progress on doc `810.03-System_Data_and_Objects.md`
 * ---[ #TODO publish-test all up ]-------------------------------
 * 230823piu_e grouped all DEVELOPMENT documentation in `880-RLSE/devma/` catalog, updated `mkdocs.yml` navigation
 * 230823piu_d work in progress on doc `810.03-System_Data_and_Objects.md`
