@@ -23,13 +23,14 @@
 
 ### 0.1.3-#FIXME INCOMING
 
-* wip... (last entry used 230823piu_i)
+* wip... (last entry used 230823piu_j)
 
 
 
 
-### 0.1.2-release System Data and Objects (tbd... #FIXME release & publish after chk)
+### 0.1.2-release System Data and Objects (230823 18:00)
 
+* 230823piu_j published 230823 h17:45
 * 230823piu_i close at this stage  `810.03-System_Data_and_Objects.md` by letting notes for new onjects creation. As an important thing in  this file, the product version is written in clear
 * 230823piu_h work in progress on doc `810.03-System_Data_and_Objects.md`, section "Object categories and models"
 * 230823piu_g move content of `880-RLSE/devma` to `880-RLSE/adma` and drop `devma*`. Updated `mkdocs.yml`
