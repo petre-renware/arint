@@ -14,7 +14,7 @@
 
 
 
-## 0.1 new ALPHAREN CORE Integrarator (#TODO wip...)
+## 0.1 ALPHAREN Integrarator CORE (wip...)
 
 
 * tbd... permanently follow RMAP.001 - sys 1.0 a lot of #TODO manuals
