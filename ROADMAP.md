@@ -5,7 +5,7 @@
 
 ***Document control***
 
-* updated at: 230819<br>
+* updated at: 230824<br>
 * updated by: petre iordanescu
 
 
@@ -21,7 +21,7 @@
 
 * **Objective:** creation of system documentation manuals
 * **Recorded at:** 230819
-* **Updated at:** wip @ 230823
+* **Updated at:** wip @ 230824
 * **Recorded by:** petre iordanescu
 
 * **Detailed  description:** list of docs to be done:
@@ -32,7 +32,7 @@
     * [x] 810.03 System Data and Objects (adma)
     * [x] 130.02 System overview (skit)
     * [x] 810.46 Product Features (skit)
-    * [ ] ...wip... 130.04 Licensing Editions (skit)
+    * [x] 130.04 Licensing Editions (skit)
     * [ ] 130.05 Training Programmes (skit)
     * [ ] 130.05 Services (skit)
 * **Recommendations:**
