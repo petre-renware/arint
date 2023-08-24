@@ -1468,20 +1468,196 @@ Browser-based GUI, CLI and</p>
 <li>an <strong>ARCLST</strong> can assure balancing and failure services inside LAN</li>
 <li>in order to assure balancing and failure services over LANs, each one must have its own <strong>ARCLST</strong> (wirh all other required components to assure corresponding services) which communicate with the others.</li>
 <li>a queue service is strictly required both to assure messages transport inside LAN, but also between LANs; for this reason cannot be used any queuing system but one with remote (over LANs) capabilities (aka named broker system)</li>
-</ul></section><section class="print-page" id="810-dsgn-130.04-licensing_editions_pricing"><p><img align="left" alt="arint_logo" src="pictures/arint_logo.png" width="55" />
+</ul></section><section class="print-page" id="810-dsgn-130.04-licensing_editions_pricing"><p>Redis-<img align="left" alt="arint_logo" src="pictures/arint_logo.png" width="55" />
 <small markdown><strong>ALPHAREN CORE-Integrator (ARINT) System</strong><br>
 <em>(c) 2021 RENware Software Systems. RESTRICTED only for project internal use</em>
 </small><br><br><br><br><br><br></p>
 <h1 id="810-dsgn-130.04-licensing_editions_pricing-licensing-editions-and-pricing">Licensing Editions and Pricing</h1>
+<p><strong>product version: <code>0.1</code></strong></p>
 <p><strong><em>Table of contents:</em></strong></p>
 <div class="toc">
 <ul>
-<li><a href="#810-dsgn-130.04-licensing_editions_pricing-licensing-editions-and-pricing">Licensing Editions and Pricing</a></li>
+<li><a href="#810-dsgn-130.04-licensing_editions_pricing-licensing-editions-and-pricing">Licensing Editions and Pricing</a><ul>
+<li><a href="#810-dsgn-130.04-licensing_editions_pricing-introductory">Introductory</a><ul>
+<li><a href="#810-dsgn-130.04-licensing_editions_pricing-components">Components</a></li>
+<li><a href="#810-dsgn-130.04-licensing_editions_pricing-services">Services</a></li>
+</ul>
+</li>
+<li><a href="#810-dsgn-130.04-licensing_editions_pricing-editions">Editions</a><ul>
+<li><a href="#810-dsgn-130.04-licensing_editions_pricing-rbd-options">RBD options</a></li>
+<li><a href="#810-dsgn-130.04-licensing_editions_pricing-kdb-options">KDB options</a></li>
+<li><a href="#810-dsgn-130.04-licensing_editions_pricing-services-options">Services options</a></li>
+<li><a href="#810-dsgn-130.04-licensing_editions_pricing-arint-products-options">ARINT products options</a></li>
+<li><a href="#810-dsgn-130.04-licensing_editions_pricing-metrics-options">Metrics options</a></li>
+</ul>
+</li>
+<li><a href="#810-dsgn-130.04-licensing_editions_pricing-pricing">Pricing</a></li>
+<li><a href="#810-dsgn-130.04-licensing_editions_pricing-notes-and-remarks">Notes and remarks</a></li>
+</ul>
+</li>
 </ul>
 </div>
 <hr />
-<p><img alt="wip page" src="pictures/under_maintenance.png" /></p>
-<p>UPCOMING...</p></section><section class="print-page" id="810-dsgn-130.05-services"><p><img align="left" alt="arint_logo" src="pictures/arint_logo.png" width="55" />
+<h2 id="810-dsgn-130.04-licensing_editions_pricing-introductory">Introductory</h2>
+<p>This section is intended to briefly present the product components that are relevant for <em>available Editions</em> and their <em>Licensing model(s)</em>.</p>
+<h3 id="810-dsgn-130.04-licensing_editions_pricing-components">Components</h3>
+<p>The licensing relevant components are:</p>
+<ul>
+<li>
+<p>the <strong>ARINT framework</strong> as being the core engine of ARINT operations execution. This component assure all routes listening and http request decoding, data formats and conversions, http response preparation, internal scheduler, and so on, keeping all of these in compliance with all enumerated standards, protocols, data formats, etc in document <a href="#810-dsgn-810.46-product_features">Product Features</a></p>
+</li>
+<li>
+<p>the <strong>Databases</strong> that come as built-in ARINT. This databases (data stores) keeps all system data required in all operations execution (see document <a href="#810-dsgn-810.03-system_data_and_objects">System Data and Objects</a>)</p>
+</li>
+<li>
+<p>all <strong>ARINT CORE</strong> that represents the:</p>
+<ul>
+<li><em>administration interface</em> for all ARINT CORE specific data, processes, operations, schedules, system logs analyzer (<code>ARINT AdminBoard</code>)</li>
+<li><em>services code</em> (programs) of all operations that ARINT is able to execute (found in all end user and administration manuals)</li>
+</ul>
+</li>
+<li>
+<p><strong>ARINT products</strong> represents different "ready made products" which have a complete defined functionality. <em>These are completely eparated products from commercial point of view</em>, but NOT all editions can accommodate them</p>
+</li>
+</ul>
+<h3 id="810-dsgn-130.04-licensing_editions_pricing-services">Services</h3>
+<p>Also a set of associated services is relevant. A set of <strong>minimal services</strong> is:</p>
+<ul>
+<li>
+<p><em>infrastructure level</em> services: product installation, operating system preparation, install different other requirements, users management, etc</p>
+</li>
+<li>
+<p><em>ARINT basic configuration</em> representing the services that assure the minimal ARINT configuration in order to start and being able to respond to ezternal systems requests and being able to complete address its own databases (read, write, update, delete...)</p>
+</li>
+</ul>
+<p>There are also more other possible services. The <em>minimal services set</em> assure only a right installation and basic system functioning. Supplementary services can include:</p>
+<ul>
+<li>infrastructure tuning in customer specific environment</li>
+<li>system configuration to some basic customer specific information (like name, location, basic domain and ARINT server name, etc)</li>
+<li>more configuration services that are subject to a dedicated project (or project work package)</li>
+</ul>
+<h2 id="810-dsgn-130.04-licensing_editions_pricing-editions">Editions</h2>
+<table>
+<thead>
+<tr>
+<th>Edition</th>
+<th>LMe<sup id="fnref:1"><a class="footnote-ref" href="#810-dsgn-130.04-licensing_editions_pricing-fn:1">1</a></sup></th>
+<th style="text-align: center;">AF<sup id="fnref:2"><a class="footnote-ref" href="#810-dsgn-130.04-licensing_editions_pricing-fn:2">2</a></sup></th>
+<th style="text-align: center;">AC<sup id="fnref:3"><a class="footnote-ref" href="#810-dsgn-130.04-licensing_editions_pricing-fn:3">3</a></sup></th>
+<th>RDB<sup id="fnref:4"><a class="footnote-ref" href="#810-dsgn-130.04-licensing_editions_pricing-fn:4">4</a></sup></th>
+<th>KDB<sup id="fnref:5"><a class="footnote-ref" href="#810-dsgn-130.04-licensing_editions_pricing-fn:5">5</a></sup></th>
+<th style="text-align: center;">PRD<sup id="fnref:6"><a class="footnote-ref" href="#810-dsgn-130.04-licensing_editions_pricing-fn:6">6</a></sup></th>
+<th>Services</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>embedded starter edition</td>
+<td>pcs</td>
+<td style="text-align: center;">x</td>
+<td style="text-align: center;">x</td>
+<td>MariaDB</td>
+<td>Redis</td>
+<td style="text-align: center;">ex disk</td>
+<td>B</td>
+<td></td>
+</tr>
+<tr>
+<td>standard edition</td>
+<td>station</td>
+<td style="text-align: center;">x</td>
+<td style="text-align: center;">x</td>
+<td>PostgreSQL</td>
+<td>Redis</td>
+<td style="text-align: center;">x</td>
+<td>B</td>
+<td></td>
+</tr>
+<tr>
+<td>small business edition</td>
+<td>roles</td>
+<td style="text-align: center;">x</td>
+<td style="text-align: center;">x</td>
+<td>MariaDB</td>
+<td>Redis</td>
+<td style="text-align: center;">x</td>
+<td>B</td>
+<td></td>
+</tr>
+<tr>
+<td>enterprise edition</td>
+<td>n.usr</td>
+<td style="text-align: center;">x</td>
+<td style="text-align: center;">x</td>
+<td>PostgreSQL</td>
+<td>Redis</td>
+<td style="text-align: center;">x</td>
+<td>B, 1</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="810-dsgn-130.04-licensing_editions_pricing-rbd-options">RBD options</h3>
+<ul>
+<li>(1) PostgreSQL</li>
+<li>(2) MariaDB</li>
+</ul>
+<h3 id="810-dsgn-130.04-licensing_editions_pricing-kdb-options">KDB options</h3>
+<ul>
+<li>(1) - Redis</li>
+<li>(2) - MongoDB - available only as user option that should have a valid license or assume the trial installed one</li>
+</ul>
+<h3 id="810-dsgn-130.04-licensing_editions_pricing-services-options">Services options</h3>
+<ul>
+<li>(B) - represent the minimal set of services as defined in <a href="#810-dsgn-130.04-licensing_editions_pricing-services">Services section</a></li>
+<li>
+<p>(1) - training for:</p>
+<ul>
+<li>Administration (6 hours)</li>
+<li>Development Introduction (2 hours)</li>
+<li>Development IN channels (1 hour)</li>
+</ul>
+</li>
+</ul>
+<h3 id="810-dsgn-130.04-licensing_editions_pricing-arint-products-options">ARINT products options</h3>
+<ul>
+<li>(ex disk) - only with external disks (or network mapped disks)</li>
+</ul>
+<h3 id="810-dsgn-130.04-licensing_editions_pricing-metrics-options">Metrics options</h3>
+<ul>
+<li><em>pcs</em> - at number of pieces</li>
+<li><em>station</em> - at number of stations (physical or virtual computing units)</li>
+<li><em>role</em> - at number of business roles that use system in making requests to</li>
+<li><em>n.usr</em> - at number of nominal users that use system in making requests to</li>
+</ul>
+<h2 id="810-dsgn-130.04-licensing_editions_pricing-pricing">Pricing</h2>
+<p>Standard prices are available in EUR (or USD) equivalent on <a href="http://www.renware.eu">RENware Software Systems catalog section</a>. Prices are for each edition and for optional services (including training).</p>
+<p>Our recommendation is to discuss for a "project level" agreement, to be able to set some objectives ref product implementation and in-production usage.</p>
+<h2 id="810-dsgn-130.04-licensing_editions_pricing-notes-and-remarks">Notes and remarks</h2>
+<div class="footnote">
+<hr />
+<ol>
+<li id="810-dsgn-130.04-licensing_editions_pricing-fn:1">
+<p>LMe = License Metric&#160;<a class="footnote-backref" href="#810-dsgn-130.04-licensing_editions_pricing-fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="810-dsgn-130.04-licensing_editions_pricing-fn:2">
+<p>AF = ARINT Framework component&#160;<a class="footnote-backref" href="#810-dsgn-130.04-licensing_editions_pricing-fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+<li id="810-dsgn-130.04-licensing_editions_pricing-fn:3">
+<p>AC = ARINT CORE component&#160;<a class="footnote-backref" href="#810-dsgn-130.04-licensing_editions_pricing-fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+</li>
+<li id="810-dsgn-130.04-licensing_editions_pricing-fn:4">
+<p>RDB = Relational Database (see also <a href="#810-dsgn-130.04-licensing_editions_pricing-rbd-options">RDB options</a>)&#160;<a class="footnote-backref" href="#810-dsgn-130.04-licensing_editions_pricing-fnref:4" title="Jump back to footnote 4 in the text">&#8617;</a></p>
+</li>
+<li id="810-dsgn-130.04-licensing_editions_pricing-fn:5">
+<p>KDB = NoSQL Database (see also <a href="#810-dsgn-130.04-licensing_editions_pricing-kdb-options">KDB options</a>)&#160;<a class="footnote-backref" href="#810-dsgn-130.04-licensing_editions_pricing-fnref:5" title="Jump back to footnote 5 in the text">&#8617;</a></p>
+</li>
+<li id="810-dsgn-130.04-licensing_editions_pricing-fn:6">
+<p>PRD = specify if can accommodate ARINT products (see also <a href="#810-dsgn-130.04-licensing_editions_pricing-arint-products-options">ARINT products options</a>)&#160;<a class="footnote-backref" href="#810-dsgn-130.04-licensing_editions_pricing-fnref:6" title="Jump back to footnote 6 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div></section><section class="print-page" id="810-dsgn-130.05-services"><p><img align="left" alt="arint_logo" src="pictures/arint_logo.png" width="55" />
 <small markdown><strong>ALPHAREN CORE-Integrator (ARINT) System</strong><br>
 <em>(c) 2021 RENware Software Systems. RESTRICTED only for project internal use</em>
 </small><br><br><br><br><br><br></p>
@@ -2157,11 +2333,11 @@ class GetUserDetails(Service):
 <small markdown><strong>ALPHAREN CORE-Integrator (ARINT) System</strong><br>
 <em>(c) 2021 RENware Software Systems. RESTRICTED only for project internal use</em>
 </small><br><br><br></p>
-<h1 id="810-dsgn-120-cpts-security-api-security">API Security</h1>
+<h1 id="810-dsgn-120-cpts-security-channel-security">Channel security</h1>
 <p><strong><em>Table of contents:</em></strong></p>
 <div class="toc">
 <ul>
-<li><a href="#810-dsgn-120-cpts-security-api-security">API Security</a><ul>
+<li><a href="#810-dsgn-120-cpts-security-channel-security">Channel security</a><ul>
 <li><a href="#810-dsgn-120-cpts-security-security-overview">Security overview</a></li>
 <li><a href="#810-dsgn-120-cpts-security-define-basic-security-rules">Define basic security rules</a></li>
 </ul>
@@ -2174,13 +2350,30 @@ class GetUserDetails(Service):
 <p>System allow for multiple security models, types and protocols. There ca be active more security rules, each one applicable as needed in various circumstances. </p>
 <h2 id="810-dsgn-120-cpts-security-define-basic-security-rules">Define basic security rules</h2>
 <p>By <strong>basic security</strong> is understood a rule based on requesting explicitly an user and a password. </p>
-<p>Basic security rules can be defined from administration console, <em>Security</em> menu, <em>Basic auth</em> entry. A security rule means:</p>
+<p>Basic security allowed <strong>types</strong> are:</p>
+<ul>
+<li>HTTP Basic auth</li>
+<li>JWT</li>
+<li>NTLM</li>
+<li>RBAC</li>
+<li>SSL / TLS</li>
+<li>API keys</li>
+<li>AWS</li>
+<li>Vault</li>
+<li>WS-Security</li>
+<li>X-Path</li>
+</ul>
+<!-- #NOTE- see more details at `https://zato.io/en/docs/3.2/admin/security/channel.html` -->
+
+<p>-#TODO this section START HERE should be reviewed and updated / dropped -----------------------------
+Basic security rules can be defined from administration console, <em>Security</em> menu, <em>Basic auth</em> entry. A security rule means:</p>
 <ul>
 <li>a name for the rule</li>
 <li>an username </li>
 <li>a domain in which rule is applicable (think domain as a kind of grouping more rules in a set usable for a purpose, for example channels); thid approach allows for many to many relationships between security rules and channels or other objects </li>
 </ul>
-<p>Password will be generated automatically as uuid4 (guid) and This can be modified latter.</p></section><h1 class='nav-section-title-end'>Ended: Development manuals</h1><h1 class='nav-section-title-end'>Ended: Documentation</h1><section class="print-page" id="wip"><h1 id="wip-under-construction-page">Under construction page</h1>
+<p>Password will be generated automatically as uuid4 (guid) and This can be modified latter.
+-#TODO to review section END HERE ---------------------------------------------------------------------</p></section><h1 class='nav-section-title-end'>Ended: Development manuals</h1><h1 class='nav-section-title-end'>Ended: Documentation</h1><section class="print-page" id="wip"><h1 id="wip-under-construction-page">Under construction page</h1>
 <p><img alt="wip page" src="pictures/under_maintenance.png" /></p>
 <p>UPCOMING...</p></section>
                         <h1 class='nav-section-title' id='section-renware-support'>
