@@ -37,7 +37,7 @@ Basic security allowed **types** are:
 * SSL / TLS
 * API keys
 * AWS
-* Vaul
+* Vault
 * WS-Security
 * X-Path
 
