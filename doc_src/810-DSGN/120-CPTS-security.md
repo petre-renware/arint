@@ -44,7 +44,7 @@ Basic security allowed **types** are:
 <!-- #NOTE- see more details at `https://zato.io/en/docs/3.2/admin/security/channel.html` -->
 
 
-
+-#TODO this section START HERE should be reviewed and updated / dropped -----------------------------
 Basic security rules can be defined from administration console, *Security* menu, *Basic auth* entry. A security rule means:
 
 * a name for the rule
@@ -52,3 +52,6 @@ Basic security rules can be defined from administration console, *Security* menu
 * a domain in which rule is applicable (think domain as a kind of grouping more rules in a set usable for a purpose, for example channels); thid approach allows for many to many relationships between security rules and channels or other objects 
 
 Password will be generated automatically as uuid4 (guid) and This can be modified latter.
+-#TODO to review section END HERE ---------------------------------------------------------------------
+
+
