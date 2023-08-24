@@ -19,6 +19,7 @@
 * tbd... talk of system as SOLUTION composed of `zato` (mk links to `zato.io`) and ***own admin interface (for own components of ARINT package)***
 * tbd... package should include DBs: *Redis* & *Postgre* (Redis with interface like that for Flask...)
 * tbd... use `SQLAlchemy` models for database ==> here: `https://zato.io/en/docs/3.2/dev/examples/sql.html`
+* tbd... ref how deploy fronteds with zato `https://zato.io/docs/dev/frontend/index.html` useful to create `ARINT AdminBoatd`
 
 
 ### 0.1.3-release Licensing Editions and Pricing (#NOTE wip...)
