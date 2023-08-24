@@ -4,7 +4,7 @@
 </small><br><br><br>
 
 
-# API Security
+# Channel security
 
 
 ***Table of contents:***
@@ -23,9 +23,27 @@ Mainly security is used to secure channels. As long as a service can interact wi
 
 System allow for multiple security models, types and protocols. There ca be active more security rules, each one applicable as needed in various circumstances. 
 
+
 ## Define basic security rules
 
 By **basic security** is understood a rule based on requesting explicitly an user and a password. 
+
+Basic security allowed **types** are:
+
+* HTTP Basic auth
+* JWT
+* NTLM
+* RBAC
+* SSL / TLS
+* API keys
+* AWS
+* Vaul
+* WS-Security
+* X-Path
+
+<!-- #NOTE- see more details at `https://zato.io/en/docs/3.2/admin/security/channel.html` -->
+
+
 
 Basic security rules can be defined from administration console, *Security* menu, *Basic auth* entry. A security rule means:
 
