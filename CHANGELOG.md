@@ -19,21 +19,30 @@
 * tbd... talk of system as SOLUTION composed of `zato` (mk links to `zato.io`) and ***own admin interface (for own components of ARINT package)***
 * tbd... package should include DBs: *Redis* & *Postgre* (Redis with interface like that for Flask...)
 * tbd... use `SQLAlchemy` models for database ==> here: `https://zato.io/en/docs/3.2/dev/examples/sql.html`
+* tbd... ref how deploy fronteds with zato `https://zato.io/docs/dev/frontend/index.html` useful to create `ARINT AdminBoatd`
 
 
-### 0.1.3-??? #FIXME INCOMING (wip...)
+### 0.1.4-??? #TODO not yet decided
 
-* wip... (last entry used 230823piu_j)
-
-
-
-
+* wip... (230824piu_f last item used)
 
 
 
 
 
 
+
+
+
+### 0.1.3-release Licensing Editions and Pricing (230824 19:00)
+
+* 230824piu_f revived, tested links & updated from `230823piu_k` to `230824piu_e`. published 230822 h14:30
+* 230824piu_e finalized acceptable for a pre-release version doc `...130.04-Licensing_Editions_Pricing.md` and updated RMAP.001
+* 230824piu_d updated `...130.04-Licensing_Editions_Pricing.md` introduced (as clear) component *`ARINT AdminBoard`* and *ARINT Products* as availability for an edition
+* 230824piu_c updated `/810-DSGN/120-CPTS-security.md` ref security types and let a comment where find details (a link)
+* 230824piu_b updated `810-DSGN/130.04-Licensing_Editions_Pricing.md` with editions options for services schema skeleton
+* 230824piu_a updated `810-DSGN/130.04-Licensing_Editions_Pricing.md` with more editions and options to THINK & CREATE a coherent matrix
+* 230823piu_k create first raw version of `810-DSGN/130.04-Licensing_Editions_Pricing.md` ref proposal of licensing model. Update ROADMAP ref docs status up here
 
 
 
@@ -41,7 +50,7 @@
 ### 0.1.2-release System Data and Objects (230823 18:00)
 
 * 230823piu_j published 230823 h17:45
-* 230823piu_i close at this stage  `810.03-System_Data_and_Objects.md` by letting notes for new onjects creation. As an important thing in  this file, the product version is written in clear
+* 230823piu_i close at this stage  `810.03-System_Data_and_Objects.md` by letting notes for new objects creation. As an important thing in  this file, the product version is written in clear
 * 230823piu_h work in progress on doc `810.03-System_Data_and_Objects.md`, section "Object categories and models"
 * 230823piu_g move content of `880-RLSE/devma` to `880-RLSE/adma` and drop `devma*`. Updated `mkdocs.yml`
 * 230823piu_f work in progress on doc `810.03-System_Data_and_Objects.md`

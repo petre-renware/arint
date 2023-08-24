@@ -89,7 +89,7 @@ div.download-btn {
 <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
 <label class="md-overlay" for="__drawer"></label>
 <div data-md-component="skip">
-<a class="md-skip" href="#api-security">
+<a class="md-skip" href="#channel-security">
           Skip to content
         </a>
 </div>
@@ -454,11 +454,11 @@ div.download-btn {
 <small markdown=""><strong>ALPHAREN CORE-Integrator (ARINT) System</strong><br/>
 <em>(c) 2021 RENware Software Systems. RESTRICTED only for project internal use</em>
 </small><br/><br/><br/></img></p>
-<h1 id="api-security">API Security</h1>
+<h1 id="channel-security">Channel security</h1>
 <p><strong><em>Table of contents:</em></strong></p>
 <div class="toc">
 <ul>
-<li><a href="#api-security">API Security</a><ul>
+<li><a href="#channel-security">Channel security</a><ul>
 <li><a href="#security-overview">Security overview</a></li>
 <li><a href="#define-basic-security-rules">Define basic security rules</a></li>
 </ul>
@@ -471,19 +471,35 @@ div.download-btn {
 <p>System allow for multiple security models, types and protocols. There ca be active more security rules, each one applicable as needed in various circumstances. </p>
 <h2 id="define-basic-security-rules">Define basic security rules</h2>
 <p>By <strong>basic security</strong> is understood a rule based on requesting explicitly an user and a password. </p>
-<p>Basic security rules can be defined from administration console, <em>Security</em> menu, <em>Basic auth</em> entry. A security rule means:</p>
+<p>Basic security allowed <strong>types</strong> are:</p>
+<ul>
+<li>HTTP Basic auth</li>
+<li>JWT</li>
+<li>NTLM</li>
+<li>RBAC</li>
+<li>SSL / TLS</li>
+<li>API keys</li>
+<li>AWS</li>
+<li>Vault</li>
+<li>WS-Security</li>
+<li>X-Path</li>
+</ul>
+<!-- #NOTE- see more details at `https://zato.io/en/docs/3.2/admin/security/channel.html` -->
+<p>-#TODO this section START HERE should be reviewed and updated / dropped -----------------------------
+Basic security rules can be defined from administration console, <em>Security</em> menu, <em>Basic auth</em> entry. A security rule means:</p>
 <ul>
 <li>a name for the rule</li>
 <li>an username </li>
 <li>a domain in which rule is applicable (think domain as a kind of grouping more rules in a set usable for a purpose, for example channels); thid approach allows for many to many relationships between security rules and channels or other objects </li>
 </ul>
-<p>Password will be generated automatically as uuid4 (guid) and This can be modified latter.</p>
+<p>Password will be generated automatically as uuid4 (guid) and This can be modified latter.
+-#TODO to review section END HERE ---------------------------------------------------------------------</p>
 <hr/>
 <div class="md-source-file">
 <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">August 20, 2023</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">August 24, 2023</span>
 </small>
 </div>
 </article>

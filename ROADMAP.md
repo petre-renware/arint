@@ -5,7 +5,7 @@
 
 ***Document control***
 
-* updated at: 230819<br>
+* updated at: 230824<br>
 * updated by: petre iordanescu
 
 
@@ -21,7 +21,7 @@
 
 * **Objective:** creation of system documentation manuals
 * **Recorded at:** 230819
-* **Updated at:** wip @ 230823
+* **Updated at:** wip @ 230824
 * **Recorded by:** petre iordanescu
 
 * **Detailed  description:** list of docs to be done:
@@ -29,12 +29,12 @@
     * [ ] Basic concepts - Request and Response objects (devma)
     * [x] Basic concepts - out channels, protocols to write on out channel (devma)
     * [ ] Basic concepts - data formats, conversation and mapping (devma)
-    * [ ] ...wip... 810.03-System_Data_and_Objects.md (adma)
-    * [x] System overview (skit)
-    * [x] 810.46-Product_Features.md (skit)
-    * [ ] Licensing Editions (skit)
-    * [ ] Training Programmes (skit)
-    * [ ] Services (skit)
+    * [x] 810.03 System Data and Objects (adma)
+    * [x] 130.02 System overview (skit)
+    * [x] 810.46 Product Features (skit)
+    * [x] 130.04 Licensing Editions (skit)
+    * [ ] 130.05 Training Programmes (skit)
+    * [ ] 130.05 Services (skit)
 * **Recommendations:**
     * create required system manuals at least as placeholder empty files and refer them in a catalog (admin, user, dev)
     * this is "long open" issue but a minimum set of manuals are targeted
