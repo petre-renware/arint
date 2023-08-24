@@ -25,6 +25,7 @@
 
 * wip...
 
+* 230824piu_c updated `/810-DSGN/120-CPTS-security.md` ref security types and let a comment where find details (a link)
 * 230824piu_b updated `810-DSGN/130.04-Licensing_Editions_Pricing.md` with editions options for services schema skeleton
 * 230824piu_a updated `810-DSGN/130.04-Licensing_Editions_Pricing.md` with more editions and options to THINK & CREATE a coherent matrix
 * 230823piu_k create first raw version of `810-DSGN/130.04-Licensing_Editions_Pricing.md` ref proposal of licensing model. Update ROADMAP ref docs status up here
