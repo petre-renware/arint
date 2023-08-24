@@ -26,6 +26,7 @@
 
 * wip...
 
+
 * 230824piu_d updated `...130.04-Licensing_Editions_Pricing.md` introduced (as clear) component *`ARINT AdminBoatd`*
 * 230824piu_c updated `/810-DSGN/120-CPTS-security.md` ref security types and let a comment where find details (a link)
 * 230824piu_b updated `810-DSGN/130.04-Licensing_Editions_Pricing.md` with editions options for services schema skeleton
