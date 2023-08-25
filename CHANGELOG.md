@@ -15,16 +15,27 @@
 ## 0.1 ALPHAREN Integrarator CORE (wip...)
 
 * tbd... permanently follow RMAP.001 - sys 1.0 a lot of #TODO manuals
-
-* tbd... talk of system as SOLUTION composed of `zato` (mk links to `zato.io`) and ***own admin interface (for own components of ARINT package)***
-* tbd... package should include DBs: *Redis* & *Postgre* (Redis with interface like that for Flask...)
 * tbd... use `SQLAlchemy` models for database ==> here: `https://zato.io/en/docs/3.2/dev/examples/sql.html`
 * tbd... ref how deploy fronteds with zato `https://zato.io/docs/dev/frontend/index.html` useful to create `ARINT AdminBoatd`
 
 
-### 0.1.4-??? #TODO not yet decided
+### 0.1.4-release System Landscape (#TODO...)
 
-* wip... (230824piu_f last item used)
+* tbd... new lanscape design 1st level: 
+    * ARCLST - this on same LAN - proposal to name it `ARCLSTnode`
+        * drop ARSRV but (1,m) x ARINT framework, 
+        * 1 x Databases
+        * 1 x ARINT CORE
+        * 1 x n ARINT products
+
+* wip...
+
+
+* ... 230825piu_a set a new environment on Ubuntu, with Chromium engine & Chrome extension & PDF generation
+* 230825piu_a set version objective as "System Landscape" & updated next actions plan for version objective
+
+
+
 
 
 
