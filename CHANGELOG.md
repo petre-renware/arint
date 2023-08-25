@@ -26,8 +26,7 @@
 
 * wip...
 
-* ... 230825piu_f updated and frozen `810.02-System_Landscape.md` with ARCLST structure
-
+* 230825piu_f updated and frozen `810.02-System_Landscape.md` with ARCLST structure
 * 230825piu_e updated `810.02-System_Landscape.md` with ARCLST structure
 * 230825piu_d updated `810.02-System_Landscape.md` with first draft list of components in new design
 * -#TODO---(test all up and publish)----------------
