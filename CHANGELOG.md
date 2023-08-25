@@ -21,7 +21,7 @@
 
 ### 0.1.4-release System Landscape (#TODO...)
 
-* tbd... new landscape design 1st level: (work files `tmp/system_landscape.fodg` & `system_landscape.drawio`)
+* tbd... new landscape design 1st level: (work files `system_landscape.fodg` & `system_landscape.drawio`)
     ```
     * ARCLST - this on same LAN - proposal to name it `ARCLSTnode`
         * drop ARSRV but (1,m) x ARINT framework,
@@ -33,7 +33,7 @@
 
 * wip...
 
-
+* 230825piu_b new scratch landscape diagrams: `system_landscape.fodg` (LibreOffice) & `system_landscape.drawio` (DrawIO)
 * 230825piu_a set a new environment on Ubuntu, with Chromium engine & Chrome extension & PDF generation ==> ERROR AT mkdocs run:
     ```
     #NOTE here is the error raised:
