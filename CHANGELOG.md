@@ -21,17 +21,24 @@
 
 ### 0.1.4-release System Landscape (#TODO...)
 
-* tbd... new lanscape design 1st level: 
+* tbd... new landscape design 1st level: (work files `tmp/system_landscape.fodg` & `system_landscape.drawio`)
+    ```
     * ARCLST - this on same LAN - proposal to name it `ARCLSTnode`
-        * drop ARSRV but (1,m) x ARINT framework, 
+        * drop ARSRV but (1,m) x ARINT framework,
         * 1 x Databases
         * 1 x ARINT CORE
         * 1 x n ARINT products
+    ```
+
 
 * wip...
 
 
-* ... 230825piu_a set a new environment on Ubuntu, with Chromium engine & Chrome extension & PDF generation
+* 230825piu_a set a new environment on Ubuntu, with Chromium engine & Chrome extension & PDF generation ==> ERROR AT mkdocs run:
+    ```
+    #NOTE here is the error raised:
+    selenium.common.exceptions.WebDriverException: Message: Service /home/petre/.cache/selenium/chromedriver/linux64/116.0.5845.96/chromedriver unexpectedly exited. Status code was: 127
+    ```
 * 230825piu_a set version objective as "System Landscape" & updated next actions plan for version objective
 
 

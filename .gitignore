@@ -123,7 +123,7 @@ dmypy.json
 .pyre/
 
 # temporary files
-tmp/*
+tmp/
 
 
 
