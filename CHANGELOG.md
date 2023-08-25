@@ -21,18 +21,12 @@
 
 ### 0.1.4-release System Landscape (#TODO...)
 
-* tbd... new landscape design 1st level: (work files `system_landscape.fodg` & `system_landscape.drawio`)
-    ```
-    * ARCLST - this on same LAN - proposal to name it `ARCLSTnode`
-        * drop ARSRV but (1,m) x ARINT framework,
-        * 1 x Databases
-        * 1 x ARINT CORE
-        * 1 x n ARINT products
-    ```
+* tbd... updated 810.02-System_Landscape.md`, ref ...
 
 
 * wip...
 
+* 230825piu_c updated `810.02-System_Landscape.md` with a sketch and comments ref new system design
 * 230825piu_b new scratch landscape diagrams: `system_landscape.fodg` (LibreOffice) & `system_landscape.drawio` (DrawIO)
 * 230825piu_a set a new environment on Ubuntu, with Chromium engine & Chrome extension & PDF generation ==> ERROR AT mkdocs run:
     ```
