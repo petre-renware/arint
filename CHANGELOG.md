@@ -16,7 +16,7 @@
 
 * tbd... permanently follow RMAP.001 - sys 1.0 a lot of #TODO manuals
 * tbd... use `SQLAlchemy` models for database ==> here: `https://zato.io/en/docs/3.2/dev/examples/sql.html`
-* tbd... ref how deploy fronteds with zato `https://zato.io/docs/dev/frontend/index.html` useful to create `ARINT AdminBoatd`
+* tbd... ref how deploy front-ends with zato `https://zato.io/docs/dev/frontend/index.html` useful to create `ARINT AdminBoatd`
 
 
 ### 0.1.4-release System Landscape (#TODO...)
@@ -26,6 +26,7 @@
 
 * wip...
 
+* -#TODO---(test all up)----------------
 * 230825piu_c updated `810.02-System_Landscape.md` with a sketch and comments ref new system design
 * 230825piu_b new scratch landscape diagrams: `system_landscape.fodg` (LibreOffice) & `system_landscape.drawio` (DrawIO)
 * 230825piu_a set a new environment on Ubuntu, with Chromium engine & Chrome extension & PDF generation ==> ERROR AT mkdocs run:
