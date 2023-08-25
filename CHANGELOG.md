@@ -26,6 +26,7 @@
 
 * wip...
 
+* ... 230825piu_d updated `810.02-System_Landscape.md` with first draft list of components in new design
 * -#TODO---(test all up)----------------
 * 230825piu_c updated `810.02-System_Landscape.md` with a sketch and comments ref new system design
 * 230825piu_b new scratch landscape diagrams: `system_landscape.fodg` (LibreOffice) & `system_landscape.drawio` (DrawIO)
