@@ -33,6 +33,7 @@
 
 * wip...
 
+* ... 230825piu_c rename `system_landscape.md` `810.02-System_Landscape.md` and update all references
 * 230825piu_b new scratch landscape diagrams: `system_landscape.fodg` (LibreOffice) & `system_landscape.drawio` (DrawIO)
 * 230825piu_a set a new environment on Ubuntu, with Chromium engine & Chrome extension & PDF generation ==> ERROR AT mkdocs run:
     ```
