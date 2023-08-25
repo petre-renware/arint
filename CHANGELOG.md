@@ -26,13 +26,12 @@
 
 * wip...
 
-* ... 230825piu_d updated `810.02-System_Landscape.md` with first draft list of components in new design
-* -#TODO---(test all up)----------------
+* 230825piu_d updated `810.02-System_Landscape.md` with first draft list of components in new design
+* -#TODO---(test all up and publish)----------------
 * 230825piu_c updated `810.02-System_Landscape.md` with a sketch and comments ref new system design
 * 230825piu_b new scratch landscape diagrams: `system_landscape.fodg` (LibreOffice) & `system_landscape.drawio` (DrawIO)
 * 230825piu_a set a new environment on Ubuntu, with Chromium engine & Chrome extension & PDF generation ==> ERROR AT mkdocs run:
-    ```
-    #NOTE here is the error raised:
+    ``` #NOTE here is the error raised:
     selenium.common.exceptions.WebDriverException: Message: Service /home/petre/.cache/selenium/chromedriver/linux64/116.0.5845.96/chromedriver unexpectedly exited. Status code was: 127
     ```
 * 230825piu_a set version objective as "System Landscape" & updated next actions plan for version objective
