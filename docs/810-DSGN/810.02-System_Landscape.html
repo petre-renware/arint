@@ -234,8 +234,36 @@ div.download-btn {
     </label>
 <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="#basic-components">
-    Basic components
+<a class="md-nav__link" href="#system-components">
+    System components
+  </a>
+<nav aria-label="System components" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#elementary-component-heart-of-the-system">
+    Elementary component, heart of the system
+  </a>
+<nav aria-label="Elementary component, heart of the system" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#arclst-essential-components">
+    ARCLST essential components
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#arclst-auxiliary-components">
+    ARCLST auxiliary components
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#basic-components-fixme-in-review-tbdrop">
+    Basic components (#FIXME in review tbdrop)
   </a>
 </li>
 <li class="md-nav__item">
@@ -295,6 +323,11 @@ div.download-btn {
 <li class="md-nav__item">
 <a class="md-nav__link" href="#deployment-over-multiple-lan-environments">
     Deployment over multiple LAN environments
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#notes-and-remarks">
+    Notes and remarks
   </a>
 </li>
 </ul>
@@ -488,8 +521,36 @@ div.download-btn {
     </label>
 <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="#basic-components">
-    Basic components
+<a class="md-nav__link" href="#system-components">
+    System components
+  </a>
+<nav aria-label="System components" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#elementary-component-heart-of-the-system">
+    Elementary component, heart of the system
+  </a>
+<nav aria-label="Elementary component, heart of the system" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#arclst-essential-components">
+    ARCLST essential components
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#arclst-auxiliary-components">
+    ARCLST auxiliary components
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#basic-components-fixme-in-review-tbdrop">
+    Basic components (#FIXME in review tbdrop)
   </a>
 </li>
 <li class="md-nav__item">
@@ -551,6 +612,11 @@ div.download-btn {
     Deployment over multiple LAN environments
   </a>
 </li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#notes-and-remarks">
+    Notes and remarks
+  </a>
+</li>
 </ul>
 </nav>
 </div>
@@ -563,15 +629,19 @@ div.download-btn {
 <em>(c) 2021 RENware Software Systems. RESTRICTED only for project internal use</em>
 </small><br/><br/><br/></img></p>
 <h1 id="system-landscape">System Landscape</h1>
-<p><small><strong><em>Document control:</em></strong><br/>
-* last update date: 230607<br/>
-* last updated by: petre iordanescu
-</small></p>
 <p><strong><em>Table of contents:</em></strong></p>
 <div class="toc">
 <ul>
 <li><a href="#system-landscape">System Landscape</a><ul>
-<li><a href="#basic-components">Basic components</a></li>
+<li><a href="#system-components">System components</a><ul>
+<li><a href="#elementary-component-heart-of-the-system">Elementary component, heart of the system</a><ul>
+<li><a href="#arclst-essential-components">ARCLST essential components</a></li>
+<li><a href="#arclst-auxiliary-components">ARCLST auxiliary components</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#basic-components-fixme-in-review-tbdrop">Basic components (#FIXME in review tbdrop)</a></li>
 <li><a href="#system-blueprints">System Blueprints</a><ul>
 <li><a href="#arint-blueprint">ARint blueprint</a></li>
 <li><a href="#arclst-blueprint">ARCLST blueprint</a></li>
@@ -585,12 +655,61 @@ div.download-btn {
 <li><a href="#armail-integrator-mail">ARMAIL Integrator mail</a></li>
 <li><a href="#arvpn-integrator-vpn-access">ARVPN. Integrator VPN access</a></li>
 <li><a href="#deployment-over-multiple-lan-environments">Deployment over multiple LAN environments</a></li>
+<li><a href="#notes-and-remarks">Notes and remarks</a></li>
 </ul>
 </li>
 </ul>
 </div>
 <hr/>
-<h2 id="basic-components">Basic components</h2>
+<h2 id="system-components">System components</h2>
+<h3 id="elementary-component-heart-of-the-system">Elementary component, heart of the system</h3>
+<p>The elementary, indivisible element, "heart" of the <em>ARINT</em> system is <strong>ARCLST</strong>. This is an <em>cluster node</em> which is exactly as the says, a cluster, having independence and ability to solve all problems that ARINT implementation is designed to address.</p>
+<p>An <em>ARCLST</em> can be linked with other ARCLST nodes and can work in any mode, ie as <em>active-active</em> or <em>active-passive</em> at the administrator option to configure system.</p>
+<div class="admonition warning">
+<p class="admonition-title">ARCLST physical locations</p>
+<p>An <em>ARCLST</em> must have all machines (servers) <strong>located in the same LAN</strong>. All machines inside should be able to communicate between them at IP level. Many implementations (and is a practice) isolate the <em>ARCLST</em> from the installation phase in a dedicated operating system container (ie, not application container) - <code>Ubuntu LXC</code> being a very good example of this kind of container.</p>
+</div>
+<h4 id="arclst-essential-components">ARCLST essential components</h4>
+<ul>
+<li>
+<p><code>[1 to n]</code> <strong>ARINT Framework</strong> servers<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup> (these will work ONLY in <em>active-active</em> mode)</p>
+</li>
+<li>
+<p><code>[0 to 1]</code> <strong>ARINT RDatabase</strong> relational database server(s)</p>
+</li>
+<li>
+<p><code>[1]</code> <strong>ARINT KVDatabase</strong> NoSQL database server(s)</p>
+</li>
+<li>
+<p><code>[1]</code> <strong>ARINT CORE</strong> administration and management service and its user interface (once installed and activated becomes physically part of <em>ARINT Framework</em>)</p>
+</li>
+<li>
+<p><code>[0 to n]</code> <strong>ARINT products</strong> various other products, applications, etc (once installed and activated becomes physically part of <em>ARINT Framework</em>)</p>
+</li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Notes regarding used terms</p>
+<ul>
+<li>notation <code>[n...]</code> specify a quantity range of allowed resources, instances and follow the usual practices in range specifications</li>
+<li>if not otherwise specified by <em>server</em> term is understood a <em>logical server</em>, meaning that can be a physical or any form of virtual one, but a dedicated machine perceived as having its own operating system isolation level (for example its own dedicated <code>root</code> for</li>
+</ul>
+</div>
+<p><em>Xenix</em> kind of machines, an application container, etc)</p>
+<h4 id="arclst-auxiliary-components">ARCLST auxiliary components</h4>
+<p>Auxiliary<sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup> components can help in various implementation projects depending exclusively of client (customer) options and its infrastructure existing assets.</p>
+<ul>
+<li>
+<p><code>[0 to 1]</code> <em>internal DNS (or dynamic DNS)</em> which is a standard DNS inside the <em>ARCLST</em>. No ARINT component will use it but will allow for a "nice" outside LAN addressing of <em>ARCLST</em> components when customer explicitly wants and needs that, otherwise ARINT has a proxy and balancer included which assure its addressing as sysyem and for business purposes</p>
+</li>
+<li>
+<p><code>[0 to 1]</code> <em>internal VPN server</em> that will allow to "enter" in <em>ARCLST</em> LAN space. That's not needed for normal purposes but only if customer need for its own infrastructure operations and easy management</p>
+</li>
+</ul>
+<p>Normally these components are left at router glance as being normal included functionalities in enterprise / business router.</p>
+<p>-#TODO - ck all section (upper heading 3 level) for completion<br/>
+-#TODO - make a picture here with described items<br/>
+=#TODO - then continue review ...</p>
+<h2 id="basic-components-fixme-in-review-tbdrop">Basic components (#FIXME in review tbdrop)</h2>
 <p>Basic logical components of this system are:</p>
 <ul>
 <li>
@@ -621,7 +740,7 @@ div.download-btn {
 <hr/>
 <h2 id="arclst-integrator-cluster">ARCLST. Integrator Cluster</h2>
 <p>This component creates a local cluster formed by one or more <strong>ARSRV</strong> machines. Particularly can stand on one single machine with <strong>ARSRV</strong>.  </p>
-<p>This is not recommended because <strong>ARCSLT</strong> is a <em>network-bounded</em> system and <strong>ARSRV</strong> is a <em>cpu-bounded</em> one, and a <em>cluster to cluster</em> integration will have to suffer.</p>
+<p>This is not recommended because <strong>ARCLST</strong> is a <em>network-bounded</em> system and <strong>ARSRV</strong> is a <em>cpu-bounded</em> one, and a <em>cluster to cluster</em> integration will have to suffer.</p>
 <p>This component can run <strong>1 per LAN machine</strong>.</p>
 <h2 id="arsrv-integrator-server">ARSRV. Integrator Server</h2>
 <p>This is the core / heart of each machine. It will assure information getting, processing and sending or streing.  </p>
@@ -667,12 +786,24 @@ div.download-btn {
 <li>in order to assure balancing and failure services over LANs, each one must have its own <strong>ARCLST</strong> (wirh all other required components to assure corresponding services) which communicate with the others.</li>
 <li>a queue service is strictly required both to assure messages transport inside LAN, but also between LANs; for this reason cannot be used any queuing system but one with remote (over LANs) capabilities (aka named broker system)</li>
 </ul>
+<h2 id="notes-and-remarks">Notes and remarks</h2>
+<div class="footnote">
+<hr/>
+<ol>
+<li id="fn:1">
+<p>ARINT Framework machines was in previous versions called ARSRV <a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">↩</a></p>
+</li>
+<li id="fn:2">
+<p>These components are considered "auxiliary" because in most cases they are not needed anymore and in consequence are not part of installation process (to not induce useless overhead at system resources level) <a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">↩</a></p>
+</li>
+</ol>
+</div>
 <hr/>
 <div class="md-source-file">
 <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">August 20, 2023</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">August 25, 2023</span>
 </small>
 </div>
 </article>

@@ -26,10 +26,13 @@
 
 * wip...
 
+
+* -#TODO---(test all up and publish)----------------
+* 230825piu_g revived, tested links & updated from `230825piu_d` to `230825piu_f`. published 230825 15:45
 * 230825piu_f updated and frozen `810.02-System_Landscape.md` with ARCLST structure
 * 230825piu_e updated `810.02-System_Landscape.md` with ARCLST structure
 * 230825piu_d updated `810.02-System_Landscape.md` with first draft list of components in new design
-* -#TODO---(test all up and publish)----------------
+
 * 230825piu_c updated `810.02-System_Landscape.md` with a sketch and comments ref new system design
 * 230825piu_b new scratch landscape diagrams: `system_landscape.fodg` (LibreOffice) & `system_landscape.drawio` (DrawIO)
 * 230825piu_a set an environment on Ubuntu, with Chromium engine (selenium) & PDF generation ==> ERROR AT mkdocs run:
@@ -51,7 +54,7 @@
 
 ### 0.1.3-release Licensing Editions and Pricing (230824 19:00)
 
-* 230824piu_f revived, tested links & updated from `230823piu_k` to `230824piu_e`. published 230822 h14:30
+* 230824piu_f revived, tested links & updated from `230823piu_k` to `230824piu_e`. published 230824 h14:30
 * 230824piu_e finalized acceptable for a pre-release version doc `...130.04-Licensing_Editions_Pricing.md` and updated RMAP.001
 * 230824piu_d updated `...130.04-Licensing_Editions_Pricing.md` introduced (as clear) component *`ARINT AdminBoard`* and *ARINT Products* as availability for an edition
 * 230824piu_c updated `/810-DSGN/120-CPTS-security.md` ref security types and let a comment where find details (a link)
