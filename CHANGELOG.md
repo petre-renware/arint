@@ -25,6 +25,7 @@
 ### 0.1.4-release System Landscape (#TODO...)
 
 * tbd...#NOTE:BEF_RELEASE review `810-DSGN/130.04-Licensing_Editions_Pricing.md` and specify the concrete licenses for each component
+* FIX... to landscape picture the name of databasess is wrong written (doubled `a` in databaae word)
 * tbd... updated `810.02-System_Landscape.md` ref component ...
 
 
