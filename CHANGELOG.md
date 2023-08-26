@@ -19,22 +19,27 @@
 * tbd... ref how deploy front-ends with zato `https://zato.io/docs/dev/frontend/index.html` useful to create `ARINT AdminBoatd`
 
 
+
+
+
 ### 0.1.4-release System Landscape (#TODO...)
 
-* tbd... updated 810.02-System_Landscape.md`, ref ...
+* tbd...#NOTE:BEF_RELEASE review `810-DSGN/130.04-Licensing_Editions_Pricing.md` and specify the concrete licenses for each component
+* tbd... updated `810.02-System_Landscape.md` ref component ...
 
 
 * wip...
 
 
+* 230826piu_a review and update `810.02-System_Landscape.md` with new pictures for ARCLST; publish 230826 h07:00
 * 220825piu_i updated `810.02-System_Landscape.md` with new pictures for ARCLST
 * 230825piu_h updated Landscape picture (draw.io file)
 * -#TODO---(test all up and publish)----------------
+
 * 230825piu_g revived, tested links & updated from `230825piu_d` to `230825piu_f`. published 230825 15:45
 * 230825piu_f updated and frozen `810.02-System_Landscape.md` with ARCLST structure
 * 230825piu_e updated `810.02-System_Landscape.md` with ARCLST structure
 * 230825piu_d updated `810.02-System_Landscape.md` with first draft list of components in new design
-
 * 230825piu_c updated `810.02-System_Landscape.md` with a sketch and comments ref new system design
 * 230825piu_b new scratch landscape diagrams: `system_landscape.fodg` (LibreOffice) & `system_landscape.drawio` (DrawIO)
 * 230825piu_a set an environment on Ubuntu, with Chromium engine (selenium) & PDF generation ==> ERROR AT mkdocs run:
