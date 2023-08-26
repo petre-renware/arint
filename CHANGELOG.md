@@ -25,18 +25,17 @@
 ### 0.1.4-release System Landscape (#TODO...)
 
 * tbd...#NOTE:BEF_RELEASE review `810-DSGN/130.04-Licensing_Editions_Pricing.md` and specify the concrete licenses for each component
-* FIX... to landscape picture the name of databasess is wrong written (doubled `a` in databaae word)
 * tbd... updated `810.02-System_Landscape.md` ref component ...
 
 
 * wip...
 
+* -#TODO---(test all up and publish)----------------
 
+* 230826piu_b @BUGFIX to landscape picture the name of databases is wrong written (doubled `a` in `databaae` word) - republished
 * 230826piu_a review and update `810.02-System_Landscape.md` with new pictures for ARCLST; publish 230826 h07:00
 * 220825piu_i updated `810.02-System_Landscape.md` with new pictures for ARCLST
 * 230825piu_h updated Landscape picture (draw.io file)
-* -#TODO---(test all up and publish)----------------
-
 * 230825piu_g revived, tested links & updated from `230825piu_d` to `230825piu_f`. published 230825 15:45
 * 230825piu_f updated and frozen `810.02-System_Landscape.md` with ARCLST structure
 * 230825piu_e updated `810.02-System_Landscape.md` with ARCLST structure
