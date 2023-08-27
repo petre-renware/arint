@@ -30,7 +30,7 @@
 
 * wip...
 
-
+* ... 230827piu_b updated `810.02-System_Landscape.md` ref menu structure with component list
 * -#TODO---(test all up and publish)----------------
 * 230827piu_a updated `810.02-System_Landscape.md` ref redesign structure
 * 230826piu_c review & update following documents: `130.02-Overview.md`, `810.46-Product_Features.md`
