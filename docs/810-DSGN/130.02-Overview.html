@@ -489,8 +489,8 @@ div.download-btn {
 </div>
 <hr/>
 <h2 id="what-is-arint-core">What is ARINT Core</h2>
-<p><strong>ALPHAREN Core Integrator</strong> (aka <strong><code>ARINT</code></strong> or <strong><code>arint</code></strong>) system is a framework product for automation, integration and interoperability between <em>distributed systems</em> or <em>data sources</em> basically aimed to build <em>API oriented</em>, <em>middleware</em>, <em>frontend</em> and <em>backend</em> applications.</p>
-<p>Practically it allows to create small-footprint and focused <em>business oriented microservices</em> or to transform "monolith" applications to micro-applications that will act <em>as a single one</em> but with a high degree of <em>maintainability</em>.</p>
+<p><strong>ALPHAREN Core Integrator</strong> (aka <strong><code>ARINT</code></strong> or <strong><code>arint</code></strong>) system is a framework product for automation, integration and interoperability between <em>distributed systems</em> or <em>data sources</em>, basically aimed to build <em>API oriented</em>, <em>middleware</em>, <em>frontend</em> and <em>backend</em> applications.</p>
+<p>Practically it allows to create small-footprint and focused <em>business oriented microservices</em> or to transform "monolith" applications to micro-applications that will act <em>as a single one application</em> but with a high degree of <em>maintainability</em>.</p>
 <p>Product is available as <em>distinct software</em> or as <em>ready to run appliance</em> (including also some built-in components such as an internal database for business operations).</p>
 <div class="admonition tip">
 <p class="admonition-title">ARINT as Service bus</p>
@@ -521,7 +521,8 @@ div.download-btn {
 <div class="admonition info">
 <p class="admonition-title">Remarks to diagram</p>
 <ul>
-<li>practically an <code>IN channel</code> establish a way to address the ARINT system, how to call it</li>
+<li>the <code>IN channel</code> establish the way to address the ARINT system (how to call it)</li>
+<li>the <code>IN channel</code> establish the security rules in calling the ARINT system (authemtication)</li>
 <li>a <code>Repetitive Service</code> is normally called once (ie, to start it) and it begins to repeat operations (in background) at <em>defined time intervals</em> and for a <em>defined period</em> (or indefinitely)</li>
 </ul>
 </div>
@@ -541,7 +542,10 @@ div.download-btn {
 </li>
 </ul>
 <blockquote>
-<p>Each ARINT system (cluster containing one or more servers) can run on premises or in cloud deployed as classic software or Docker application container, Kubernetes node / container or as any general containerization "standard" method.</p>
+<p>Each ARINT system can run:
+* on premises or in cloud,
+* deployed as classic software or Docker application container, Kubernetes node / container or
+* as any general containerization "standard" method</p>
 </blockquote>
 <h2 id="features">Features</h2>
 <p>For <a href="810.46-Product_Features.html">features list go here</a></p>
@@ -592,7 +596,7 @@ B2B platforms to accept and process multi-channel orders in cooperation with bac
 <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">August 23, 2023</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">August 26, 2023</span>
 </small>
 </div>
 </article>
