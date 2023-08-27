@@ -1373,6 +1373,15 @@ B2B platforms to accept and process multi-channel orders in cooperation with bac
 </ul>
 </li>
 <li><a href="#810-dsgn-810.02-system_landscape-arint-framework">ARINT Framework</a></li>
+<li><a href="#810-dsgn-810.02-system_landscape-arint-core">ARINT CORE</a></li>
+<li><a href="#810-dsgn-810.02-system_landscape-arint-rdatabase">ARINT RDatabase</a></li>
+<li><a href="#810-dsgn-810.02-system_landscape-arint-kvdatabase">ARINT KVDatabase</a></li>
+<li><a href="#810-dsgn-810.02-system_landscape-arint-products">ARINT products</a></li>
+<li><a href="#810-dsgn-810.02-system_landscape-auxiliary-components">Auxiliary components</a><ul>
+<li><a href="#810-dsgn-810.02-system_landscape-dns-server">DNS server</a></li>
+<li><a href="#810-dsgn-810.02-system_landscape-vpn-server">VPN server</a></li>
+</ul>
+</li>
 <li><a href="#810-dsgn-810.02-system_landscape-notes-and-remarks">Notes and remarks</a></li>
 </ul>
 </li>
@@ -1408,10 +1417,9 @@ B2B platforms to accept and process multi-channel orders in cooperation with bac
 <p class="admonition-title">Notes regarding used terms</p>
 <ul>
 <li>notation <code>[n...]</code> specify a quantity range of allowed resources, instances and follow the usual practices in range specifications</li>
-<li>if not otherwise specified by <em>server</em> term is understood a <em>logical server</em>, meaning that can be a physical or any form of virtual one, but a dedicated machine perceived as having its own operating system isolation level (for example its own dedicated <code>root</code> for</li>
+<li>if not otherwise specified by <em>server</em> term is understood a <em>logical server</em>, meaning that can be a physical or any form of virtual one, but a dedicated machine perceived as having its own operating system isolation level (for example its own dedicated <code>root</code> for <em>Xenix</em> kind of machines, an application container, etc)</li>
 </ul>
 </div>
-<p><em>Xenix</em> kind of machines, an application container, etc)</p>
 <h3 id="810-dsgn-810.02-system_landscape-arclst-auxiliary-components">ARCLST auxiliary components</h3>
 <p>Auxiliary<sup id="fnref:2"><a class="footnote-ref" href="#810-dsgn-810.02-system_landscape-fn:2">2</a></sup> components can help in various implementation projects depending exclusively of client (customer) options and its infrastructure existing assets.</p>
 <ul>
@@ -1426,30 +1434,48 @@ B2B platforms to accept and process multi-channel orders in cooperation with bac
 <h3 id="810-dsgn-810.02-system_landscape-arclst-schematic-architecture">ARCLST schematic architecture</h3>
 <p><img alt="arclst arch" src="pictures/system_landscape.png" /></p>
 <h2 id="810-dsgn-810.02-system_landscape-arint-framework">ARINT Framework</h2>
+<p><em>ARINT Framework</em> contains the following components:</p>
+<ul>
+<li><code>[1]</code> <strong>Load Balancer</strong> - this is the load balancer and active-active operating assurance component. Default is build using <code>HAProxy</code></li>
+<li><code>[1]</code> <strong>Scheduler</strong> - this assure all scheduling (one time or repetitive) of services execution</li>
+<li><code>[1]</code> <strong>Dashboard</strong> - this is an own administration dashboard available (access controlled and exposed) through <em>ARINT CORE</em> (normally as <code>iframe</code>)</li>
+<li><code>[1 to n]</code> <strong>Exec Server</strong> - this are servers (physical or virtual) where services are effectively executed</li>
+</ul>
+<p>-#TODO wip... <!-- few words about each of them --></p>
+<!-- #FIXME here text from zato.io
+    At its core, each Zato environment is composed of one or more clusters. Clusters are lightweight compositional units of deployment consisting of one or more servers, a scheduler, a web-based dashboard for administration, and a load-balancer. Each of the components may be potentially running in its own instance, VM or container.
+
+    Production clusters will run in a Linux or Windows environment, no matter if it is a cloud one or on premises, under containers or without. Development and test clusters will run under Docker or Vagrant on any OS, including Mac.
+
+    To ensure utmost productivity, tight integration with the most popular IDEs is provided out-of-the box, including deploy-on-save and remote debugging.
+
+    The built-in load-balancer, based on HAProxy, can be replaced by an external one, be it a separate process, a cloud-based load-balancer (e.g. ALB in AWS) or a dedicated appliance.
+
+    One of the fundamental concepts in Zato is hot-deployment - when you deploy a new version of a service to one server, all other servers in the cluster will synchronize that information and only that one service will be reconfigured and changed, there is no need to restart entire servers in such a case. Hot-deployment of new functionality is counted in milliseconds.
+
+    Hot-deployment is essential in integrations that make use of long-running persistent connections, such as from IoT devices, that would otherwise require for all the connected clients to reconnect after each server restart.
+
+    Hot-deployment is also important during development - you can configure your IDE to hot-deploy code to a cluster each time your code is saved. Or you can deploy newest code to the whole cluster each time "git pull" runs in a special directory that a file listener monitors for changes. In short, hot-deployment lets you avoid unnecessary downtime.
+
+-->
+
+<h2 id="810-dsgn-810.02-system_landscape-arint-core">ARINT CORE</h2>
+<p>-#TODO wip...</p>
+<h2 id="810-dsgn-810.02-system_landscape-arint-rdatabase">ARINT RDatabase</h2>
+<p>-#TODO wip...</p>
+<h2 id="810-dsgn-810.02-system_landscape-arint-kvdatabase">ARINT KVDatabase</h2>
+<p>-#TODO wip...</p>
+<h2 id="810-dsgn-810.02-system_landscape-arint-products">ARINT products</h2>
+<p>-#TODO wip...</p>
+<h2 id="810-dsgn-810.02-system_landscape-auxiliary-components">Auxiliary components</h2>
+<h3 id="810-dsgn-810.02-system_landscape-dns-server">DNS server</h3>
+<p>-#TODO wip...</p>
+<h3 id="810-dsgn-810.02-system_landscape-vpn-server">VPN server</h3>
+<p>-#TODO wip...</p>
 <p>... IN REVIEW ... PLEASE BE PATIENT - coming soon -(#TODO - continue review ...)</p>
 <!--- #FIXME commented out all for review
 
-Basic logical components of this system are:
-
-* **(ARCLST)** Integrator Cluster subsystem
-    * **(ARSRV)** Physical or virtual Server
-    * **(ARLDB)** High Availability assurance service
-    * **(ARWADM)** Web admin console interface
-    * **(ARSCHED)** Scheduler
-    * **(ARKVD)** Key-Value Data store
-    * **(ARPuSuB)** Publisher Subscriber Queues
-    * **(ARVPN)** Integrator VPN access
-
--#TODO these seems out of ARCLST but in whole customer infrastructure
-
-* **(ARDPX)** Discovery Service, Distribution proxy (dynamic DNS)
-* **(ARMAIL)** Integrator mail
-* **(#TODO)** Configuration portal #NOTE: not yet assigned code
-
-
-
-## -#TODO continue at this level for othe ARCLS components
-
+## ARINT Framework #NOTE sectiune sectiune revizuita si preluata in ARINT Framework (230827)
 
 ## System Blueprints
 
