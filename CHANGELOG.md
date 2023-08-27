@@ -30,10 +30,10 @@
 
 * wip...
 
+
+* -#TODO---(test all up and publish)----------------
 * 230827piu_a updated `810.02-System_Landscape.md` ref redesign structure
 * 230826piu_c review & update following documents: `130.02-Overview.md`, `810.46-Product_Features.md`
-* -#TODO---(test all up and publish)----------------
-
 * 230826piu_b @BUGFIX to landscape picture the name of databases is wrong written (doubled `a` in `databaae` word) - republished
 * 230826piu_a review and update `810.02-System_Landscape.md` with new pictures for ARCLST; publish 230826 h07:00
 * 220825piu_i updated `810.02-System_Landscape.md` with new pictures for ARCLST
