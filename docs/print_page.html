@@ -1372,7 +1372,10 @@ B2B platforms to accept and process multi-channel orders in cooperation with bac
 <li><a href="#810-dsgn-810.02-system_landscape-arclst-schematic-architecture">ARCLST schematic architecture</a></li>
 </ul>
 </li>
-<li><a href="#810-dsgn-810.02-system_landscape-arint-framework">ARINT Framework</a></li>
+<li><a href="#810-dsgn-810.02-system_landscape-arint-framework">ARINT Framework</a><ul>
+<li><a href="#810-dsgn-810.02-system_landscape-arint-framework-schematic-architecture">ARINT Framework schematic architecture</a></li>
+</ul>
+</li>
 <li><a href="#810-dsgn-810.02-system_landscape-arint-core">ARINT CORE</a></li>
 <li><a href="#810-dsgn-810.02-system_landscape-arint-rdatabase">ARINT RDatabase</a></li>
 <li><a href="#810-dsgn-810.02-system_landscape-arint-kvdatabase">ARINT KVDatabase</a></li>
@@ -1441,24 +1444,8 @@ B2B platforms to accept and process multi-channel orders in cooperation with bac
 <li><code>[1]</code> <strong>Dashboard</strong> - this is an own administration dashboard available (access controlled and exposed) through <em>ARINT CORE</em> (normally as <code>iframe</code>)</li>
 <li><code>[1 to n]</code> <strong>Exec Server</strong> - this are servers (physical or virtual) where services are effectively executed</li>
 </ul>
-<p>-#TODO wip... <!-- few words about each of them --></p>
-<!-- #FIXME here text from zato.io
-    At its core, each Zato environment is composed of one or more clusters. Clusters are lightweight compositional units of deployment consisting of one or more servers, a scheduler, a web-based dashboard for administration, and a load-balancer. Each of the components may be potentially running in its own instance, VM or container.
-
-    Production clusters will run in a Linux or Windows environment, no matter if it is a cloud one or on premises, under containers or without. Development and test clusters will run under Docker or Vagrant on any OS, including Mac.
-
-    To ensure utmost productivity, tight integration with the most popular IDEs is provided out-of-the box, including deploy-on-save and remote debugging.
-
-    The built-in load-balancer, based on HAProxy, can be replaced by an external one, be it a separate process, a cloud-based load-balancer (e.g. ALB in AWS) or a dedicated appliance.
-
-    One of the fundamental concepts in Zato is hot-deployment - when you deploy a new version of a service to one server, all other servers in the cluster will synchronize that information and only that one service will be reconfigured and changed, there is no need to restart entire servers in such a case. Hot-deployment of new functionality is counted in milliseconds.
-
-    Hot-deployment is essential in integrations that make use of long-running persistent connections, such as from IoT devices, that would otherwise require for all the connected clients to reconnect after each server restart.
-
-    Hot-deployment is also important during development - you can configure your IDE to hot-deploy code to a cluster each time your code is saved. Or you can deploy newest code to the whole cluster each time "git pull" runs in a special directory that a file listener monitors for changes. In short, hot-deployment lets you avoid unnecessary downtime.
-
--->
-
+<h3 id="810-dsgn-810.02-system_landscape-arint-framework-schematic-architecture">ARINT Framework schematic architecture</h3>
+<p><img alt="arint_framework_blueprint" src="pictures/arint_framework_landscape.drawio.png" /></p>
 <h2 id="810-dsgn-810.02-system_landscape-arint-core">ARINT CORE</h2>
 <p>-#TODO wip...</p>
 <h2 id="810-dsgn-810.02-system_landscape-arint-rdatabase">ARINT RDatabase</h2>
@@ -1638,6 +1625,7 @@ In an environment with multiple LANs, in deployment architecture and process sho
 </ul>
 </li>
 <li><a href="#810-dsgn-130.04-licensing_editions_pricing-editions">Editions</a><ul>
+<li><a href="#810-dsgn-130.04-licensing_editions_pricing-editions_1">Editions</a></li>
 <li><a href="#810-dsgn-130.04-licensing_editions_pricing-rbd-options">RBD options</a></li>
 <li><a href="#810-dsgn-130.04-licensing_editions_pricing-kdb-options">KDB options</a></li>
 <li><a href="#810-dsgn-130.04-licensing_editions_pricing-services-options">Services options</a></li>
@@ -1694,64 +1682,72 @@ In an environment with multiple LANs, in deployment architecture and process sho
 <table>
 <thead>
 <tr>
-<th>Edition</th>
-<th>LMe<sup id="fnref:1"><a class="footnote-ref" href="#810-dsgn-130.04-licensing_editions_pricing-fn:1">1</a></sup></th>
-<th style="text-align: center;">AF<sup id="fnref:2"><a class="footnote-ref" href="#810-dsgn-130.04-licensing_editions_pricing-fn:2">2</a></sup></th>
-<th style="text-align: center;">AC<sup id="fnref:3"><a class="footnote-ref" href="#810-dsgn-130.04-licensing_editions_pricing-fn:3">3</a></sup></th>
-<th>RDB<sup id="fnref:4"><a class="footnote-ref" href="#810-dsgn-130.04-licensing_editions_pricing-fn:4">4</a></sup></th>
-<th>KDB<sup id="fnref:5"><a class="footnote-ref" href="#810-dsgn-130.04-licensing_editions_pricing-fn:5">5</a></sup></th>
-<th style="text-align: center;">PRD<sup id="fnref:6"><a class="footnote-ref" href="#810-dsgn-130.04-licensing_editions_pricing-fn:6">6</a></sup></th>
-<th>Services</th>
-<th>Notes</th>
+<th>Feature</th>
+<th>ESE</th>
+<th>SE</th>
+<th>SBE</th>
+<th>EE</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>embedded starter edition</td>
+<td>LMe<sup id="fnref:1"><a class="footnote-ref" href="#810-dsgn-130.04-licensing_editions_pricing-fn:1">1</a></sup></td>
 <td>pcs</td>
-<td style="text-align: center;">x</td>
-<td style="text-align: center;">x</td>
-<td>MariaDB</td>
-<td>Redis</td>
-<td style="text-align: center;">ex disk</td>
-<td>B</td>
-<td></td>
-</tr>
-<tr>
-<td>standard edition</td>
 <td>station</td>
-<td style="text-align: center;">x</td>
-<td style="text-align: center;">x</td>
-<td>PostgreSQL</td>
-<td>Redis</td>
-<td style="text-align: center;">x</td>
-<td>B</td>
-<td></td>
-</tr>
-<tr>
-<td>small business edition</td>
-<td>roles</td>
-<td style="text-align: center;">x</td>
-<td style="text-align: center;">x</td>
-<td>MariaDB</td>
-<td>Redis</td>
-<td style="text-align: center;">x</td>
-<td>B</td>
-<td></td>
-</tr>
-<tr>
-<td>enterprise edition</td>
+<td>role</td>
 <td>n.usr</td>
-<td style="text-align: center;">x</td>
-<td style="text-align: center;">x</td>
+</tr>
+<tr>
+<td>AF<sup id="fnref:2"><a class="footnote-ref" href="#810-dsgn-130.04-licensing_editions_pricing-fn:2">2</a></sup></td>
+<td>x</td>
+<td>x</td>
+<td>x</td>
+<td>x</td>
+</tr>
+<tr>
+<td>AC<sup id="fnref:3"><a class="footnote-ref" href="#810-dsgn-130.04-licensing_editions_pricing-fn:3">3</a></sup></td>
+<td>x</td>
+<td>x</td>
+<td>x</td>
+<td>x</td>
+</tr>
+<tr>
+<td>RDB<sup id="fnref:4"><a class="footnote-ref" href="#810-dsgn-130.04-licensing_editions_pricing-fn:4">4</a></sup></td>
+<td>MariaDB</td>
 <td>PostgreSQL</td>
+<td>MariaDB</td>
+<td>PostgreSQL</td>
+</tr>
+<tr>
+<td>KDB<sup id="fnref:5"><a class="footnote-ref" href="#810-dsgn-130.04-licensing_editions_pricing-fn:5">5</a></sup></td>
 <td>Redis</td>
-<td style="text-align: center;">x</td>
+<td>Redis</td>
+<td>Redis</td>
+<td>Redis</td>
+</tr>
+<tr>
+<td>PRD<sup id="fnref:6"><a class="footnote-ref" href="#810-dsgn-130.04-licensing_editions_pricing-fn:6">6</a></sup></td>
+<td>ex disk</td>
+<td>x</td>
+<td>x</td>
+<td>x</td>
+</tr>
+<tr>
+<td>Services</td>
+<td>B</td>
+<td>B</td>
+<td>B</td>
 <td>B, 1</td>
-<td></td>
 </tr>
 </tbody>
 </table>
+<h3 id="810-dsgn-130.04-licensing_editions_pricing-editions_1">Editions</h3>
+<ul>
+<li><strong>ESE</strong> - Embedded Starter Edition</li>
+<li><strong>SE</strong> - Standard Edition</li>
+<li><strong>SBE</strong> - Small Business Edition</li>
+<li><strong>EE</strong> - Enterprise Edition</li>
+</ul>
 <h3 id="810-dsgn-130.04-licensing_editions_pricing-rbd-options">RBD options</h3>
 <ul>
 <li>(1) PostgreSQL</li>

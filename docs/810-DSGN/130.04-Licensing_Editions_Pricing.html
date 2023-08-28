@@ -264,6 +264,11 @@ div.download-btn {
 <nav aria-label="Editions" class="md-nav">
 <ul class="md-nav__list">
 <li class="md-nav__item">
+<a class="md-nav__link" href="#editions_1">
+    Editions
+  </a>
+</li>
+<li class="md-nav__item">
 <a class="md-nav__link" href="#rbd-options">
     RBD options
   </a>
@@ -512,6 +517,11 @@ div.download-btn {
 <nav aria-label="Editions" class="md-nav">
 <ul class="md-nav__list">
 <li class="md-nav__item">
+<a class="md-nav__link" href="#editions_1">
+    Editions
+  </a>
+</li>
+<li class="md-nav__item">
 <a class="md-nav__link" href="#rbd-options">
     RBD options
   </a>
@@ -572,6 +582,7 @@ div.download-btn {
 </ul>
 </li>
 <li><a href="#editions">Editions</a><ul>
+<li><a href="#editions_1">Editions</a></li>
 <li><a href="#rbd-options">RBD options</a></li>
 <li><a href="#kdb-options">KDB options</a></li>
 <li><a href="#services-options">Services options</a></li>
@@ -628,64 +639,72 @@ div.download-btn {
 <table>
 <thead>
 <tr>
-<th>Edition</th>
-<th>LMe<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></th>
-<th style="text-align: center;">AF<sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup></th>
-<th style="text-align: center;">AC<sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup></th>
-<th>RDB<sup id="fnref:4"><a class="footnote-ref" href="#fn:4">4</a></sup></th>
-<th>KDB<sup id="fnref:5"><a class="footnote-ref" href="#fn:5">5</a></sup></th>
-<th style="text-align: center;">PRD<sup id="fnref:6"><a class="footnote-ref" href="#fn:6">6</a></sup></th>
-<th>Services</th>
-<th>Notes</th>
+<th>Feature</th>
+<th>ESE</th>
+<th>SE</th>
+<th>SBE</th>
+<th>EE</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>embedded starter edition</td>
+<td>LMe<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></td>
 <td>pcs</td>
-<td style="text-align: center;">x</td>
-<td style="text-align: center;">x</td>
-<td>MariaDB</td>
-<td>Redis</td>
-<td style="text-align: center;">ex disk</td>
-<td>B</td>
-<td></td>
-</tr>
-<tr>
-<td>standard edition</td>
 <td>station</td>
-<td style="text-align: center;">x</td>
-<td style="text-align: center;">x</td>
-<td>PostgreSQL</td>
-<td>Redis</td>
-<td style="text-align: center;">x</td>
-<td>B</td>
-<td></td>
-</tr>
-<tr>
-<td>small business edition</td>
-<td>roles</td>
-<td style="text-align: center;">x</td>
-<td style="text-align: center;">x</td>
-<td>MariaDB</td>
-<td>Redis</td>
-<td style="text-align: center;">x</td>
-<td>B</td>
-<td></td>
-</tr>
-<tr>
-<td>enterprise edition</td>
+<td>role</td>
 <td>n.usr</td>
-<td style="text-align: center;">x</td>
-<td style="text-align: center;">x</td>
+</tr>
+<tr>
+<td>AF<sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup></td>
+<td>x</td>
+<td>x</td>
+<td>x</td>
+<td>x</td>
+</tr>
+<tr>
+<td>AC<sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup></td>
+<td>x</td>
+<td>x</td>
+<td>x</td>
+<td>x</td>
+</tr>
+<tr>
+<td>RDB<sup id="fnref:4"><a class="footnote-ref" href="#fn:4">4</a></sup></td>
+<td>MariaDB</td>
 <td>PostgreSQL</td>
+<td>MariaDB</td>
+<td>PostgreSQL</td>
+</tr>
+<tr>
+<td>KDB<sup id="fnref:5"><a class="footnote-ref" href="#fn:5">5</a></sup></td>
 <td>Redis</td>
-<td style="text-align: center;">x</td>
+<td>Redis</td>
+<td>Redis</td>
+<td>Redis</td>
+</tr>
+<tr>
+<td>PRD<sup id="fnref:6"><a class="footnote-ref" href="#fn:6">6</a></sup></td>
+<td>ex disk</td>
+<td>x</td>
+<td>x</td>
+<td>x</td>
+</tr>
+<tr>
+<td>Services</td>
+<td>B</td>
+<td>B</td>
+<td>B</td>
 <td>B, 1</td>
-<td></td>
 </tr>
 </tbody>
 </table>
+<h3 id="editions_1">Editions</h3>
+<ul>
+<li><strong>ESE</strong> - Embedded Starter Edition</li>
+<li><strong>SE</strong> - Standard Edition</li>
+<li><strong>SBE</strong> - Small Business Edition</li>
+<li><strong>EE</strong> - Enterprise Edition</li>
+</ul>
 <h3 id="rbd-options">RBD options</h3>
 <ul>
 <li>(1) PostgreSQL</li>
@@ -751,7 +770,7 @@ div.download-btn {
 <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">August 24, 2023</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">August 28, 2023</span>
 </small>
 </div>
 </article>

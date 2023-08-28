@@ -261,6 +261,15 @@ div.download-btn {
 <a class="md-nav__link" href="#arint-framework">
     ARINT Framework
   </a>
+<nav aria-label="ARINT Framework" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#arint-framework-schematic-architecture">
+    ARINT Framework schematic architecture
+  </a>
+</li>
+</ul>
+</nav>
 </li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="#arint-core">
@@ -524,6 +533,15 @@ div.download-btn {
 <a class="md-nav__link" href="#arint-framework">
     ARINT Framework
   </a>
+<nav aria-label="ARINT Framework" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#arint-framework-schematic-architecture">
+    ARINT Framework schematic architecture
+  </a>
+</li>
+</ul>
+</nav>
 </li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="#arint-core">
@@ -591,7 +609,10 @@ div.download-btn {
 <li><a href="#arclst-schematic-architecture">ARCLST schematic architecture</a></li>
 </ul>
 </li>
-<li><a href="#arint-framework">ARINT Framework</a></li>
+<li><a href="#arint-framework">ARINT Framework</a><ul>
+<li><a href="#arint-framework-schematic-architecture">ARINT Framework schematic architecture</a></li>
+</ul>
+</li>
 <li><a href="#arint-core">ARINT CORE</a></li>
 <li><a href="#arint-rdatabase">ARINT RDatabase</a></li>
 <li><a href="#arint-kvdatabase">ARINT KVDatabase</a></li>
@@ -660,23 +681,8 @@ div.download-btn {
 <li><code>[1]</code> <strong>Dashboard</strong> - this is an own administration dashboard available (access controlled and exposed) through <em>ARINT CORE</em> (normally as <code>iframe</code>)</li>
 <li><code>[1 to n]</code> <strong>Exec Server</strong> - this are servers (physical or virtual) where services are effectively executed</li>
 </ul>
-<p>-#TODO wip... <!-- few words about each of them --></p>
-<!-- #FIXME here text from zato.io
-    At its core, each Zato environment is composed of one or more clusters. Clusters are lightweight compositional units of deployment consisting of one or more servers, a scheduler, a web-based dashboard for administration, and a load-balancer. Each of the components may be potentially running in its own instance, VM or container.
-
-    Production clusters will run in a Linux or Windows environment, no matter if it is a cloud one or on premises, under containers or without. Development and test clusters will run under Docker or Vagrant on any OS, including Mac.
-
-    To ensure utmost productivity, tight integration with the most popular IDEs is provided out-of-the box, including deploy-on-save and remote debugging.
-
-    The built-in load-balancer, based on HAProxy, can be replaced by an external one, be it a separate process, a cloud-based load-balancer (e.g. ALB in AWS) or a dedicated appliance.
-
-    One of the fundamental concepts in Zato is hot-deployment - when you deploy a new version of a service to one server, all other servers in the cluster will synchronize that information and only that one service will be reconfigured and changed, there is no need to restart entire servers in such a case. Hot-deployment of new functionality is counted in milliseconds.
-
-    Hot-deployment is essential in integrations that make use of long-running persistent connections, such as from IoT devices, that would otherwise require for all the connected clients to reconnect after each server restart.
-
-    Hot-deployment is also important during development - you can configure your IDE to hot-deploy code to a cluster each time your code is saved. Or you can deploy newest code to the whole cluster each time "git pull" runs in a special directory that a file listener monitors for changes. In short, hot-deployment lets you avoid unnecessary downtime.
-
--->
+<h3 id="arint-framework-schematic-architecture">ARINT Framework schematic architecture</h3>
+<p><img alt="arint_framework_blueprint" src="../pictures/arint_framework_landscape.drawio.png"/></p>
 <h2 id="arint-core">ARINT CORE</h2>
 <p>-#TODO wip...</p>
 <h2 id="arint-rdatabase">ARINT RDatabase</h2>
@@ -845,7 +851,7 @@ In an environment with multiple LANs, in deployment architecture and process sho
 <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">August 27, 2023</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">August 28, 2023</span>
 </small>
 </div>
 </article>

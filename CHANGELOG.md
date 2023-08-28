@@ -30,10 +30,9 @@
 
 * wip...
 
-* ... 230828piu_b updated `810.02-System_Landscape.md` ref section _ARINT Framework_ (description of components)
-* 230228piu_a updated `130.04-Licensing_Editions_Pricing.md` transposed table from section _Editions_ to avoid horizontal scroll
 * -#TODO---(test all up and publish)----------------
-
+* 230828piu_b updated `810.02-System_Landscape.md` ref section _ARINT Framework_ with blueprint picture
+* 230228piu_a updated `130.04-Licensing_Editions_Pricing.md` transposed table from section _Editions_ to avoid horizontal scroll
 * 230827piu_c updated `810.02-System_Landscape.md` ref section _ARINT Framework_
 * 230827piu_b updated `810.02-System_Landscape.md` ref menu structure with component list
 * 230827piu_a updated `810.02-System_Landscape.md` ref redesign structure
