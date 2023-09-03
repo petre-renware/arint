@@ -12,7 +12,7 @@
 
 
 
-## 0.1 ALPHAREN Integrarator CORE (wip...)
+## 0.1 ALPHAREN Integrarator CORE (FUTURE...)
 
 * tbd... permanently follow RMAP.001 - sys 1.0 a lot of #TODO manuals
 * tbd... use `SQLAlchemy` models for database ==> here: `https://zato.io/en/docs/3.2/dev/examples/sql.html`
@@ -22,16 +22,18 @@
 
 
 
-### 0.1.4-release System Landscape (#TODO...)
+### 0.1.4-release System Landscape (#TODO...wip...crt)
 
 * tbd...#NOTE:BEF_RELEASE review `810-DSGN/130.04-Licensing_Editions_Pricing.md` and specify the concrete licenses for each component
 * tbd... updated `810.02-System_Landscape.md` ref component ...
+* tbd...@IMP update `810.02-System_Landscape.md` use _Jinja raw block or simple escaping_ to allow for old normal EVENT symbols in diagrams
 
 
 * wip...
 
 * 230828piu_c updated `810.02-System_Landscape.md` ref section _ARINT Framework_ a notes section ref architecture
 * -#TODO---(test all up and publish)----------------
+
 * 230828piu_b updated `810.02-System_Landscape.md` ref section _ARINT Framework_ with blueprint picture
 * 230228piu_a updated `130.04-Licensing_Editions_Pricing.md` transposed table from section _Editions_ to avoid horizontal scroll
 * 230827piu_c updated `810.02-System_Landscape.md` ref section _ARINT Framework_
